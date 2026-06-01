@@ -1,0 +1,257 @@
+/*
+* LEGAL NOTICE
+* This computer software was prepared by Battelle Memorial Institute,
+* hereinafter the Contractor, under Contract No. DE-AC05-76RL0 1830
+* with the Department of Energy (DOE). NEITHER THE GOVERNMENT NOR THE
+* CONTRACTOR MAKES ANY WARRANTY, EXPRESS OR IMPLIED, OR ASSUMES ANY
+* LIABILITY FOR THE USE OF THIS SOFTWARE. This notice including this
+* sentence must appear on any copies of this computer software.
+* 
+* EXPORT CONTROL
+* User agrees that the Software will not be shipped, transferred or
+* exported into any country or used in any manner prohibited by the
+* United States Export Administration Act or any other applicable
+* export laws, restrictions or regulations (collectively the "Export Laws").
+* Export of the Software may require some form of license or other
+* authority from the U.S. Government, and failure to obtain such
+* export control license may result in criminal liability under
+* U.S. laws. In addition, if the Software is identified as export controlled
+* items under the Export Laws, User represents and warrants that User
+* is not a citizen, or otherwise located within, an embargoed nation
+* (including without limitation Iran, Syria, Sudan, Cuba, and North Korea)
+*     and that User is not otherwise prohibited
+* under the Export Laws from receiving the Software.
+* 
+* Copyright 2011 Battelle Memorial Institute.  All Rights Reserved.
+* Distributed as open-source under the terms of the Educational Community 
+* License version 2.0 (ECL 2.0). http://www.opensource.org/licenses/ecl2.php
+* 
+* For further details, see: http://www.globalchange.umd.edu/models/gcam/
+*
+*/
+
+
+#ifndef _NON_ENERGY_INPUT_H_
+#define _NON_ENERGY_INPUT_H_
+#if defined(_MSC_VER)
+#pragma once
+#endif
+
+/*! 
+ * \file non_energy_input.h
+ * \ingroup Objects
+ * \brief NonEnergyInput class header file.
+ * \author Josh Lurz
+ */
+
+#include <string>
+
+#include "functions/include/minicam_input.h"
+#include "util/base/include/value.h"
+#include "util/base/include/time_vector.h"
+#include "marketplace/include/cached_market.h"
+
+class Tabs;
+
+/*! 
+ * \ingroup Objects
+ * \brief Defines a single non-energy input to a MiniCAM production function.
+ * \details A non-energy input represents a constant marginal cost input in the
+ *          production function, such as capital or operating and maintenance.
+ *          The input does not have an associated good in the model, and so the
+ *          quantity is not tracked.
+ *
+ *          <b>XML specification for NonEnergyInput</b>
+ *          - XML name: \c minicam-non-energy-input
+ *          - Contained by: Technology
+ *          - Parsing inherited from class: MiniCAMInput
+ *          - Attributes:
+ *              - \c name MiniCAMInput::mName
+ *          - Elements:
+ *              - \c input-cost NonEnergyInput::mCost
+ *
+ * \author Josh Lurz
+ */
+class NonEnergyInput: public MiniCAMInput
+{
+    friend class BackupIntermittentTechnology;
+    friend class IntermittentTechnology;
+public:
+    NonEnergyInput();
+
+    static const std::string& getXMLNameStatic();
+
+    const std::string& getXMLReportingName() const;
+    
+    const std::string& getXMLName() const;
+
+    NonEnergyInput* clone() const;
+
+    virtual bool isSameType( const std::string& aType ) const;
+
+    virtual void toDebugXML( const int aPeriod,
+                             std::ostream& aOut,
+                             Tabs* aTabs ) const;
+
+    virtual void copyParam( const IInput* aInput,
+                            const int aPeriod );
+
+    virtual void copyParamsInto( NonEnergyInput& aInput,
+                                 const int aPeriod ) const;
+
+    virtual void completeInit( const gcamstr& aRegionName,
+                               const gcamstr& aSectorName,
+                               const gcamstr& aSubsectorName,
+                               const gcamstr& aTechName,
+                               const IInfo* aTechInfo );
+    
+    virtual void initCalc( const gcamstr& aRegionName,
+                           const gcamstr& aSectorName,
+                           const bool aIsNewInvestmentPeriod,
+                           const bool aIsTrade,
+                           const IInfo* aTechInfo,
+                           const int aPeriod );
+
+    double getPhysicalDemand( const int aPeriod ) const;
+
+    void setPhysicalDemand( const double aPhysicalDemand,
+                            const gcamstr& aRegionName,
+                            const int aPeriod );
+
+
+    virtual double getPrice( const gcamstr& aRegionName,
+                             const int aPeriod ) const;
+    
+    virtual void setPrice( const gcamstr& aRegionName,
+                           const double aPrice,
+                           const int aPeriod );
+
+    double getCO2EmissionsCoefficient( const gcamstr& aGHGName,
+                                    const int aPeriod ) const;
+
+    double getCoefficient( const int aPeriod ) const;
+
+    void setCoefficient( const double aCoefficient,
+                         const int aPeriod );
+
+    virtual double getCalibrationQuantity( const int aPeriod ) const;
+
+    bool hasTypeFlag( const int aTypeFlag ) const;
+
+    virtual double getIncomeElasticity( const int aPeriod ) const;
+
+    virtual double getPriceElasticity( const int aPeriod ) const;
+    
+    virtual void doInterpolations( const int aYear, const int aPreviousYear,
+                                   const int aNextYear, const IInput* aPreviousInput,
+                                   const IInput* aNextInput );
+
+protected:
+    
+    NonEnergyInput( const std::string& aName );
+    
+    // Define data such that introspection utilities can process the data from this
+    // subclass together with the data members of the parent classes.
+    DEFINE_DATA_WITH_PARENT(
+        MiniCAMInput,
+
+        //! Cost of the non-energy input which may be different than mCost in rare instances where it is dynamically
+        //! calcuated such as resource production or backup costs for VRE.
+        DEFINE_VARIABLE( SIMPLE | STATE | NOT_PARSABLE, "adjusted-cost", mAdjustedCosts, Value ),
+
+        //! Cost of the non-energy input.
+        DEFINE_VARIABLE( SIMPLE, "input-cost", mCost, Value )
+    )
+    
+    void copy( const NonEnergyInput& aOther );
+
+private:
+    const static std::string XML_REPORTING_NAME; //!< tag name for reporting xml db 
+};
+
+class TrackingNonEnergyInput : public NonEnergyInput {
+    friend class XMLDBOutputter;
+public:
+    TrackingNonEnergyInput();
+    ~TrackingNonEnergyInput();
+
+    static const std::string& getXMLNameStatic();
+
+    virtual const std::string& getXMLReportingName() const;
+    
+    virtual const std::string& getXMLName() const;
+
+    NonEnergyInput* clone() const;
+
+    virtual void completeInit( const gcamstr& aRegionName,
+                               const gcamstr& aSectorName,
+                               const gcamstr& aSubsectorName,
+                               const gcamstr& aTechName,
+                               const IInfo* aTechInfo );
+
+    virtual void initCalc( const gcamstr& aRegionName,
+                           const gcamstr& aSectorName,
+                           const bool aIsNewInvestmentPeriod,
+                           const bool aIsTrade,
+                           const IInfo* aTechInfo,
+                           const int aPeriod );
+
+    virtual double getPrice( const gcamstr& aRegionName,
+                     const int aPeriod ) const;
+
+    virtual void setPhysicalDemand( const double aPhysicalDemand,
+                            const gcamstr& aRegionName,
+                            const int aPeriod );
+    
+    double calcAdjustedPrice(const double aCost,
+                             const gcamstr& aRegionName,
+                             const int aPeriod) const;
+
+protected:
+    DEFINE_DATA_WITH_PARENT (
+        NonEnergyInput,
+                         
+        //! The market name to which to add the capital investment value
+        DEFINE_VARIABLE( SIMPLE, "tracking-market", mTrackingMarketName, gcamstr ),
+
+        //! A ratio applied to mCost to break out the fraction of that total that was capital
+        DEFINE_VARIABLE( SIMPLE, "capital-ratio", mCapitalRatio, Value ),
+                             
+        //! Technology specific cost of borrowing which could be higher for riskier technologies
+        //! This rate will be scaled by the relative change in the economy wide price of capital
+        //! to annualize capital costs
+        DEFINE_VARIABLE( SIMPLE, "interest-rate", mInterestRate, Value ),
+                             
+        //! The number of years over which to annualize payments to capital.
+        DEFINE_VARIABLE( SIMPLE, "payback-years", mPaybackYears, int ),
+
+        //! The derived overnight capital costs per output stored during completeInit to save computations
+        //! during World.calc.
+        DEFINE_VARIABLE( SIMPLE | NOT_PARSABLE, "overnight", mOvernightCap, Value ),
+
+        //! A state variable to keep track of the capital investment value
+        DEFINE_VARIABLE( SIMPLE | STATE | NOT_PARSABLE, "capital-value", mCapitalValue, Value ),
+                             
+        //! Any unit conversions which may be applied to ensure the units of mCapitalValue are billion 1975$ per timestep
+        DEFINE_VARIABLE( SIMPLE, "invest-unit-conversion", mInvestUnitConversion, Value ),
+        
+        // Note: the following are only needed if the technology does not explicitly vintage
+                             
+        //! Save the previous technology output to back calculate a value for new investment
+        DEFINE_VARIABLE( SIMPLE | NOT_PARSABLE, "previous-output", mPrevOutput, Value ),
+                             
+        //! An assumed depreciation rate to apply to the previous output as part of the calculation to
+        //! back calculate a value for new investment
+        DEFINE_VARIABLE( SIMPLE, "depreciation-rate", mDepreciationRate, Value )
+    )
+    
+    //! A pre-located market which has been cahced from the marketplace to get
+    //! the price and add demands to.
+    CachedMarket mCachedMarket;
+
+    // We need a flag to let us know if we are in a new vintage tech in which case we
+    // need to calculate and add to market the capital investment value
+    bool mIsActive;
+};
+
+#endif // _NON_ENERGY_INPUT_H_

@@ -1,0 +1,18 @@
+# File: A32.inc_elas_output.csv
+# Title: industrial demand income elasticity as a function of per-capita industrial output
+# Units: GJ per person per year for pc.output_GJ; Unitless for inc_elas
+# Description: inc_elas: income elasticity (unitless); pc.output_GJ: per-capita output in GJ per person per year
+# Column types: nn 
+# ----------
+pc.output_GJ,inc_elas
+0,1.5
+3,1.12
+5,0.9
+7,0.78
+10,0.6
+14,0.35
+18,0.26
+26,0.22
+38,0.1
+42,0
+46,-0.05

@@ -1,0 +1,4231 @@
+# File: gcam_macro_TFP_open.csv
+# Title: GCAM output of total factor productivity used as initial input
+# Units: unitless
+# Description: TODO: describe process to update
+# Column types: ccinc
+# ----------
+scenario,region,year,productivity,gcam.version
+CORE,Africa_Eastern,1975,0,gcam-v9.1
+CORE,Africa_Eastern,1990,0,gcam-v9.1
+CORE,Africa_Eastern,2005,0,gcam-v9.1
+CORE,Africa_Eastern,2010,0,gcam-v9.1
+CORE,Africa_Eastern,2015,0,gcam-v9.1
+CORE,Africa_Eastern,2021,0,gcam-v9.1
+CORE,Africa_Eastern,2025,0.984441,gcam-v9.1
+CORE,Africa_Eastern,2030,1.12078,gcam-v9.1
+CORE,Africa_Eastern,2035,1.25768,gcam-v9.1
+CORE,Africa_Eastern,2040,1.3798,gcam-v9.1
+CORE,Africa_Eastern,2045,1.48164,gcam-v9.1
+CORE,Africa_Eastern,2050,1.57547,gcam-v9.1
+CORE,Africa_Eastern,2055,1.66159,gcam-v9.1
+CORE,Africa_Eastern,2060,1.74558,gcam-v9.1
+CORE,Africa_Eastern,2065,1.83556,gcam-v9.1
+CORE,Africa_Eastern,2070,1.92654,gcam-v9.1
+CORE,Africa_Eastern,2075,2.0242,gcam-v9.1
+CORE,Africa_Eastern,2080,2.12739,gcam-v9.1
+CORE,Africa_Eastern,2085,2.23719,gcam-v9.1
+CORE,Africa_Eastern,2090,2.36143,gcam-v9.1
+CORE,Africa_Eastern,2095,2.49994,gcam-v9.1
+CORE,Africa_Eastern,2100,2.65252,gcam-v9.1
+CORE,Africa_Northern,1975,0,gcam-v9.1
+CORE,Africa_Northern,1990,0,gcam-v9.1
+CORE,Africa_Northern,2005,0,gcam-v9.1
+CORE,Africa_Northern,2010,0,gcam-v9.1
+CORE,Africa_Northern,2015,0,gcam-v9.1
+CORE,Africa_Northern,2021,0,gcam-v9.1
+CORE,Africa_Northern,2025,1.12058,gcam-v9.1
+CORE,Africa_Northern,2030,1.26685,gcam-v9.1
+CORE,Africa_Northern,2035,1.40504,gcam-v9.1
+CORE,Africa_Northern,2040,1.54608,gcam-v9.1
+CORE,Africa_Northern,2045,1.62989,gcam-v9.1
+CORE,Africa_Northern,2050,1.69902,gcam-v9.1
+CORE,Africa_Northern,2055,1.75826,gcam-v9.1
+CORE,Africa_Northern,2060,1.79173,gcam-v9.1
+CORE,Africa_Northern,2065,1.8153,gcam-v9.1
+CORE,Africa_Northern,2070,1.83482,gcam-v9.1
+CORE,Africa_Northern,2075,1.86794,gcam-v9.1
+CORE,Africa_Northern,2080,1.92195,gcam-v9.1
+CORE,Africa_Northern,2085,1.99222,gcam-v9.1
+CORE,Africa_Northern,2090,2.07059,gcam-v9.1
+CORE,Africa_Northern,2095,2.15423,gcam-v9.1
+CORE,Africa_Northern,2100,2.24161,gcam-v9.1
+CORE,Africa_Southern,1975,0,gcam-v9.1
+CORE,Africa_Southern,1990,0,gcam-v9.1
+CORE,Africa_Southern,2005,0,gcam-v9.1
+CORE,Africa_Southern,2010,0,gcam-v9.1
+CORE,Africa_Southern,2015,0,gcam-v9.1
+CORE,Africa_Southern,2021,0,gcam-v9.1
+CORE,Africa_Southern,2025,0.925132,gcam-v9.1
+CORE,Africa_Southern,2030,0.991699,gcam-v9.1
+CORE,Africa_Southern,2035,1.08144,gcam-v9.1
+CORE,Africa_Southern,2040,1.15958,gcam-v9.1
+CORE,Africa_Southern,2045,1.21452,gcam-v9.1
+CORE,Africa_Southern,2050,1.26832,gcam-v9.1
+CORE,Africa_Southern,2055,1.32607,gcam-v9.1
+CORE,Africa_Southern,2060,1.39385,gcam-v9.1
+CORE,Africa_Southern,2065,1.46717,gcam-v9.1
+CORE,Africa_Southern,2070,1.538,gcam-v9.1
+CORE,Africa_Southern,2075,1.61042,gcam-v9.1
+CORE,Africa_Southern,2080,1.68601,gcam-v9.1
+CORE,Africa_Southern,2085,1.76369,gcam-v9.1
+CORE,Africa_Southern,2090,1.84368,gcam-v9.1
+CORE,Africa_Southern,2095,1.92963,gcam-v9.1
+CORE,Africa_Southern,2100,2.02368,gcam-v9.1
+CORE,Africa_Western,1975,0,gcam-v9.1
+CORE,Africa_Western,1990,0,gcam-v9.1
+CORE,Africa_Western,2005,0,gcam-v9.1
+CORE,Africa_Western,2010,0,gcam-v9.1
+CORE,Africa_Western,2015,0,gcam-v9.1
+CORE,Africa_Western,2021,0,gcam-v9.1
+CORE,Africa_Western,2025,1.07154,gcam-v9.1
+CORE,Africa_Western,2030,1.16883,gcam-v9.1
+CORE,Africa_Western,2035,1.31744,gcam-v9.1
+CORE,Africa_Western,2040,1.44671,gcam-v9.1
+CORE,Africa_Western,2045,1.53612,gcam-v9.1
+CORE,Africa_Western,2050,1.60655,gcam-v9.1
+CORE,Africa_Western,2055,1.66333,gcam-v9.1
+CORE,Africa_Western,2060,1.7051,gcam-v9.1
+CORE,Africa_Western,2065,1.74322,gcam-v9.1
+CORE,Africa_Western,2070,1.77984,gcam-v9.1
+CORE,Africa_Western,2075,1.81927,gcam-v9.1
+CORE,Africa_Western,2080,1.86432,gcam-v9.1
+CORE,Africa_Western,2085,1.91681,gcam-v9.1
+CORE,Africa_Western,2090,1.97961,gcam-v9.1
+CORE,Africa_Western,2095,2.04908,gcam-v9.1
+CORE,Africa_Western,2100,2.12693,gcam-v9.1
+CORE,Argentina,1975,0,gcam-v9.1
+CORE,Argentina,1990,0,gcam-v9.1
+CORE,Argentina,2005,0,gcam-v9.1
+CORE,Argentina,2010,0,gcam-v9.1
+CORE,Argentina,2015,0,gcam-v9.1
+CORE,Argentina,2021,0,gcam-v9.1
+CORE,Argentina,2025,1.02682,gcam-v9.1
+CORE,Argentina,2030,1.08123,gcam-v9.1
+CORE,Argentina,2035,1.11668,gcam-v9.1
+CORE,Argentina,2040,1.17157,gcam-v9.1
+CORE,Argentina,2045,1.2459,gcam-v9.1
+CORE,Argentina,2050,1.33124,gcam-v9.1
+CORE,Argentina,2055,1.42975,gcam-v9.1
+CORE,Argentina,2060,1.53497,gcam-v9.1
+CORE,Argentina,2065,1.64524,gcam-v9.1
+CORE,Argentina,2070,1.75812,gcam-v9.1
+CORE,Argentina,2075,1.8754,gcam-v9.1
+CORE,Argentina,2080,2.00216,gcam-v9.1
+CORE,Argentina,2085,2.12953,gcam-v9.1
+CORE,Argentina,2090,2.24151,gcam-v9.1
+CORE,Argentina,2095,2.35446,gcam-v9.1
+CORE,Argentina,2100,2.47046,gcam-v9.1
+CORE,Australia_NZ,1975,0,gcam-v9.1
+CORE,Australia_NZ,1990,0,gcam-v9.1
+CORE,Australia_NZ,2005,0,gcam-v9.1
+CORE,Australia_NZ,2010,0,gcam-v9.1
+CORE,Australia_NZ,2015,0,gcam-v9.1
+CORE,Australia_NZ,2021,0,gcam-v9.1
+CORE,Australia_NZ,2025,1.01057,gcam-v9.1
+CORE,Australia_NZ,2030,1.0712,gcam-v9.1
+CORE,Australia_NZ,2035,1.1316,gcam-v9.1
+CORE,Australia_NZ,2040,1.19955,gcam-v9.1
+CORE,Australia_NZ,2045,1.26369,gcam-v9.1
+CORE,Australia_NZ,2050,1.3326,gcam-v9.1
+CORE,Australia_NZ,2055,1.4027,gcam-v9.1
+CORE,Australia_NZ,2060,1.47729,gcam-v9.1
+CORE,Australia_NZ,2065,1.54681,gcam-v9.1
+CORE,Australia_NZ,2070,1.60514,gcam-v9.1
+CORE,Australia_NZ,2075,1.66766,gcam-v9.1
+CORE,Australia_NZ,2080,1.73512,gcam-v9.1
+CORE,Australia_NZ,2085,1.79938,gcam-v9.1
+CORE,Australia_NZ,2090,1.85538,gcam-v9.1
+CORE,Australia_NZ,2095,1.91163,gcam-v9.1
+CORE,Australia_NZ,2100,1.96711,gcam-v9.1
+CORE,Brazil,1975,0,gcam-v9.1
+CORE,Brazil,1990,0,gcam-v9.1
+CORE,Brazil,2005,0,gcam-v9.1
+CORE,Brazil,2010,0,gcam-v9.1
+CORE,Brazil,2015,0,gcam-v9.1
+CORE,Brazil,2021,0,gcam-v9.1
+CORE,Brazil,2025,1.01561,gcam-v9.1
+CORE,Brazil,2030,1.05577,gcam-v9.1
+CORE,Brazil,2035,1.17434,gcam-v9.1
+CORE,Brazil,2040,1.34057,gcam-v9.1
+CORE,Brazil,2045,1.52129,gcam-v9.1
+CORE,Brazil,2050,1.70368,gcam-v9.1
+CORE,Brazil,2055,1.87679,gcam-v9.1
+CORE,Brazil,2060,2.03936,gcam-v9.1
+CORE,Brazil,2065,2.20976,gcam-v9.1
+CORE,Brazil,2070,2.37122,gcam-v9.1
+CORE,Brazil,2075,2.52669,gcam-v9.1
+CORE,Brazil,2080,2.6797,gcam-v9.1
+CORE,Brazil,2085,2.83674,gcam-v9.1
+CORE,Brazil,2090,2.98252,gcam-v9.1
+CORE,Brazil,2095,3.13401,gcam-v9.1
+CORE,Brazil,2100,3.29198,gcam-v9.1
+CORE,Canada,1975,0,gcam-v9.1
+CORE,Canada,1990,0,gcam-v9.1
+CORE,Canada,2005,0,gcam-v9.1
+CORE,Canada,2010,0,gcam-v9.1
+CORE,Canada,2015,0,gcam-v9.1
+CORE,Canada,2021,0,gcam-v9.1
+CORE,Canada,2025,1.00475,gcam-v9.1
+CORE,Canada,2030,1.08596,gcam-v9.1
+CORE,Canada,2035,1.17179,gcam-v9.1
+CORE,Canada,2040,1.2674,gcam-v9.1
+CORE,Canada,2045,1.36737,gcam-v9.1
+CORE,Canada,2050,1.46981,gcam-v9.1
+CORE,Canada,2055,1.56503,gcam-v9.1
+CORE,Canada,2060,1.66245,gcam-v9.1
+CORE,Canada,2065,1.75628,gcam-v9.1
+CORE,Canada,2070,1.83455,gcam-v9.1
+CORE,Canada,2075,1.9171,gcam-v9.1
+CORE,Canada,2080,2.00892,gcam-v9.1
+CORE,Canada,2085,2.09248,gcam-v9.1
+CORE,Canada,2090,2.15866,gcam-v9.1
+CORE,Canada,2095,2.22755,gcam-v9.1
+CORE,Canada,2100,2.29869,gcam-v9.1
+CORE,Central America and Caribbean,1975,0,gcam-v9.1
+CORE,Central America and Caribbean,1990,0,gcam-v9.1
+CORE,Central America and Caribbean,2005,0,gcam-v9.1
+CORE,Central America and Caribbean,2010,0,gcam-v9.1
+CORE,Central America and Caribbean,2015,0,gcam-v9.1
+CORE,Central America and Caribbean,2021,0,gcam-v9.1
+CORE,Central America and Caribbean,2025,1.06678,gcam-v9.1
+CORE,Central America and Caribbean,2030,1.15069,gcam-v9.1
+CORE,Central America and Caribbean,2035,1.24907,gcam-v9.1
+CORE,Central America and Caribbean,2040,1.3511,gcam-v9.1
+CORE,Central America and Caribbean,2045,1.44727,gcam-v9.1
+CORE,Central America and Caribbean,2050,1.54185,gcam-v9.1
+CORE,Central America and Caribbean,2055,1.63892,gcam-v9.1
+CORE,Central America and Caribbean,2060,1.73539,gcam-v9.1
+CORE,Central America and Caribbean,2065,1.83406,gcam-v9.1
+CORE,Central America and Caribbean,2070,1.93147,gcam-v9.1
+CORE,Central America and Caribbean,2075,2.02773,gcam-v9.1
+CORE,Central America and Caribbean,2080,2.12614,gcam-v9.1
+CORE,Central America and Caribbean,2085,2.22538,gcam-v9.1
+CORE,Central America and Caribbean,2090,2.3255,gcam-v9.1
+CORE,Central America and Caribbean,2095,2.42956,gcam-v9.1
+CORE,Central America and Caribbean,2100,2.53831,gcam-v9.1
+CORE,Central Asia,1975,0,gcam-v9.1
+CORE,Central Asia,1990,0,gcam-v9.1
+CORE,Central Asia,2005,0,gcam-v9.1
+CORE,Central Asia,2010,0,gcam-v9.1
+CORE,Central Asia,2015,0,gcam-v9.1
+CORE,Central Asia,2021,0,gcam-v9.1
+CORE,Central Asia,2025,1.18431,gcam-v9.1
+CORE,Central Asia,2030,1.30705,gcam-v9.1
+CORE,Central Asia,2035,1.42902,gcam-v9.1
+CORE,Central Asia,2040,1.51402,gcam-v9.1
+CORE,Central Asia,2045,1.53795,gcam-v9.1
+CORE,Central Asia,2050,1.55952,gcam-v9.1
+CORE,Central Asia,2055,1.60435,gcam-v9.1
+CORE,Central Asia,2060,1.65967,gcam-v9.1
+CORE,Central Asia,2065,1.72123,gcam-v9.1
+CORE,Central Asia,2070,1.78219,gcam-v9.1
+CORE,Central Asia,2075,1.84159,gcam-v9.1
+CORE,Central Asia,2080,1.91614,gcam-v9.1
+CORE,Central Asia,2085,2.00362,gcam-v9.1
+CORE,Central Asia,2090,2.09977,gcam-v9.1
+CORE,Central Asia,2095,2.19765,gcam-v9.1
+CORE,Central Asia,2100,2.29668,gcam-v9.1
+CORE,China,1975,0,gcam-v9.1
+CORE,China,1990,0,gcam-v9.1
+CORE,China,2005,0,gcam-v9.1
+CORE,China,2010,0,gcam-v9.1
+CORE,China,2015,0,gcam-v9.1
+CORE,China,2021,0,gcam-v9.1
+CORE,China,2025,1.10205,gcam-v9.1
+CORE,China,2030,1.22424,gcam-v9.1
+CORE,China,2035,1.33664,gcam-v9.1
+CORE,China,2040,1.42703,gcam-v9.1
+CORE,China,2045,1.50358,gcam-v9.1
+CORE,China,2050,1.61718,gcam-v9.1
+CORE,China,2055,1.76414,gcam-v9.1
+CORE,China,2060,1.90717,gcam-v9.1
+CORE,China,2065,2.028,gcam-v9.1
+CORE,China,2070,2.13884,gcam-v9.1
+CORE,China,2075,2.26452,gcam-v9.1
+CORE,China,2080,2.42546,gcam-v9.1
+CORE,China,2085,2.5978,gcam-v9.1
+CORE,China,2090,2.70928,gcam-v9.1
+CORE,China,2095,2.80587,gcam-v9.1
+CORE,China,2100,2.90279,gcam-v9.1
+CORE,Colombia,1975,0,gcam-v9.1
+CORE,Colombia,1990,0,gcam-v9.1
+CORE,Colombia,2005,0,gcam-v9.1
+CORE,Colombia,2010,0,gcam-v9.1
+CORE,Colombia,2015,0,gcam-v9.1
+CORE,Colombia,2021,0,gcam-v9.1
+CORE,Colombia,2025,1.05264,gcam-v9.1
+CORE,Colombia,2030,1.12783,gcam-v9.1
+CORE,Colombia,2035,1.26797,gcam-v9.1
+CORE,Colombia,2040,1.44326,gcam-v9.1
+CORE,Colombia,2045,1.59403,gcam-v9.1
+CORE,Colombia,2050,1.72655,gcam-v9.1
+CORE,Colombia,2055,1.85481,gcam-v9.1
+CORE,Colombia,2060,1.98348,gcam-v9.1
+CORE,Colombia,2065,2.11142,gcam-v9.1
+CORE,Colombia,2070,2.22932,gcam-v9.1
+CORE,Colombia,2075,2.3306,gcam-v9.1
+CORE,Colombia,2080,2.42332,gcam-v9.1
+CORE,Colombia,2085,2.51625,gcam-v9.1
+CORE,Colombia,2090,2.60757,gcam-v9.1
+CORE,Colombia,2095,2.69906,gcam-v9.1
+CORE,Colombia,2100,2.79047,gcam-v9.1
+CORE,EU-12,1975,0,gcam-v9.1
+CORE,EU-12,1990,0,gcam-v9.1
+CORE,EU-12,2005,0,gcam-v9.1
+CORE,EU-12,2010,0,gcam-v9.1
+CORE,EU-12,2015,0,gcam-v9.1
+CORE,EU-12,2021,0,gcam-v9.1
+CORE,EU-12,2025,1.05334,gcam-v9.1
+CORE,EU-12,2030,1.146,gcam-v9.1
+CORE,EU-12,2035,1.20752,gcam-v9.1
+CORE,EU-12,2040,1.26357,gcam-v9.1
+CORE,EU-12,2045,1.31479,gcam-v9.1
+CORE,EU-12,2050,1.36353,gcam-v9.1
+CORE,EU-12,2055,1.41946,gcam-v9.1
+CORE,EU-12,2060,1.4681,gcam-v9.1
+CORE,EU-12,2065,1.50334,gcam-v9.1
+CORE,EU-12,2070,1.53371,gcam-v9.1
+CORE,EU-12,2075,1.57227,gcam-v9.1
+CORE,EU-12,2080,1.61523,gcam-v9.1
+CORE,EU-12,2085,1.66638,gcam-v9.1
+CORE,EU-12,2090,1.71646,gcam-v9.1
+CORE,EU-12,2095,1.76417,gcam-v9.1
+CORE,EU-12,2100,1.81051,gcam-v9.1
+CORE,EU-15,1975,0,gcam-v9.1
+CORE,EU-15,1990,0,gcam-v9.1
+CORE,EU-15,2005,0,gcam-v9.1
+CORE,EU-15,2010,0,gcam-v9.1
+CORE,EU-15,2015,0,gcam-v9.1
+CORE,EU-15,2021,0,gcam-v9.1
+CORE,EU-15,2025,1.04179,gcam-v9.1
+CORE,EU-15,2030,1.09277,gcam-v9.1
+CORE,EU-15,2035,1.15084,gcam-v9.1
+CORE,EU-15,2040,1.21621,gcam-v9.1
+CORE,EU-15,2045,1.28327,gcam-v9.1
+CORE,EU-15,2050,1.35007,gcam-v9.1
+CORE,EU-15,2055,1.41765,gcam-v9.1
+CORE,EU-15,2060,1.48229,gcam-v9.1
+CORE,EU-15,2065,1.54311,gcam-v9.1
+CORE,EU-15,2070,1.59932,gcam-v9.1
+CORE,EU-15,2075,1.65889,gcam-v9.1
+CORE,EU-15,2080,1.72216,gcam-v9.1
+CORE,EU-15,2085,1.78209,gcam-v9.1
+CORE,EU-15,2090,1.8341,gcam-v9.1
+CORE,EU-15,2095,1.88508,gcam-v9.1
+CORE,EU-15,2100,1.93501,gcam-v9.1
+CORE,Europe_Non_EU,1975,0,gcam-v9.1
+CORE,Europe_Non_EU,1990,0,gcam-v9.1
+CORE,Europe_Non_EU,2005,0,gcam-v9.1
+CORE,Europe_Non_EU,2010,0,gcam-v9.1
+CORE,Europe_Non_EU,2015,0,gcam-v9.1
+CORE,Europe_Non_EU,2021,0,gcam-v9.1
+CORE,Europe_Non_EU,2025,1.01402,gcam-v9.1
+CORE,Europe_Non_EU,2030,1.07453,gcam-v9.1
+CORE,Europe_Non_EU,2035,1.11922,gcam-v9.1
+CORE,Europe_Non_EU,2040,1.14937,gcam-v9.1
+CORE,Europe_Non_EU,2045,1.17953,gcam-v9.1
+CORE,Europe_Non_EU,2050,1.20626,gcam-v9.1
+CORE,Europe_Non_EU,2055,1.2406,gcam-v9.1
+CORE,Europe_Non_EU,2060,1.27396,gcam-v9.1
+CORE,Europe_Non_EU,2065,1.30461,gcam-v9.1
+CORE,Europe_Non_EU,2070,1.32999,gcam-v9.1
+CORE,Europe_Non_EU,2075,1.35491,gcam-v9.1
+CORE,Europe_Non_EU,2080,1.38638,gcam-v9.1
+CORE,Europe_Non_EU,2085,1.42391,gcam-v9.1
+CORE,Europe_Non_EU,2090,1.45691,gcam-v9.1
+CORE,Europe_Non_EU,2095,1.49231,gcam-v9.1
+CORE,Europe_Non_EU,2100,1.52953,gcam-v9.1
+CORE,European Free Trade Association,1975,0,gcam-v9.1
+CORE,European Free Trade Association,1990,0,gcam-v9.1
+CORE,European Free Trade Association,2005,0,gcam-v9.1
+CORE,European Free Trade Association,2010,0,gcam-v9.1
+CORE,European Free Trade Association,2015,0,gcam-v9.1
+CORE,European Free Trade Association,2021,0,gcam-v9.1
+CORE,European Free Trade Association,2025,1.00818,gcam-v9.1
+CORE,European Free Trade Association,2030,1.02033,gcam-v9.1
+CORE,European Free Trade Association,2035,1.04776,gcam-v9.1
+CORE,European Free Trade Association,2040,1.07711,gcam-v9.1
+CORE,European Free Trade Association,2045,1.10583,gcam-v9.1
+CORE,European Free Trade Association,2050,1.14092,gcam-v9.1
+CORE,European Free Trade Association,2055,1.1849,gcam-v9.1
+CORE,European Free Trade Association,2060,1.23551,gcam-v9.1
+CORE,European Free Trade Association,2065,1.28391,gcam-v9.1
+CORE,European Free Trade Association,2070,1.32677,gcam-v9.1
+CORE,European Free Trade Association,2075,1.37526,gcam-v9.1
+CORE,European Free Trade Association,2080,1.43051,gcam-v9.1
+CORE,European Free Trade Association,2085,1.48385,gcam-v9.1
+CORE,European Free Trade Association,2090,1.52863,gcam-v9.1
+CORE,European Free Trade Association,2095,1.57393,gcam-v9.1
+CORE,European Free Trade Association,2100,1.6184,gcam-v9.1
+CORE,India,1975,0,gcam-v9.1
+CORE,India,1990,0,gcam-v9.1
+CORE,India,2005,0,gcam-v9.1
+CORE,India,2010,0,gcam-v9.1
+CORE,India,2015,0,gcam-v9.1
+CORE,India,2021,0,gcam-v9.1
+CORE,India,2025,1.05816,gcam-v9.1
+CORE,India,2030,1.20605,gcam-v9.1
+CORE,India,2035,1.31539,gcam-v9.1
+CORE,India,2040,1.41873,gcam-v9.1
+CORE,India,2045,1.51973,gcam-v9.1
+CORE,India,2050,1.63124,gcam-v9.1
+CORE,India,2055,1.75668,gcam-v9.1
+CORE,India,2060,1.89476,gcam-v9.1
+CORE,India,2065,2.04739,gcam-v9.1
+CORE,India,2070,2.20916,gcam-v9.1
+CORE,India,2075,2.37349,gcam-v9.1
+CORE,India,2080,2.53521,gcam-v9.1
+CORE,India,2085,2.69296,gcam-v9.1
+CORE,India,2090,2.84495,gcam-v9.1
+CORE,India,2095,3.00114,gcam-v9.1
+CORE,India,2100,3.1636,gcam-v9.1
+CORE,Indonesia,1975,0,gcam-v9.1
+CORE,Indonesia,1990,0,gcam-v9.1
+CORE,Indonesia,2005,0,gcam-v9.1
+CORE,Indonesia,2010,0,gcam-v9.1
+CORE,Indonesia,2015,0,gcam-v9.1
+CORE,Indonesia,2021,0,gcam-v9.1
+CORE,Indonesia,2025,1.11401,gcam-v9.1
+CORE,Indonesia,2030,1.27229,gcam-v9.1
+CORE,Indonesia,2035,1.38566,gcam-v9.1
+CORE,Indonesia,2040,1.49625,gcam-v9.1
+CORE,Indonesia,2045,1.59628,gcam-v9.1
+CORE,Indonesia,2050,1.68662,gcam-v9.1
+CORE,Indonesia,2055,1.77944,gcam-v9.1
+CORE,Indonesia,2060,1.87509,gcam-v9.1
+CORE,Indonesia,2065,1.97793,gcam-v9.1
+CORE,Indonesia,2070,2.08563,gcam-v9.1
+CORE,Indonesia,2075,2.20444,gcam-v9.1
+CORE,Indonesia,2080,2.33213,gcam-v9.1
+CORE,Indonesia,2085,2.45705,gcam-v9.1
+CORE,Indonesia,2090,2.57787,gcam-v9.1
+CORE,Indonesia,2095,2.69715,gcam-v9.1
+CORE,Indonesia,2100,2.81376,gcam-v9.1
+CORE,Japan,1975,0,gcam-v9.1
+CORE,Japan,1990,0,gcam-v9.1
+CORE,Japan,2005,0,gcam-v9.1
+CORE,Japan,2010,0,gcam-v9.1
+CORE,Japan,2015,0,gcam-v9.1
+CORE,Japan,2021,0,gcam-v9.1
+CORE,Japan,2025,1.0245,gcam-v9.1
+CORE,Japan,2030,1.05005,gcam-v9.1
+CORE,Japan,2035,1.09828,gcam-v9.1
+CORE,Japan,2040,1.17161,gcam-v9.1
+CORE,Japan,2045,1.24248,gcam-v9.1
+CORE,Japan,2050,1.31093,gcam-v9.1
+CORE,Japan,2055,1.37696,gcam-v9.1
+CORE,Japan,2060,1.43718,gcam-v9.1
+CORE,Japan,2065,1.50068,gcam-v9.1
+CORE,Japan,2070,1.56407,gcam-v9.1
+CORE,Japan,2075,1.62782,gcam-v9.1
+CORE,Japan,2080,1.69663,gcam-v9.1
+CORE,Japan,2085,1.75953,gcam-v9.1
+CORE,Japan,2090,1.82139,gcam-v9.1
+CORE,Japan,2095,1.88522,gcam-v9.1
+CORE,Japan,2100,1.94873,gcam-v9.1
+CORE,Mexico,1975,0,gcam-v9.1
+CORE,Mexico,1990,0,gcam-v9.1
+CORE,Mexico,2005,0,gcam-v9.1
+CORE,Mexico,2010,0,gcam-v9.1
+CORE,Mexico,2015,0,gcam-v9.1
+CORE,Mexico,2021,0,gcam-v9.1
+CORE,Mexico,2025,1.02139,gcam-v9.1
+CORE,Mexico,2030,1.05844,gcam-v9.1
+CORE,Mexico,2035,1.11274,gcam-v9.1
+CORE,Mexico,2040,1.1823,gcam-v9.1
+CORE,Mexico,2045,1.24484,gcam-v9.1
+CORE,Mexico,2050,1.29571,gcam-v9.1
+CORE,Mexico,2055,1.34324,gcam-v9.1
+CORE,Mexico,2060,1.38374,gcam-v9.1
+CORE,Mexico,2065,1.42474,gcam-v9.1
+CORE,Mexico,2070,1.47062,gcam-v9.1
+CORE,Mexico,2075,1.5099,gcam-v9.1
+CORE,Mexico,2080,1.54684,gcam-v9.1
+CORE,Mexico,2085,1.57883,gcam-v9.1
+CORE,Mexico,2090,1.60887,gcam-v9.1
+CORE,Mexico,2095,1.63762,gcam-v9.1
+CORE,Mexico,2100,1.66529,gcam-v9.1
+CORE,Middle East,1975,0,gcam-v9.1
+CORE,Middle East,1990,0,gcam-v9.1
+CORE,Middle East,2005,0,gcam-v9.1
+CORE,Middle East,2010,0,gcam-v9.1
+CORE,Middle East,2015,0,gcam-v9.1
+CORE,Middle East,2021,0,gcam-v9.1
+CORE,Middle East,2025,1.11167,gcam-v9.1
+CORE,Middle East,2030,1.1266,gcam-v9.1
+CORE,Middle East,2035,1.15575,gcam-v9.1
+CORE,Middle East,2040,1.19973,gcam-v9.1
+CORE,Middle East,2045,1.25382,gcam-v9.1
+CORE,Middle East,2050,1.30987,gcam-v9.1
+CORE,Middle East,2055,1.38308,gcam-v9.1
+CORE,Middle East,2060,1.4436,gcam-v9.1
+CORE,Middle East,2065,1.49584,gcam-v9.1
+CORE,Middle East,2070,1.5497,gcam-v9.1
+CORE,Middle East,2075,1.60966,gcam-v9.1
+CORE,Middle East,2080,1.67535,gcam-v9.1
+CORE,Middle East,2085,1.74273,gcam-v9.1
+CORE,Middle East,2090,1.81433,gcam-v9.1
+CORE,Middle East,2095,1.89122,gcam-v9.1
+CORE,Middle East,2100,1.9759,gcam-v9.1
+CORE,Pakistan,1975,0,gcam-v9.1
+CORE,Pakistan,1990,0,gcam-v9.1
+CORE,Pakistan,2005,0,gcam-v9.1
+CORE,Pakistan,2010,0,gcam-v9.1
+CORE,Pakistan,2015,0,gcam-v9.1
+CORE,Pakistan,2021,0,gcam-v9.1
+CORE,Pakistan,2025,1.04045,gcam-v9.1
+CORE,Pakistan,2030,1.22385,gcam-v9.1
+CORE,Pakistan,2035,1.38388,gcam-v9.1
+CORE,Pakistan,2040,1.55813,gcam-v9.1
+CORE,Pakistan,2045,1.69335,gcam-v9.1
+CORE,Pakistan,2050,1.77359,gcam-v9.1
+CORE,Pakistan,2055,1.8162,gcam-v9.1
+CORE,Pakistan,2060,1.84511,gcam-v9.1
+CORE,Pakistan,2065,1.87945,gcam-v9.1
+CORE,Pakistan,2070,1.91934,gcam-v9.1
+CORE,Pakistan,2075,1.97913,gcam-v9.1
+CORE,Pakistan,2080,2.05647,gcam-v9.1
+CORE,Pakistan,2085,2.14775,gcam-v9.1
+CORE,Pakistan,2090,2.2589,gcam-v9.1
+CORE,Pakistan,2095,2.38771,gcam-v9.1
+CORE,Pakistan,2100,2.53463,gcam-v9.1
+CORE,Russia,1975,0,gcam-v9.1
+CORE,Russia,1990,0,gcam-v9.1
+CORE,Russia,2005,0,gcam-v9.1
+CORE,Russia,2010,0,gcam-v9.1
+CORE,Russia,2015,0,gcam-v9.1
+CORE,Russia,2021,0,gcam-v9.1
+CORE,Russia,2025,0.940491,gcam-v9.1
+CORE,Russia,2030,1.02071,gcam-v9.1
+CORE,Russia,2035,1.13458,gcam-v9.1
+CORE,Russia,2040,1.25663,gcam-v9.1
+CORE,Russia,2045,1.35882,gcam-v9.1
+CORE,Russia,2050,1.47289,gcam-v9.1
+CORE,Russia,2055,1.60675,gcam-v9.1
+CORE,Russia,2060,1.72514,gcam-v9.1
+CORE,Russia,2065,1.8288,gcam-v9.1
+CORE,Russia,2070,1.94246,gcam-v9.1
+CORE,Russia,2075,2.05742,gcam-v9.1
+CORE,Russia,2080,2.20562,gcam-v9.1
+CORE,Russia,2085,2.36503,gcam-v9.1
+CORE,Russia,2090,2.5079,gcam-v9.1
+CORE,Russia,2095,2.64703,gcam-v9.1
+CORE,Russia,2100,2.78693,gcam-v9.1
+CORE,South Africa,1975,0,gcam-v9.1
+CORE,South Africa,1990,0,gcam-v9.1
+CORE,South Africa,2005,0,gcam-v9.1
+CORE,South Africa,2010,0,gcam-v9.1
+CORE,South Africa,2015,0,gcam-v9.1
+CORE,South Africa,2021,0,gcam-v9.1
+CORE,South Africa,2025,0.997742,gcam-v9.1
+CORE,South Africa,2030,1.05729,gcam-v9.1
+CORE,South Africa,2035,1.18036,gcam-v9.1
+CORE,South Africa,2040,1.33165,gcam-v9.1
+CORE,South Africa,2045,1.45498,gcam-v9.1
+CORE,South Africa,2050,1.57106,gcam-v9.1
+CORE,South Africa,2055,1.6935,gcam-v9.1
+CORE,South Africa,2060,1.80646,gcam-v9.1
+CORE,South Africa,2065,1.91039,gcam-v9.1
+CORE,South Africa,2070,2.01118,gcam-v9.1
+CORE,South Africa,2075,2.12994,gcam-v9.1
+CORE,South Africa,2080,2.26428,gcam-v9.1
+CORE,South Africa,2085,2.41036,gcam-v9.1
+CORE,South Africa,2090,2.56105,gcam-v9.1
+CORE,South Africa,2095,2.71491,gcam-v9.1
+CORE,South Africa,2100,2.87352,gcam-v9.1
+CORE,South America_Northern,1975,0,gcam-v9.1
+CORE,South America_Northern,1990,0,gcam-v9.1
+CORE,South America_Northern,2005,0,gcam-v9.1
+CORE,South America_Northern,2010,0,gcam-v9.1
+CORE,South America_Northern,2015,0,gcam-v9.1
+CORE,South America_Northern,2021,0,gcam-v9.1
+CORE,South America_Northern,2025,1.78241,gcam-v9.1
+CORE,South America_Northern,2030,2.59269,gcam-v9.1
+CORE,South America_Northern,2035,3.20512,gcam-v9.1
+CORE,South America_Northern,2040,3.48518,gcam-v9.1
+CORE,South America_Northern,2045,3.51077,gcam-v9.1
+CORE,South America_Northern,2050,3.3902,gcam-v9.1
+CORE,South America_Northern,2055,3.26412,gcam-v9.1
+CORE,South America_Northern,2060,3.20886,gcam-v9.1
+CORE,South America_Northern,2065,3.24744,gcam-v9.1
+CORE,South America_Northern,2070,3.36631,gcam-v9.1
+CORE,South America_Northern,2075,3.54511,gcam-v9.1
+CORE,South America_Northern,2080,3.74881,gcam-v9.1
+CORE,South America_Northern,2085,3.95777,gcam-v9.1
+CORE,South America_Northern,2090,4.15968,gcam-v9.1
+CORE,South America_Northern,2095,4.36593,gcam-v9.1
+CORE,South America_Northern,2100,4.56623,gcam-v9.1
+CORE,South America_Southern,1975,0,gcam-v9.1
+CORE,South America_Southern,1990,0,gcam-v9.1
+CORE,South America_Southern,2005,0,gcam-v9.1
+CORE,South America_Southern,2010,0,gcam-v9.1
+CORE,South America_Southern,2015,0,gcam-v9.1
+CORE,South America_Southern,2021,0,gcam-v9.1
+CORE,South America_Southern,2025,1.01591,gcam-v9.1
+CORE,South America_Southern,2030,1.03939,gcam-v9.1
+CORE,South America_Southern,2035,1.09023,gcam-v9.1
+CORE,South America_Southern,2040,1.15631,gcam-v9.1
+CORE,South America_Southern,2045,1.22286,gcam-v9.1
+CORE,South America_Southern,2050,1.29151,gcam-v9.1
+CORE,South America_Southern,2055,1.36883,gcam-v9.1
+CORE,South America_Southern,2060,1.44812,gcam-v9.1
+CORE,South America_Southern,2065,1.53069,gcam-v9.1
+CORE,South America_Southern,2070,1.61142,gcam-v9.1
+CORE,South America_Southern,2075,1.69246,gcam-v9.1
+CORE,South America_Southern,2080,1.77399,gcam-v9.1
+CORE,South America_Southern,2085,1.85413,gcam-v9.1
+CORE,South America_Southern,2090,1.93392,gcam-v9.1
+CORE,South America_Southern,2095,2.01457,gcam-v9.1
+CORE,South America_Southern,2100,2.09615,gcam-v9.1
+CORE,South Asia,1975,0,gcam-v9.1
+CORE,South Asia,1990,0,gcam-v9.1
+CORE,South Asia,2005,0,gcam-v9.1
+CORE,South Asia,2010,0,gcam-v9.1
+CORE,South Asia,2015,0,gcam-v9.1
+CORE,South Asia,2021,0,gcam-v9.1
+CORE,South Asia,2025,0.979583,gcam-v9.1
+CORE,South Asia,2030,1.1509,gcam-v9.1
+CORE,South Asia,2035,1.2798,gcam-v9.1
+CORE,South Asia,2040,1.3706,gcam-v9.1
+CORE,South Asia,2045,1.44346,gcam-v9.1
+CORE,South Asia,2050,1.51582,gcam-v9.1
+CORE,South Asia,2055,1.59268,gcam-v9.1
+CORE,South Asia,2060,1.67915,gcam-v9.1
+CORE,South Asia,2065,1.77943,gcam-v9.1
+CORE,South Asia,2070,1.88481,gcam-v9.1
+CORE,South Asia,2075,1.98858,gcam-v9.1
+CORE,South Asia,2080,2.0851,gcam-v9.1
+CORE,South Asia,2085,2.18239,gcam-v9.1
+CORE,South Asia,2090,2.28469,gcam-v9.1
+CORE,South Asia,2095,2.39181,gcam-v9.1
+CORE,South Asia,2100,2.50338,gcam-v9.1
+CORE,South Korea,1975,0,gcam-v9.1
+CORE,South Korea,1990,0,gcam-v9.1
+CORE,South Korea,2005,0,gcam-v9.1
+CORE,South Korea,2010,0,gcam-v9.1
+CORE,South Korea,2015,0,gcam-v9.1
+CORE,South Korea,2021,0,gcam-v9.1
+CORE,South Korea,2025,1.04013,gcam-v9.1
+CORE,South Korea,2030,1.13347,gcam-v9.1
+CORE,South Korea,2035,1.2087,gcam-v9.1
+CORE,South Korea,2040,1.31382,gcam-v9.1
+CORE,South Korea,2045,1.38418,gcam-v9.1
+CORE,South Korea,2050,1.47282,gcam-v9.1
+CORE,South Korea,2055,1.54978,gcam-v9.1
+CORE,South Korea,2060,1.63354,gcam-v9.1
+CORE,South Korea,2065,1.72902,gcam-v9.1
+CORE,South Korea,2070,1.7934,gcam-v9.1
+CORE,South Korea,2075,1.84265,gcam-v9.1
+CORE,South Korea,2080,1.91187,gcam-v9.1
+CORE,South Korea,2085,1.96469,gcam-v9.1
+CORE,South Korea,2090,1.98795,gcam-v9.1
+CORE,South Korea,2095,2.01961,gcam-v9.1
+CORE,South Korea,2100,2.05737,gcam-v9.1
+CORE,Southeast Asia,1975,0,gcam-v9.1
+CORE,Southeast Asia,1990,0,gcam-v9.1
+CORE,Southeast Asia,2005,0,gcam-v9.1
+CORE,Southeast Asia,2010,0,gcam-v9.1
+CORE,Southeast Asia,2015,0,gcam-v9.1
+CORE,Southeast Asia,2021,0,gcam-v9.1
+CORE,Southeast Asia,2025,1.07851,gcam-v9.1
+CORE,Southeast Asia,2030,1.21079,gcam-v9.1
+CORE,Southeast Asia,2035,1.30183,gcam-v9.1
+CORE,Southeast Asia,2040,1.35189,gcam-v9.1
+CORE,Southeast Asia,2045,1.38185,gcam-v9.1
+CORE,Southeast Asia,2050,1.41712,gcam-v9.1
+CORE,Southeast Asia,2055,1.46426,gcam-v9.1
+CORE,Southeast Asia,2060,1.521,gcam-v9.1
+CORE,Southeast Asia,2065,1.58297,gcam-v9.1
+CORE,Southeast Asia,2070,1.64829,gcam-v9.1
+CORE,Southeast Asia,2075,1.71636,gcam-v9.1
+CORE,Southeast Asia,2080,1.79037,gcam-v9.1
+CORE,Southeast Asia,2085,1.8715,gcam-v9.1
+CORE,Southeast Asia,2090,1.95677,gcam-v9.1
+CORE,Southeast Asia,2095,2.0468,gcam-v9.1
+CORE,Southeast Asia,2100,2.1406,gcam-v9.1
+CORE,Taiwan,1975,0,gcam-v9.1
+CORE,Taiwan,1990,0,gcam-v9.1
+CORE,Taiwan,2005,0,gcam-v9.1
+CORE,Taiwan,2010,0,gcam-v9.1
+CORE,Taiwan,2015,0,gcam-v9.1
+CORE,Taiwan,2021,0,gcam-v9.1
+CORE,Taiwan,2025,1.10127,gcam-v9.1
+CORE,Taiwan,2030,1.20632,gcam-v9.1
+CORE,Taiwan,2035,1.26762,gcam-v9.1
+CORE,Taiwan,2040,1.28105,gcam-v9.1
+CORE,Taiwan,2045,1.33298,gcam-v9.1
+CORE,Taiwan,2050,1.4119,gcam-v9.1
+CORE,Taiwan,2055,1.48949,gcam-v9.1
+CORE,Taiwan,2060,1.58012,gcam-v9.1
+CORE,Taiwan,2065,1.67664,gcam-v9.1
+CORE,Taiwan,2070,1.74664,gcam-v9.1
+CORE,Taiwan,2075,1.80182,gcam-v9.1
+CORE,Taiwan,2080,1.87818,gcam-v9.1
+CORE,Taiwan,2085,1.96404,gcam-v9.1
+CORE,Taiwan,2090,2.03451,gcam-v9.1
+CORE,Taiwan,2095,2.12007,gcam-v9.1
+CORE,Taiwan,2100,2.20929,gcam-v9.1
+CORE,Ukraine,1975,0,gcam-v9.1
+CORE,Ukraine,1990,0,gcam-v9.1
+CORE,Ukraine,2005,0,gcam-v9.1
+CORE,Ukraine,2010,0,gcam-v9.1
+CORE,Ukraine,2015,0,gcam-v9.1
+CORE,Ukraine,2021,0,gcam-v9.1
+CORE,Ukraine,2025,0.46909,gcam-v9.1
+CORE,Ukraine,2030,0.680772,gcam-v9.1
+CORE,Ukraine,2035,0.914529,gcam-v9.1
+CORE,Ukraine,2040,1.16123,gcam-v9.1
+CORE,Ukraine,2045,1.39887,gcam-v9.1
+CORE,Ukraine,2050,1.65117,gcam-v9.1
+CORE,Ukraine,2055,1.91596,gcam-v9.1
+CORE,Ukraine,2060,2.14117,gcam-v9.1
+CORE,Ukraine,2065,2.31369,gcam-v9.1
+CORE,Ukraine,2070,2.45429,gcam-v9.1
+CORE,Ukraine,2075,2.62161,gcam-v9.1
+CORE,Ukraine,2080,2.81412,gcam-v9.1
+CORE,Ukraine,2085,2.9873,gcam-v9.1
+CORE,Ukraine,2090,3.16229,gcam-v9.1
+CORE,Ukraine,2095,3.31825,gcam-v9.1
+CORE,Ukraine,2100,3.48375,gcam-v9.1
+CORE,USA,1975,0,gcam-v9.1
+CORE,USA,1990,0,gcam-v9.1
+CORE,USA,2005,0,gcam-v9.1
+CORE,USA,2010,0,gcam-v9.1
+CORE,USA,2015,0,gcam-v9.1
+CORE,USA,2021,0,gcam-v9.1
+CORE,USA,2025,1.00667,gcam-v9.1
+CORE,USA,2030,1.03897,gcam-v9.1
+CORE,USA,2035,1.06665,gcam-v9.1
+CORE,USA,2040,1.09858,gcam-v9.1
+CORE,USA,2045,1.13495,gcam-v9.1
+CORE,USA,2050,1.17632,gcam-v9.1
+CORE,USA,2055,1.21904,gcam-v9.1
+CORE,USA,2060,1.26246,gcam-v9.1
+CORE,USA,2065,1.30364,gcam-v9.1
+CORE,USA,2070,1.34705,gcam-v9.1
+CORE,USA,2075,1.39526,gcam-v9.1
+CORE,USA,2080,1.4432,gcam-v9.1
+CORE,USA,2085,1.48866,gcam-v9.1
+CORE,USA,2090,1.52823,gcam-v9.1
+CORE,USA,2095,1.57119,gcam-v9.1
+CORE,USA,2100,1.61775,gcam-v9.1
+SSP1,Africa_Eastern,1975,0,gcam-v9.1
+SSP1,Africa_Eastern,1990,0,gcam-v9.1
+SSP1,Africa_Eastern,2005,0,gcam-v9.1
+SSP1,Africa_Eastern,2010,0,gcam-v9.1
+SSP1,Africa_Eastern,2015,0,gcam-v9.1
+SSP1,Africa_Eastern,2021,0,gcam-v9.1
+SSP1,Africa_Eastern,2025,1.00052,gcam-v9.1
+SSP1,Africa_Eastern,2030,1.15401,gcam-v9.1
+SSP1,Africa_Eastern,2035,1.30819,gcam-v9.1
+SSP1,Africa_Eastern,2040,1.45998,gcam-v9.1
+SSP1,Africa_Eastern,2045,1.59922,gcam-v9.1
+SSP1,Africa_Eastern,2050,1.71878,gcam-v9.1
+SSP1,Africa_Eastern,2055,1.82654,gcam-v9.1
+SSP1,Africa_Eastern,2060,1.93606,gcam-v9.1
+SSP1,Africa_Eastern,2065,2.05901,gcam-v9.1
+SSP1,Africa_Eastern,2070,2.1905,gcam-v9.1
+SSP1,Africa_Eastern,2075,2.33752,gcam-v9.1
+SSP1,Africa_Eastern,2080,2.49932,gcam-v9.1
+SSP1,Africa_Eastern,2085,2.68108,gcam-v9.1
+SSP1,Africa_Eastern,2090,2.88954,gcam-v9.1
+SSP1,Africa_Eastern,2095,3.10103,gcam-v9.1
+SSP1,Africa_Eastern,2100,3.31799,gcam-v9.1
+SSP1,Africa_Northern,1975,0,gcam-v9.1
+SSP1,Africa_Northern,1990,0,gcam-v9.1
+SSP1,Africa_Northern,2005,0,gcam-v9.1
+SSP1,Africa_Northern,2010,0,gcam-v9.1
+SSP1,Africa_Northern,2015,0,gcam-v9.1
+SSP1,Africa_Northern,2021,0,gcam-v9.1
+SSP1,Africa_Northern,2025,1.15586,gcam-v9.1
+SSP1,Africa_Northern,2030,1.26187,gcam-v9.1
+SSP1,Africa_Northern,2035,1.40426,gcam-v9.1
+SSP1,Africa_Northern,2040,1.5716,gcam-v9.1
+SSP1,Africa_Northern,2045,1.66792,gcam-v9.1
+SSP1,Africa_Northern,2050,1.72389,gcam-v9.1
+SSP1,Africa_Northern,2055,1.7674,gcam-v9.1
+SSP1,Africa_Northern,2060,1.80907,gcam-v9.1
+SSP1,Africa_Northern,2065,1.85721,gcam-v9.1
+SSP1,Africa_Northern,2070,1.9099,gcam-v9.1
+SSP1,Africa_Northern,2075,1.98244,gcam-v9.1
+SSP1,Africa_Northern,2080,2.08201,gcam-v9.1
+SSP1,Africa_Northern,2085,2.20705,gcam-v9.1
+SSP1,Africa_Northern,2090,2.34026,gcam-v9.1
+SSP1,Africa_Northern,2095,2.47614,gcam-v9.1
+SSP1,Africa_Northern,2100,2.6202,gcam-v9.1
+SSP1,Africa_Southern,1975,0,gcam-v9.1
+SSP1,Africa_Southern,1990,0,gcam-v9.1
+SSP1,Africa_Southern,2005,0,gcam-v9.1
+SSP1,Africa_Southern,2010,0,gcam-v9.1
+SSP1,Africa_Southern,2015,0,gcam-v9.1
+SSP1,Africa_Southern,2021,0,gcam-v9.1
+SSP1,Africa_Southern,2025,0.925471,gcam-v9.1
+SSP1,Africa_Southern,2030,0.994712,gcam-v9.1
+SSP1,Africa_Southern,2035,1.09615,gcam-v9.1
+SSP1,Africa_Southern,2040,1.20163,gcam-v9.1
+SSP1,Africa_Southern,2045,1.28964,gcam-v9.1
+SSP1,Africa_Southern,2050,1.36486,gcam-v9.1
+SSP1,Africa_Southern,2055,1.43866,gcam-v9.1
+SSP1,Africa_Southern,2060,1.51513,gcam-v9.1
+SSP1,Africa_Southern,2065,1.59975,gcam-v9.1
+SSP1,Africa_Southern,2070,1.686,gcam-v9.1
+SSP1,Africa_Southern,2075,1.78071,gcam-v9.1
+SSP1,Africa_Southern,2080,1.88561,gcam-v9.1
+SSP1,Africa_Southern,2085,2.00012,gcam-v9.1
+SSP1,Africa_Southern,2090,2.1278,gcam-v9.1
+SSP1,Africa_Southern,2095,2.26053,gcam-v9.1
+SSP1,Africa_Southern,2100,2.40247,gcam-v9.1
+SSP1,Africa_Western,1975,0,gcam-v9.1
+SSP1,Africa_Western,1990,0,gcam-v9.1
+SSP1,Africa_Western,2005,0,gcam-v9.1
+SSP1,Africa_Western,2010,0,gcam-v9.1
+SSP1,Africa_Western,2015,0,gcam-v9.1
+SSP1,Africa_Western,2021,0,gcam-v9.1
+SSP1,Africa_Western,2025,1.06927,gcam-v9.1
+SSP1,Africa_Western,2030,1.17522,gcam-v9.1
+SSP1,Africa_Western,2035,1.33723,gcam-v9.1
+SSP1,Africa_Western,2040,1.48974,gcam-v9.1
+SSP1,Africa_Western,2045,1.60413,gcam-v9.1
+SSP1,Africa_Western,2050,1.6913,gcam-v9.1
+SSP1,Africa_Western,2055,1.75695,gcam-v9.1
+SSP1,Africa_Western,2060,1.81004,gcam-v9.1
+SSP1,Africa_Western,2065,1.86378,gcam-v9.1
+SSP1,Africa_Western,2070,1.92142,gcam-v9.1
+SSP1,Africa_Western,2075,1.98779,gcam-v9.1
+SSP1,Africa_Western,2080,2.06583,gcam-v9.1
+SSP1,Africa_Western,2085,2.15747,gcam-v9.1
+SSP1,Africa_Western,2090,2.26561,gcam-v9.1
+SSP1,Africa_Western,2095,2.38087,gcam-v9.1
+SSP1,Africa_Western,2100,2.5104,gcam-v9.1
+SSP1,Argentina,1975,0,gcam-v9.1
+SSP1,Argentina,1990,0,gcam-v9.1
+SSP1,Argentina,2005,0,gcam-v9.1
+SSP1,Argentina,2010,0,gcam-v9.1
+SSP1,Argentina,2015,0,gcam-v9.1
+SSP1,Argentina,2021,0,gcam-v9.1
+SSP1,Argentina,2025,1.03382,gcam-v9.1
+SSP1,Argentina,2030,1.09373,gcam-v9.1
+SSP1,Argentina,2035,1.14459,gcam-v9.1
+SSP1,Argentina,2040,1.22245,gcam-v9.1
+SSP1,Argentina,2045,1.31918,gcam-v9.1
+SSP1,Argentina,2050,1.42032,gcam-v9.1
+SSP1,Argentina,2055,1.53223,gcam-v9.1
+SSP1,Argentina,2060,1.6516,gcam-v9.1
+SSP1,Argentina,2065,1.77983,gcam-v9.1
+SSP1,Argentina,2070,1.91373,gcam-v9.1
+SSP1,Argentina,2075,2.05784,gcam-v9.1
+SSP1,Argentina,2080,2.21954,gcam-v9.1
+SSP1,Argentina,2085,2.38859,gcam-v9.1
+SSP1,Argentina,2090,2.54394,gcam-v9.1
+SSP1,Argentina,2095,2.68404,gcam-v9.1
+SSP1,Argentina,2100,2.81685,gcam-v9.1
+SSP1,Australia_NZ,1975,0,gcam-v9.1
+SSP1,Australia_NZ,1990,0,gcam-v9.1
+SSP1,Australia_NZ,2005,0,gcam-v9.1
+SSP1,Australia_NZ,2010,0,gcam-v9.1
+SSP1,Australia_NZ,2015,0,gcam-v9.1
+SSP1,Australia_NZ,2021,0,gcam-v9.1
+SSP1,Australia_NZ,2025,1.01135,gcam-v9.1
+SSP1,Australia_NZ,2030,1.06506,gcam-v9.1
+SSP1,Australia_NZ,2035,1.14065,gcam-v9.1
+SSP1,Australia_NZ,2040,1.23717,gcam-v9.1
+SSP1,Australia_NZ,2045,1.33297,gcam-v9.1
+SSP1,Australia_NZ,2050,1.42417,gcam-v9.1
+SSP1,Australia_NZ,2055,1.51068,gcam-v9.1
+SSP1,Australia_NZ,2060,1.60012,gcam-v9.1
+SSP1,Australia_NZ,2065,1.68672,gcam-v9.1
+SSP1,Australia_NZ,2070,1.76391,gcam-v9.1
+SSP1,Australia_NZ,2075,1.84855,gcam-v9.1
+SSP1,Australia_NZ,2080,1.94066,gcam-v9.1
+SSP1,Australia_NZ,2085,2.02868,gcam-v9.1
+SSP1,Australia_NZ,2090,2.10413,gcam-v9.1
+SSP1,Australia_NZ,2095,2.16453,gcam-v9.1
+SSP1,Australia_NZ,2100,2.21534,gcam-v9.1
+SSP1,Brazil,1975,0,gcam-v9.1
+SSP1,Brazil,1990,0,gcam-v9.1
+SSP1,Brazil,2005,0,gcam-v9.1
+SSP1,Brazil,2010,0,gcam-v9.1
+SSP1,Brazil,2015,0,gcam-v9.1
+SSP1,Brazil,2021,0,gcam-v9.1
+SSP1,Brazil,2025,1.02779,gcam-v9.1
+SSP1,Brazil,2030,1.06968,gcam-v9.1
+SSP1,Brazil,2035,1.19981,gcam-v9.1
+SSP1,Brazil,2040,1.38953,gcam-v9.1
+SSP1,Brazil,2045,1.59951,gcam-v9.1
+SSP1,Brazil,2050,1.81057,gcam-v9.1
+SSP1,Brazil,2055,2.0114,gcam-v9.1
+SSP1,Brazil,2060,2.20085,gcam-v9.1
+SSP1,Brazil,2065,2.40277,gcam-v9.1
+SSP1,Brazil,2070,2.59914,gcam-v9.1
+SSP1,Brazil,2075,2.79536,gcam-v9.1
+SSP1,Brazil,2080,2.99835,gcam-v9.1
+SSP1,Brazil,2085,3.2169,gcam-v9.1
+SSP1,Brazil,2090,3.43106,gcam-v9.1
+SSP1,Brazil,2095,3.62689,gcam-v9.1
+SSP1,Brazil,2100,3.80835,gcam-v9.1
+SSP1,Canada,1975,0,gcam-v9.1
+SSP1,Canada,1990,0,gcam-v9.1
+SSP1,Canada,2005,0,gcam-v9.1
+SSP1,Canada,2010,0,gcam-v9.1
+SSP1,Canada,2015,0,gcam-v9.1
+SSP1,Canada,2021,0,gcam-v9.1
+SSP1,Canada,2025,0.999045,gcam-v9.1
+SSP1,Canada,2030,1.07654,gcam-v9.1
+SSP1,Canada,2035,1.17272,gcam-v9.1
+SSP1,Canada,2040,1.28664,gcam-v9.1
+SSP1,Canada,2045,1.40824,gcam-v9.1
+SSP1,Canada,2050,1.52325,gcam-v9.1
+SSP1,Canada,2055,1.63638,gcam-v9.1
+SSP1,Canada,2060,1.74488,gcam-v9.1
+SSP1,Canada,2065,1.85487,gcam-v9.1
+SSP1,Canada,2070,1.95438,gcam-v9.1
+SSP1,Canada,2075,2.06487,gcam-v9.1
+SSP1,Canada,2080,2.18837,gcam-v9.1
+SSP1,Canada,2085,2.30368,gcam-v9.1
+SSP1,Canada,2090,2.39813,gcam-v9.1
+SSP1,Canada,2095,2.47336,gcam-v9.1
+SSP1,Canada,2100,2.53462,gcam-v9.1
+SSP1,Central America and Caribbean,1975,0,gcam-v9.1
+SSP1,Central America and Caribbean,1990,0,gcam-v9.1
+SSP1,Central America and Caribbean,2005,0,gcam-v9.1
+SSP1,Central America and Caribbean,2010,0,gcam-v9.1
+SSP1,Central America and Caribbean,2015,0,gcam-v9.1
+SSP1,Central America and Caribbean,2021,0,gcam-v9.1
+SSP1,Central America and Caribbean,2025,1.06693,gcam-v9.1
+SSP1,Central America and Caribbean,2030,1.15989,gcam-v9.1
+SSP1,Central America and Caribbean,2035,1.27224,gcam-v9.1
+SSP1,Central America and Caribbean,2040,1.39993,gcam-v9.1
+SSP1,Central America and Caribbean,2045,1.52274,gcam-v9.1
+SSP1,Central America and Caribbean,2050,1.63758,gcam-v9.1
+SSP1,Central America and Caribbean,2055,1.7523,gcam-v9.1
+SSP1,Central America and Caribbean,2060,1.86796,gcam-v9.1
+SSP1,Central America and Caribbean,2065,1.98906,gcam-v9.1
+SSP1,Central America and Caribbean,2070,2.11247,gcam-v9.1
+SSP1,Central America and Caribbean,2075,2.23979,gcam-v9.1
+SSP1,Central America and Caribbean,2080,2.37654,gcam-v9.1
+SSP1,Central America and Caribbean,2085,2.5215,gcam-v9.1
+SSP1,Central America and Caribbean,2090,2.67519,gcam-v9.1
+SSP1,Central America and Caribbean,2095,2.81804,gcam-v9.1
+SSP1,Central America and Caribbean,2100,2.95517,gcam-v9.1
+SSP1,Central Asia,1975,0,gcam-v9.1
+SSP1,Central Asia,1990,0,gcam-v9.1
+SSP1,Central Asia,2005,0,gcam-v9.1
+SSP1,Central Asia,2010,0,gcam-v9.1
+SSP1,Central Asia,2015,0,gcam-v9.1
+SSP1,Central Asia,2021,0,gcam-v9.1
+SSP1,Central Asia,2025,1.23891,gcam-v9.1
+SSP1,Central Asia,2030,1.3319,gcam-v9.1
+SSP1,Central Asia,2035,1.46167,gcam-v9.1
+SSP1,Central Asia,2040,1.57014,gcam-v9.1
+SSP1,Central Asia,2045,1.60135,gcam-v9.1
+SSP1,Central Asia,2050,1.61632,gcam-v9.1
+SSP1,Central Asia,2055,1.65115,gcam-v9.1
+SSP1,Central Asia,2060,1.7039,gcam-v9.1
+SSP1,Central Asia,2065,1.76471,gcam-v9.1
+SSP1,Central Asia,2070,1.82264,gcam-v9.1
+SSP1,Central Asia,2075,1.88698,gcam-v9.1
+SSP1,Central Asia,2080,1.97567,gcam-v9.1
+SSP1,Central Asia,2085,2.08218,gcam-v9.1
+SSP1,Central Asia,2090,2.20682,gcam-v9.1
+SSP1,Central Asia,2095,2.33258,gcam-v9.1
+SSP1,Central Asia,2100,2.46452,gcam-v9.1
+SSP1,China,1975,0,gcam-v9.1
+SSP1,China,1990,0,gcam-v9.1
+SSP1,China,2005,0,gcam-v9.1
+SSP1,China,2010,0,gcam-v9.1
+SSP1,China,2015,0,gcam-v9.1
+SSP1,China,2021,0,gcam-v9.1
+SSP1,China,2025,1.11007,gcam-v9.1
+SSP1,China,2030,1.23567,gcam-v9.1
+SSP1,China,2035,1.37018,gcam-v9.1
+SSP1,China,2040,1.49651,gcam-v9.1
+SSP1,China,2045,1.61156,gcam-v9.1
+SSP1,China,2050,1.75852,gcam-v9.1
+SSP1,China,2055,1.93656,gcam-v9.1
+SSP1,China,2060,2.1109,gcam-v9.1
+SSP1,China,2065,2.26181,gcam-v9.1
+SSP1,China,2070,2.40044,gcam-v9.1
+SSP1,China,2075,2.55543,gcam-v9.1
+SSP1,China,2080,2.75558,gcam-v9.1
+SSP1,China,2085,2.97346,gcam-v9.1
+SSP1,China,2090,3.11711,gcam-v9.1
+SSP1,China,2095,3.22909,gcam-v9.1
+SSP1,China,2100,3.33956,gcam-v9.1
+SSP1,Colombia,1975,0,gcam-v9.1
+SSP1,Colombia,1990,0,gcam-v9.1
+SSP1,Colombia,2005,0,gcam-v9.1
+SSP1,Colombia,2010,0,gcam-v9.1
+SSP1,Colombia,2015,0,gcam-v9.1
+SSP1,Colombia,2021,0,gcam-v9.1
+SSP1,Colombia,2025,1.05479,gcam-v9.1
+SSP1,Colombia,2030,1.12843,gcam-v9.1
+SSP1,Colombia,2035,1.29048,gcam-v9.1
+SSP1,Colombia,2040,1.50553,gcam-v9.1
+SSP1,Colombia,2045,1.69605,gcam-v9.1
+SSP1,Colombia,2050,1.85241,gcam-v9.1
+SSP1,Colombia,2055,1.99958,gcam-v9.1
+SSP1,Colombia,2060,2.14675,gcam-v9.1
+SSP1,Colombia,2065,2.29806,gcam-v9.1
+SSP1,Colombia,2070,2.44255,gcam-v9.1
+SSP1,Colombia,2075,2.5753,gcam-v9.1
+SSP1,Colombia,2080,2.70588,gcam-v9.1
+SSP1,Colombia,2085,2.84283,gcam-v9.1
+SSP1,Colombia,2090,2.98624,gcam-v9.1
+SSP1,Colombia,2095,3.10644,gcam-v9.1
+SSP1,Colombia,2100,3.20926,gcam-v9.1
+SSP1,EU-12,1975,0,gcam-v9.1
+SSP1,EU-12,1990,0,gcam-v9.1
+SSP1,EU-12,2005,0,gcam-v9.1
+SSP1,EU-12,2010,0,gcam-v9.1
+SSP1,EU-12,2015,0,gcam-v9.1
+SSP1,EU-12,2021,0,gcam-v9.1
+SSP1,EU-12,2025,1.05098,gcam-v9.1
+SSP1,EU-12,2030,1.1334,gcam-v9.1
+SSP1,EU-12,2035,1.21081,gcam-v9.1
+SSP1,EU-12,2040,1.2896,gcam-v9.1
+SSP1,EU-12,2045,1.35607,gcam-v9.1
+SSP1,EU-12,2050,1.41482,gcam-v9.1
+SSP1,EU-12,2055,1.47896,gcam-v9.1
+SSP1,EU-12,2060,1.53683,gcam-v9.1
+SSP1,EU-12,2065,1.58318,gcam-v9.1
+SSP1,EU-12,2070,1.62584,gcam-v9.1
+SSP1,EU-12,2075,1.67917,gcam-v9.1
+SSP1,EU-12,2080,1.7379,gcam-v9.1
+SSP1,EU-12,2085,1.80594,gcam-v9.1
+SSP1,EU-12,2090,1.87347,gcam-v9.1
+SSP1,EU-12,2095,1.93,gcam-v9.1
+SSP1,EU-12,2100,1.98055,gcam-v9.1
+SSP1,EU-15,1975,0,gcam-v9.1
+SSP1,EU-15,1990,0,gcam-v9.1
+SSP1,EU-15,2005,0,gcam-v9.1
+SSP1,EU-15,2010,0,gcam-v9.1
+SSP1,EU-15,2015,0,gcam-v9.1
+SSP1,EU-15,2021,0,gcam-v9.1
+SSP1,EU-15,2025,1.03141,gcam-v9.1
+SSP1,EU-15,2030,1.08268,gcam-v9.1
+SSP1,EU-15,2035,1.15103,gcam-v9.1
+SSP1,EU-15,2040,1.23646,gcam-v9.1
+SSP1,EU-15,2045,1.32797,gcam-v9.1
+SSP1,EU-15,2050,1.41773,gcam-v9.1
+SSP1,EU-15,2055,1.505,gcam-v9.1
+SSP1,EU-15,2060,1.589,gcam-v9.1
+SSP1,EU-15,2065,1.66978,gcam-v9.1
+SSP1,EU-15,2070,1.74649,gcam-v9.1
+SSP1,EU-15,2075,1.82834,gcam-v9.1
+SSP1,EU-15,2080,1.91526,gcam-v9.1
+SSP1,EU-15,2085,1.99723,gcam-v9.1
+SSP1,EU-15,2090,2.06697,gcam-v9.1
+SSP1,EU-15,2095,2.12122,gcam-v9.1
+SSP1,EU-15,2100,2.16513,gcam-v9.1
+SSP1,Europe_Non_EU,1975,0,gcam-v9.1
+SSP1,Europe_Non_EU,1990,0,gcam-v9.1
+SSP1,Europe_Non_EU,2005,0,gcam-v9.1
+SSP1,Europe_Non_EU,2010,0,gcam-v9.1
+SSP1,Europe_Non_EU,2015,0,gcam-v9.1
+SSP1,Europe_Non_EU,2021,0,gcam-v9.1
+SSP1,Europe_Non_EU,2025,1.02521,gcam-v9.1
+SSP1,Europe_Non_EU,2030,1.06491,gcam-v9.1
+SSP1,Europe_Non_EU,2035,1.11753,gcam-v9.1
+SSP1,Europe_Non_EU,2040,1.15919,gcam-v9.1
+SSP1,Europe_Non_EU,2045,1.19131,gcam-v9.1
+SSP1,Europe_Non_EU,2050,1.21695,gcam-v9.1
+SSP1,Europe_Non_EU,2055,1.24942,gcam-v9.1
+SSP1,Europe_Non_EU,2060,1.28625,gcam-v9.1
+SSP1,Europe_Non_EU,2065,1.32474,gcam-v9.1
+SSP1,Europe_Non_EU,2070,1.35981,gcam-v9.1
+SSP1,Europe_Non_EU,2075,1.39662,gcam-v9.1
+SSP1,Europe_Non_EU,2080,1.44183,gcam-v9.1
+SSP1,Europe_Non_EU,2085,1.49492,gcam-v9.1
+SSP1,Europe_Non_EU,2090,1.54437,gcam-v9.1
+SSP1,Europe_Non_EU,2095,1.59274,gcam-v9.1
+SSP1,Europe_Non_EU,2100,1.64067,gcam-v9.1
+SSP1,European Free Trade Association,1975,0,gcam-v9.1
+SSP1,European Free Trade Association,1990,0,gcam-v9.1
+SSP1,European Free Trade Association,2005,0,gcam-v9.1
+SSP1,European Free Trade Association,2010,0,gcam-v9.1
+SSP1,European Free Trade Association,2015,0,gcam-v9.1
+SSP1,European Free Trade Association,2021,0,gcam-v9.1
+SSP1,European Free Trade Association,2025,0.999568,gcam-v9.1
+SSP1,European Free Trade Association,2030,1.0144,gcam-v9.1
+SSP1,European Free Trade Association,2035,1.0517,gcam-v9.1
+SSP1,European Free Trade Association,2040,1.09521,gcam-v9.1
+SSP1,European Free Trade Association,2045,1.13993,gcam-v9.1
+SSP1,European Free Trade Association,2050,1.18836,gcam-v9.1
+SSP1,European Free Trade Association,2055,1.24998,gcam-v9.1
+SSP1,European Free Trade Association,2060,1.31571,gcam-v9.1
+SSP1,European Free Trade Association,2065,1.38192,gcam-v9.1
+SSP1,European Free Trade Association,2070,1.44417,gcam-v9.1
+SSP1,European Free Trade Association,2075,1.51465,gcam-v9.1
+SSP1,European Free Trade Association,2080,1.59107,gcam-v9.1
+SSP1,European Free Trade Association,2085,1.65999,gcam-v9.1
+SSP1,European Free Trade Association,2090,1.71584,gcam-v9.1
+SSP1,European Free Trade Association,2095,1.76053,gcam-v9.1
+SSP1,European Free Trade Association,2100,1.79941,gcam-v9.1
+SSP1,India,1975,0,gcam-v9.1
+SSP1,India,1990,0,gcam-v9.1
+SSP1,India,2005,0,gcam-v9.1
+SSP1,India,2010,0,gcam-v9.1
+SSP1,India,2015,0,gcam-v9.1
+SSP1,India,2021,0,gcam-v9.1
+SSP1,India,2025,1.04365,gcam-v9.1
+SSP1,India,2030,1.21148,gcam-v9.1
+SSP1,India,2035,1.34671,gcam-v9.1
+SSP1,India,2040,1.48692,gcam-v9.1
+SSP1,India,2045,1.62012,gcam-v9.1
+SSP1,India,2050,1.7502,gcam-v9.1
+SSP1,India,2055,1.89179,gcam-v9.1
+SSP1,India,2060,2.05174,gcam-v9.1
+SSP1,India,2065,2.23389,gcam-v9.1
+SSP1,India,2070,2.42969,gcam-v9.1
+SSP1,India,2075,2.63405,gcam-v9.1
+SSP1,India,2080,2.84594,gcam-v9.1
+SSP1,India,2085,3.0653,gcam-v9.1
+SSP1,India,2090,3.29159,gcam-v9.1
+SSP1,India,2095,3.50118,gcam-v9.1
+SSP1,India,2100,3.70195,gcam-v9.1
+SSP1,Indonesia,1975,0,gcam-v9.1
+SSP1,Indonesia,1990,0,gcam-v9.1
+SSP1,Indonesia,2005,0,gcam-v9.1
+SSP1,Indonesia,2010,0,gcam-v9.1
+SSP1,Indonesia,2015,0,gcam-v9.1
+SSP1,Indonesia,2021,0,gcam-v9.1
+SSP1,Indonesia,2025,1.10633,gcam-v9.1
+SSP1,Indonesia,2030,1.27602,gcam-v9.1
+SSP1,Indonesia,2035,1.41677,gcam-v9.1
+SSP1,Indonesia,2040,1.56627,gcam-v9.1
+SSP1,Indonesia,2045,1.70039,gcam-v9.1
+SSP1,Indonesia,2050,1.81324,gcam-v9.1
+SSP1,Indonesia,2055,1.92242,gcam-v9.1
+SSP1,Indonesia,2060,2.0348,gcam-v9.1
+SSP1,Indonesia,2065,2.15527,gcam-v9.1
+SSP1,Indonesia,2070,2.28181,gcam-v9.1
+SSP1,Indonesia,2075,2.42516,gcam-v9.1
+SSP1,Indonesia,2080,2.59008,gcam-v9.1
+SSP1,Indonesia,2085,2.76542,gcam-v9.1
+SSP1,Indonesia,2090,2.95309,gcam-v9.1
+SSP1,Indonesia,2095,3.12552,gcam-v9.1
+SSP1,Indonesia,2100,3.28815,gcam-v9.1
+SSP1,Japan,1975,0,gcam-v9.1
+SSP1,Japan,1990,0,gcam-v9.1
+SSP1,Japan,2005,0,gcam-v9.1
+SSP1,Japan,2010,0,gcam-v9.1
+SSP1,Japan,2015,0,gcam-v9.1
+SSP1,Japan,2021,0,gcam-v9.1
+SSP1,Japan,2025,1.02102,gcam-v9.1
+SSP1,Japan,2030,1.04244,gcam-v9.1
+SSP1,Japan,2035,1.10707,gcam-v9.1
+SSP1,Japan,2040,1.21176,gcam-v9.1
+SSP1,Japan,2045,1.32633,gcam-v9.1
+SSP1,Japan,2050,1.43093,gcam-v9.1
+SSP1,Japan,2055,1.52169,gcam-v9.1
+SSP1,Japan,2060,1.60524,gcam-v9.1
+SSP1,Japan,2065,1.69391,gcam-v9.1
+SSP1,Japan,2070,1.78247,gcam-v9.1
+SSP1,Japan,2075,1.86857,gcam-v9.1
+SSP1,Japan,2080,1.95394,gcam-v9.1
+SSP1,Japan,2085,2.029,gcam-v9.1
+SSP1,Japan,2090,2.10184,gcam-v9.1
+SSP1,Japan,2095,2.1677,gcam-v9.1
+SSP1,Japan,2100,2.22144,gcam-v9.1
+SSP1,Mexico,1975,0,gcam-v9.1
+SSP1,Mexico,1990,0,gcam-v9.1
+SSP1,Mexico,2005,0,gcam-v9.1
+SSP1,Mexico,2010,0,gcam-v9.1
+SSP1,Mexico,2015,0,gcam-v9.1
+SSP1,Mexico,2021,0,gcam-v9.1
+SSP1,Mexico,2025,1.01993,gcam-v9.1
+SSP1,Mexico,2030,1.05737,gcam-v9.1
+SSP1,Mexico,2035,1.12522,gcam-v9.1
+SSP1,Mexico,2040,1.2184,gcam-v9.1
+SSP1,Mexico,2045,1.30199,gcam-v9.1
+SSP1,Mexico,2050,1.36317,gcam-v9.1
+SSP1,Mexico,2055,1.41723,gcam-v9.1
+SSP1,Mexico,2060,1.46294,gcam-v9.1
+SSP1,Mexico,2065,1.51086,gcam-v9.1
+SSP1,Mexico,2070,1.56553,gcam-v9.1
+SSP1,Mexico,2075,1.61616,gcam-v9.1
+SSP1,Mexico,2080,1.66629,gcam-v9.1
+SSP1,Mexico,2085,1.71157,gcam-v9.1
+SSP1,Mexico,2090,1.75628,gcam-v9.1
+SSP1,Mexico,2095,1.78952,gcam-v9.1
+SSP1,Mexico,2100,1.81329,gcam-v9.1
+SSP1,Middle East,1975,0,gcam-v9.1
+SSP1,Middle East,1990,0,gcam-v9.1
+SSP1,Middle East,2005,0,gcam-v9.1
+SSP1,Middle East,2010,0,gcam-v9.1
+SSP1,Middle East,2015,0,gcam-v9.1
+SSP1,Middle East,2021,0,gcam-v9.1
+SSP1,Middle East,2025,1.1091,gcam-v9.1
+SSP1,Middle East,2030,1.10516,gcam-v9.1
+SSP1,Middle East,2035,1.13279,gcam-v9.1
+SSP1,Middle East,2040,1.18156,gcam-v9.1
+SSP1,Middle East,2045,1.23995,gcam-v9.1
+SSP1,Middle East,2050,1.30923,gcam-v9.1
+SSP1,Middle East,2055,1.38785,gcam-v9.1
+SSP1,Middle East,2060,1.46432,gcam-v9.1
+SSP1,Middle East,2065,1.53516,gcam-v9.1
+SSP1,Middle East,2070,1.60882,gcam-v9.1
+SSP1,Middle East,2075,1.68849,gcam-v9.1
+SSP1,Middle East,2080,1.77626,gcam-v9.1
+SSP1,Middle East,2085,1.86898,gcam-v9.1
+SSP1,Middle East,2090,1.96729,gcam-v9.1
+SSP1,Middle East,2095,2.06584,gcam-v9.1
+SSP1,Middle East,2100,2.16828,gcam-v9.1
+SSP1,Pakistan,1975,0,gcam-v9.1
+SSP1,Pakistan,1990,0,gcam-v9.1
+SSP1,Pakistan,2005,0,gcam-v9.1
+SSP1,Pakistan,2010,0,gcam-v9.1
+SSP1,Pakistan,2015,0,gcam-v9.1
+SSP1,Pakistan,2021,0,gcam-v9.1
+SSP1,Pakistan,2025,1.06707,gcam-v9.1
+SSP1,Pakistan,2030,1.25876,gcam-v9.1
+SSP1,Pakistan,2035,1.42179,gcam-v9.1
+SSP1,Pakistan,2040,1.61734,gcam-v9.1
+SSP1,Pakistan,2045,1.77652,gcam-v9.1
+SSP1,Pakistan,2050,1.8527,gcam-v9.1
+SSP1,Pakistan,2055,1.87618,gcam-v9.1
+SSP1,Pakistan,2060,1.90691,gcam-v9.1
+SSP1,Pakistan,2065,1.97844,gcam-v9.1
+SSP1,Pakistan,2070,2.07947,gcam-v9.1
+SSP1,Pakistan,2075,2.20896,gcam-v9.1
+SSP1,Pakistan,2080,2.3652,gcam-v9.1
+SSP1,Pakistan,2085,2.54005,gcam-v9.1
+SSP1,Pakistan,2090,2.74416,gcam-v9.1
+SSP1,Pakistan,2095,2.96072,gcam-v9.1
+SSP1,Pakistan,2100,3.19693,gcam-v9.1
+SSP1,Russia,1975,0,gcam-v9.1
+SSP1,Russia,1990,0,gcam-v9.1
+SSP1,Russia,2005,0,gcam-v9.1
+SSP1,Russia,2010,0,gcam-v9.1
+SSP1,Russia,2015,0,gcam-v9.1
+SSP1,Russia,2021,0,gcam-v9.1
+SSP1,Russia,2025,0.945795,gcam-v9.1
+SSP1,Russia,2030,1.01979,gcam-v9.1
+SSP1,Russia,2035,1.14845,gcam-v9.1
+SSP1,Russia,2040,1.28729,gcam-v9.1
+SSP1,Russia,2045,1.40959,gcam-v9.1
+SSP1,Russia,2050,1.53912,gcam-v9.1
+SSP1,Russia,2055,1.70366,gcam-v9.1
+SSP1,Russia,2060,1.84628,gcam-v9.1
+SSP1,Russia,2065,1.97425,gcam-v9.1
+SSP1,Russia,2070,2.11224,gcam-v9.1
+SSP1,Russia,2075,2.25022,gcam-v9.1
+SSP1,Russia,2080,2.43608,gcam-v9.1
+SSP1,Russia,2085,2.63316,gcam-v9.1
+SSP1,Russia,2090,2.81886,gcam-v9.1
+SSP1,Russia,2095,2.99532,gcam-v9.1
+SSP1,Russia,2100,3.17501,gcam-v9.1
+SSP1,South Africa,1975,0,gcam-v9.1
+SSP1,South Africa,1990,0,gcam-v9.1
+SSP1,South Africa,2005,0,gcam-v9.1
+SSP1,South Africa,2010,0,gcam-v9.1
+SSP1,South Africa,2015,0,gcam-v9.1
+SSP1,South Africa,2021,0,gcam-v9.1
+SSP1,South Africa,2025,1.00769,gcam-v9.1
+SSP1,South Africa,2030,1.05415,gcam-v9.1
+SSP1,South Africa,2035,1.17272,gcam-v9.1
+SSP1,South Africa,2040,1.32785,gcam-v9.1
+SSP1,South Africa,2045,1.45885,gcam-v9.1
+SSP1,South Africa,2050,1.59074,gcam-v9.1
+SSP1,South Africa,2055,1.7304,gcam-v9.1
+SSP1,South Africa,2060,1.86885,gcam-v9.1
+SSP1,South Africa,2065,2.00505,gcam-v9.1
+SSP1,South Africa,2070,2.13987,gcam-v9.1
+SSP1,South Africa,2075,2.30079,gcam-v9.1
+SSP1,South Africa,2080,2.48621,gcam-v9.1
+SSP1,South Africa,2085,2.69291,gcam-v9.1
+SSP1,South Africa,2090,2.91211,gcam-v9.1
+SSP1,South Africa,2095,3.12561,gcam-v9.1
+SSP1,South Africa,2100,3.34031,gcam-v9.1
+SSP1,South America_Northern,1975,0,gcam-v9.1
+SSP1,South America_Northern,1990,0,gcam-v9.1
+SSP1,South America_Northern,2005,0,gcam-v9.1
+SSP1,South America_Northern,2010,0,gcam-v9.1
+SSP1,South America_Northern,2015,0,gcam-v9.1
+SSP1,South America_Northern,2021,0,gcam-v9.1
+SSP1,South America_Northern,2025,1.78873,gcam-v9.1
+SSP1,South America_Northern,2030,2.62789,gcam-v9.1
+SSP1,South America_Northern,2035,3.31996,gcam-v9.1
+SSP1,South America_Northern,2040,3.60755,gcam-v9.1
+SSP1,South America_Northern,2045,3.57155,gcam-v9.1
+SSP1,South America_Northern,2050,3.42496,gcam-v9.1
+SSP1,South America_Northern,2055,3.32554,gcam-v9.1
+SSP1,South America_Northern,2060,3.30785,gcam-v9.1
+SSP1,South America_Northern,2065,3.37985,gcam-v9.1
+SSP1,South America_Northern,2070,3.52343,gcam-v9.1
+SSP1,South America_Northern,2075,3.7245,gcam-v9.1
+SSP1,South America_Northern,2080,3.95255,gcam-v9.1
+SSP1,South America_Northern,2085,4.19067,gcam-v9.1
+SSP1,South America_Northern,2090,4.4323,gcam-v9.1
+SSP1,South America_Northern,2095,4.66798,gcam-v9.1
+SSP1,South America_Northern,2100,4.87372,gcam-v9.1
+SSP1,South America_Southern,1975,0,gcam-v9.1
+SSP1,South America_Southern,1990,0,gcam-v9.1
+SSP1,South America_Southern,2005,0,gcam-v9.1
+SSP1,South America_Southern,2010,0,gcam-v9.1
+SSP1,South America_Southern,2015,0,gcam-v9.1
+SSP1,South America_Southern,2021,0,gcam-v9.1
+SSP1,South America_Southern,2025,1.02398,gcam-v9.1
+SSP1,South America_Southern,2030,1.04733,gcam-v9.1
+SSP1,South America_Southern,2035,1.1108,gcam-v9.1
+SSP1,South America_Southern,2040,1.20393,gcam-v9.1
+SSP1,South America_Southern,2045,1.29984,gcam-v9.1
+SSP1,South America_Southern,2050,1.39099,gcam-v9.1
+SSP1,South America_Southern,2055,1.48471,gcam-v9.1
+SSP1,South America_Southern,2060,1.57966,gcam-v9.1
+SSP1,South America_Southern,2065,1.67865,gcam-v9.1
+SSP1,South America_Southern,2070,1.77665,gcam-v9.1
+SSP1,South America_Southern,2075,1.87801,gcam-v9.1
+SSP1,South America_Southern,2080,1.98516,gcam-v9.1
+SSP1,South America_Southern,2085,2.09637,gcam-v9.1
+SSP1,South America_Southern,2090,2.21242,gcam-v9.1
+SSP1,South America_Southern,2095,2.31861,gcam-v9.1
+SSP1,South America_Southern,2100,2.41934,gcam-v9.1
+SSP1,South Asia,1975,0,gcam-v9.1
+SSP1,South Asia,1990,0,gcam-v9.1
+SSP1,South Asia,2005,0,gcam-v9.1
+SSP1,South Asia,2010,0,gcam-v9.1
+SSP1,South Asia,2015,0,gcam-v9.1
+SSP1,South Asia,2021,0,gcam-v9.1
+SSP1,South Asia,2025,0.975144,gcam-v9.1
+SSP1,South Asia,2030,1.16737,gcam-v9.1
+SSP1,South Asia,2035,1.33382,gcam-v9.1
+SSP1,South Asia,2040,1.48044,gcam-v9.1
+SSP1,South Asia,2045,1.60084,gcam-v9.1
+SSP1,South Asia,2050,1.69667,gcam-v9.1
+SSP1,South Asia,2055,1.78482,gcam-v9.1
+SSP1,South Asia,2060,1.88305,gcam-v9.1
+SSP1,South Asia,2065,1.99913,gcam-v9.1
+SSP1,South Asia,2070,2.12602,gcam-v9.1
+SSP1,South Asia,2075,2.25782,gcam-v9.1
+SSP1,South Asia,2080,2.38894,gcam-v9.1
+SSP1,South Asia,2085,2.52853,gcam-v9.1
+SSP1,South Asia,2090,2.683,gcam-v9.1
+SSP1,South Asia,2095,2.83328,gcam-v9.1
+SSP1,South Asia,2100,2.98359,gcam-v9.1
+SSP1,South Korea,1975,0,gcam-v9.1
+SSP1,South Korea,1990,0,gcam-v9.1
+SSP1,South Korea,2005,0,gcam-v9.1
+SSP1,South Korea,2010,0,gcam-v9.1
+SSP1,South Korea,2015,0,gcam-v9.1
+SSP1,South Korea,2021,0,gcam-v9.1
+SSP1,South Korea,2025,1.03047,gcam-v9.1
+SSP1,South Korea,2030,1.09108,gcam-v9.1
+SSP1,South Korea,2035,1.16712,gcam-v9.1
+SSP1,South Korea,2040,1.28049,gcam-v9.1
+SSP1,South Korea,2045,1.36589,gcam-v9.1
+SSP1,South Korea,2050,1.46732,gcam-v9.1
+SSP1,South Korea,2055,1.54806,gcam-v9.1
+SSP1,South Korea,2060,1.63664,gcam-v9.1
+SSP1,South Korea,2065,1.73598,gcam-v9.1
+SSP1,South Korea,2070,1.80195,gcam-v9.1
+SSP1,South Korea,2075,1.85278,gcam-v9.1
+SSP1,South Korea,2080,1.92639,gcam-v9.1
+SSP1,South Korea,2085,1.98312,gcam-v9.1
+SSP1,South Korea,2090,2.00757,gcam-v9.1
+SSP1,South Korea,2095,2.03064,gcam-v9.1
+SSP1,South Korea,2100,2.04865,gcam-v9.1
+SSP1,Southeast Asia,1975,0,gcam-v9.1
+SSP1,Southeast Asia,1990,0,gcam-v9.1
+SSP1,Southeast Asia,2005,0,gcam-v9.1
+SSP1,Southeast Asia,2010,0,gcam-v9.1
+SSP1,Southeast Asia,2015,0,gcam-v9.1
+SSP1,Southeast Asia,2021,0,gcam-v9.1
+SSP1,Southeast Asia,2025,1.07791,gcam-v9.1
+SSP1,Southeast Asia,2030,1.22139,gcam-v9.1
+SSP1,Southeast Asia,2035,1.33474,gcam-v9.1
+SSP1,Southeast Asia,2040,1.41188,gcam-v9.1
+SSP1,Southeast Asia,2045,1.45839,gcam-v9.1
+SSP1,Southeast Asia,2050,1.50016,gcam-v9.1
+SSP1,Southeast Asia,2055,1.55235,gcam-v9.1
+SSP1,Southeast Asia,2060,1.61812,gcam-v9.1
+SSP1,Southeast Asia,2065,1.69375,gcam-v9.1
+SSP1,Southeast Asia,2070,1.77701,gcam-v9.1
+SSP1,Southeast Asia,2075,1.86741,gcam-v9.1
+SSP1,Southeast Asia,2080,1.96991,gcam-v9.1
+SSP1,Southeast Asia,2085,2.08633,gcam-v9.1
+SSP1,Southeast Asia,2090,2.21407,gcam-v9.1
+SSP1,Southeast Asia,2095,2.33719,gcam-v9.1
+SSP1,Southeast Asia,2100,2.45964,gcam-v9.1
+SSP1,Taiwan,1975,0,gcam-v9.1
+SSP1,Taiwan,1990,0,gcam-v9.1
+SSP1,Taiwan,2005,0,gcam-v9.1
+SSP1,Taiwan,2010,0,gcam-v9.1
+SSP1,Taiwan,2015,0,gcam-v9.1
+SSP1,Taiwan,2021,0,gcam-v9.1
+SSP1,Taiwan,2025,1.09661,gcam-v9.1
+SSP1,Taiwan,2030,1.20449,gcam-v9.1
+SSP1,Taiwan,2035,1.27147,gcam-v9.1
+SSP1,Taiwan,2040,1.28524,gcam-v9.1
+SSP1,Taiwan,2045,1.3352,gcam-v9.1
+SSP1,Taiwan,2050,1.41807,gcam-v9.1
+SSP1,Taiwan,2055,1.50548,gcam-v9.1
+SSP1,Taiwan,2060,1.6119,gcam-v9.1
+SSP1,Taiwan,2065,1.7303,gcam-v9.1
+SSP1,Taiwan,2070,1.82572,gcam-v9.1
+SSP1,Taiwan,2075,1.90905,gcam-v9.1
+SSP1,Taiwan,2080,2.0204,gcam-v9.1
+SSP1,Taiwan,2085,2.149,gcam-v9.1
+SSP1,Taiwan,2090,2.26558,gcam-v9.1
+SSP1,Taiwan,2095,2.39253,gcam-v9.1
+SSP1,Taiwan,2100,2.52054,gcam-v9.1
+SSP1,Ukraine,1975,0,gcam-v9.1
+SSP1,Ukraine,1990,0,gcam-v9.1
+SSP1,Ukraine,2005,0,gcam-v9.1
+SSP1,Ukraine,2010,0,gcam-v9.1
+SSP1,Ukraine,2015,0,gcam-v9.1
+SSP1,Ukraine,2021,0,gcam-v9.1
+SSP1,Ukraine,2025,0.478937,gcam-v9.1
+SSP1,Ukraine,2030,0.708372,gcam-v9.1
+SSP1,Ukraine,2035,1.00771,gcam-v9.1
+SSP1,Ukraine,2040,1.36722,gcam-v9.1
+SSP1,Ukraine,2045,1.72038,gcam-v9.1
+SSP1,Ukraine,2050,2.05079,gcam-v9.1
+SSP1,Ukraine,2055,2.36621,gcam-v9.1
+SSP1,Ukraine,2060,2.61179,gcam-v9.1
+SSP1,Ukraine,2065,2.79319,gcam-v9.1
+SSP1,Ukraine,2070,2.94249,gcam-v9.1
+SSP1,Ukraine,2075,3.12907,gcam-v9.1
+SSP1,Ukraine,2080,3.35141,gcam-v9.1
+SSP1,Ukraine,2085,3.54609,gcam-v9.1
+SSP1,Ukraine,2090,3.75603,gcam-v9.1
+SSP1,Ukraine,2095,3.941,gcam-v9.1
+SSP1,Ukraine,2100,4.14396,gcam-v9.1
+SSP1,USA,1975,0,gcam-v9.1
+SSP1,USA,1990,0,gcam-v9.1
+SSP1,USA,2005,0,gcam-v9.1
+SSP1,USA,2010,0,gcam-v9.1
+SSP1,USA,2015,0,gcam-v9.1
+SSP1,USA,2021,0,gcam-v9.1
+SSP1,USA,2025,1.00575,gcam-v9.1
+SSP1,USA,2030,1.04213,gcam-v9.1
+SSP1,USA,2035,1.08646,gcam-v9.1
+SSP1,USA,2040,1.14104,gcam-v9.1
+SSP1,USA,2045,1.19669,gcam-v9.1
+SSP1,USA,2050,1.25054,gcam-v9.1
+SSP1,USA,2055,1.30262,gcam-v9.1
+SSP1,USA,2060,1.3553,gcam-v9.1
+SSP1,USA,2065,1.40779,gcam-v9.1
+SSP1,USA,2070,1.46616,gcam-v9.1
+SSP1,USA,2075,1.53404,gcam-v9.1
+SSP1,USA,2080,1.60601,gcam-v9.1
+SSP1,USA,2085,1.67941,gcam-v9.1
+SSP1,USA,2090,1.74876,gcam-v9.1
+SSP1,USA,2095,1.81492,gcam-v9.1
+SSP1,USA,2100,1.87769,gcam-v9.1
+SSP2,Africa_Eastern,1975,0,gcam-v9.1
+SSP2,Africa_Eastern,1990,0,gcam-v9.1
+SSP2,Africa_Eastern,2005,0,gcam-v9.1
+SSP2,Africa_Eastern,2010,0,gcam-v9.1
+SSP2,Africa_Eastern,2015,0,gcam-v9.1
+SSP2,Africa_Eastern,2021,0,gcam-v9.1
+SSP2,Africa_Eastern,2025,0.984993,gcam-v9.1
+SSP2,Africa_Eastern,2030,1.1215,gcam-v9.1
+SSP2,Africa_Eastern,2035,1.25924,gcam-v9.1
+SSP2,Africa_Eastern,2040,1.38252,gcam-v9.1
+SSP2,Africa_Eastern,2045,1.48579,gcam-v9.1
+SSP2,Africa_Eastern,2050,1.58104,gcam-v9.1
+SSP2,Africa_Eastern,2055,1.67015,gcam-v9.1
+SSP2,Africa_Eastern,2060,1.75734,gcam-v9.1
+SSP2,Africa_Eastern,2065,1.85119,gcam-v9.1
+SSP2,Africa_Eastern,2070,1.94585,gcam-v9.1
+SSP2,Africa_Eastern,2075,2.0467,gcam-v9.1
+SSP2,Africa_Eastern,2080,2.15276,gcam-v9.1
+SSP2,Africa_Eastern,2085,2.26477,gcam-v9.1
+SSP2,Africa_Eastern,2090,2.38974,gcam-v9.1
+SSP2,Africa_Eastern,2095,2.52892,gcam-v9.1
+SSP2,Africa_Eastern,2100,2.68161,gcam-v9.1
+SSP2,Africa_Northern,1975,0,gcam-v9.1
+SSP2,Africa_Northern,1990,0,gcam-v9.1
+SSP2,Africa_Northern,2005,0,gcam-v9.1
+SSP2,Africa_Northern,2010,0,gcam-v9.1
+SSP2,Africa_Northern,2015,0,gcam-v9.1
+SSP2,Africa_Northern,2021,0,gcam-v9.1
+SSP2,Africa_Northern,2025,1.12037,gcam-v9.1
+SSP2,Africa_Northern,2030,1.26638,gcam-v9.1
+SSP2,Africa_Northern,2035,1.40462,gcam-v9.1
+SSP2,Africa_Northern,2040,1.54636,gcam-v9.1
+SSP2,Africa_Northern,2045,1.63062,gcam-v9.1
+SSP2,Africa_Northern,2050,1.70195,gcam-v9.1
+SSP2,Africa_Northern,2055,1.76442,gcam-v9.1
+SSP2,Africa_Northern,2060,1.79846,gcam-v9.1
+SSP2,Africa_Northern,2065,1.82377,gcam-v9.1
+SSP2,Africa_Northern,2070,1.84532,gcam-v9.1
+SSP2,Africa_Northern,2075,1.87975,gcam-v9.1
+SSP2,Africa_Northern,2080,1.93489,gcam-v9.1
+SSP2,Africa_Northern,2085,2.00046,gcam-v9.1
+SSP2,Africa_Northern,2090,2.07214,gcam-v9.1
+SSP2,Africa_Northern,2095,2.15404,gcam-v9.1
+SSP2,Africa_Northern,2100,2.2435,gcam-v9.1
+SSP2,Africa_Southern,1975,0,gcam-v9.1
+SSP2,Africa_Southern,1990,0,gcam-v9.1
+SSP2,Africa_Southern,2005,0,gcam-v9.1
+SSP2,Africa_Southern,2010,0,gcam-v9.1
+SSP2,Africa_Southern,2015,0,gcam-v9.1
+SSP2,Africa_Southern,2021,0,gcam-v9.1
+SSP2,Africa_Southern,2025,0.924378,gcam-v9.1
+SSP2,Africa_Southern,2030,0.990924,gcam-v9.1
+SSP2,Africa_Southern,2035,1.08126,gcam-v9.1
+SSP2,Africa_Southern,2040,1.16056,gcam-v9.1
+SSP2,Africa_Southern,2045,1.21611,gcam-v9.1
+SSP2,Africa_Southern,2050,1.27263,gcam-v9.1
+SSP2,Africa_Southern,2055,1.33281,gcam-v9.1
+SSP2,Africa_Southern,2060,1.39684,gcam-v9.1
+SSP2,Africa_Southern,2065,1.47111,gcam-v9.1
+SSP2,Africa_Southern,2070,1.54252,gcam-v9.1
+SSP2,Africa_Southern,2075,1.61531,gcam-v9.1
+SSP2,Africa_Southern,2080,1.69104,gcam-v9.1
+SSP2,Africa_Southern,2085,1.77036,gcam-v9.1
+SSP2,Africa_Southern,2090,1.85215,gcam-v9.1
+SSP2,Africa_Southern,2095,1.93838,gcam-v9.1
+SSP2,Africa_Southern,2100,2.03238,gcam-v9.1
+SSP2,Africa_Western,1975,0,gcam-v9.1
+SSP2,Africa_Western,1990,0,gcam-v9.1
+SSP2,Africa_Western,2005,0,gcam-v9.1
+SSP2,Africa_Western,2010,0,gcam-v9.1
+SSP2,Africa_Western,2015,0,gcam-v9.1
+SSP2,Africa_Western,2021,0,gcam-v9.1
+SSP2,Africa_Western,2025,1.07166,gcam-v9.1
+SSP2,Africa_Western,2030,1.16863,gcam-v9.1
+SSP2,Africa_Western,2035,1.31757,gcam-v9.1
+SSP2,Africa_Western,2040,1.44735,gcam-v9.1
+SSP2,Africa_Western,2045,1.53766,gcam-v9.1
+SSP2,Africa_Western,2050,1.60936,gcam-v9.1
+SSP2,Africa_Western,2055,1.66789,gcam-v9.1
+SSP2,Africa_Western,2060,1.71048,gcam-v9.1
+SSP2,Africa_Western,2065,1.74988,gcam-v9.1
+SSP2,Africa_Western,2070,1.78779,gcam-v9.1
+SSP2,Africa_Western,2075,1.82823,gcam-v9.1
+SSP2,Africa_Western,2080,1.87414,gcam-v9.1
+SSP2,Africa_Western,2085,1.92628,gcam-v9.1
+SSP2,Africa_Western,2090,1.98539,gcam-v9.1
+SSP2,Africa_Western,2095,2.05486,gcam-v9.1
+SSP2,Africa_Western,2100,2.13265,gcam-v9.1
+SSP2,Argentina,1975,0,gcam-v9.1
+SSP2,Argentina,1990,0,gcam-v9.1
+SSP2,Argentina,2005,0,gcam-v9.1
+SSP2,Argentina,2010,0,gcam-v9.1
+SSP2,Argentina,2015,0,gcam-v9.1
+SSP2,Argentina,2021,0,gcam-v9.1
+SSP2,Argentina,2025,1.02705,gcam-v9.1
+SSP2,Argentina,2030,1.08143,gcam-v9.1
+SSP2,Argentina,2035,1.11679,gcam-v9.1
+SSP2,Argentina,2040,1.1716,gcam-v9.1
+SSP2,Argentina,2045,1.24574,gcam-v9.1
+SSP2,Argentina,2050,1.33138,gcam-v9.1
+SSP2,Argentina,2055,1.43052,gcam-v9.1
+SSP2,Argentina,2060,1.53529,gcam-v9.1
+SSP2,Argentina,2065,1.64508,gcam-v9.1
+SSP2,Argentina,2070,1.75759,gcam-v9.1
+SSP2,Argentina,2075,1.87516,gcam-v9.1
+SSP2,Argentina,2080,2.00206,gcam-v9.1
+SSP2,Argentina,2085,2.12985,gcam-v9.1
+SSP2,Argentina,2090,2.24233,gcam-v9.1
+SSP2,Argentina,2095,2.35592,gcam-v9.1
+SSP2,Argentina,2100,2.47246,gcam-v9.1
+SSP2,Australia_NZ,1975,0,gcam-v9.1
+SSP2,Australia_NZ,1990,0,gcam-v9.1
+SSP2,Australia_NZ,2005,0,gcam-v9.1
+SSP2,Australia_NZ,2010,0,gcam-v9.1
+SSP2,Australia_NZ,2015,0,gcam-v9.1
+SSP2,Australia_NZ,2021,0,gcam-v9.1
+SSP2,Australia_NZ,2025,1.0098,gcam-v9.1
+SSP2,Australia_NZ,2030,1.06978,gcam-v9.1
+SSP2,Australia_NZ,2035,1.12968,gcam-v9.1
+SSP2,Australia_NZ,2040,1.19725,gcam-v9.1
+SSP2,Australia_NZ,2045,1.26114,gcam-v9.1
+SSP2,Australia_NZ,2050,1.33031,gcam-v9.1
+SSP2,Australia_NZ,2055,1.40046,gcam-v9.1
+SSP2,Australia_NZ,2060,1.47517,gcam-v9.1
+SSP2,Australia_NZ,2065,1.54471,gcam-v9.1
+SSP2,Australia_NZ,2070,1.60317,gcam-v9.1
+SSP2,Australia_NZ,2075,1.66557,gcam-v9.1
+SSP2,Australia_NZ,2080,1.73266,gcam-v9.1
+SSP2,Australia_NZ,2085,1.79708,gcam-v9.1
+SSP2,Australia_NZ,2090,1.85358,gcam-v9.1
+SSP2,Australia_NZ,2095,1.90971,gcam-v9.1
+SSP2,Australia_NZ,2100,1.96502,gcam-v9.1
+SSP2,Brazil,1975,0,gcam-v9.1
+SSP2,Brazil,1990,0,gcam-v9.1
+SSP2,Brazil,2005,0,gcam-v9.1
+SSP2,Brazil,2010,0,gcam-v9.1
+SSP2,Brazil,2015,0,gcam-v9.1
+SSP2,Brazil,2021,0,gcam-v9.1
+SSP2,Brazil,2025,1.01529,gcam-v9.1
+SSP2,Brazil,2030,1.05561,gcam-v9.1
+SSP2,Brazil,2035,1.17379,gcam-v9.1
+SSP2,Brazil,2040,1.34009,gcam-v9.1
+SSP2,Brazil,2045,1.52095,gcam-v9.1
+SSP2,Brazil,2050,1.70382,gcam-v9.1
+SSP2,Brazil,2055,1.87732,gcam-v9.1
+SSP2,Brazil,2060,2.04054,gcam-v9.1
+SSP2,Brazil,2065,2.21193,gcam-v9.1
+SSP2,Brazil,2070,2.37406,gcam-v9.1
+SSP2,Brazil,2075,2.53002,gcam-v9.1
+SSP2,Brazil,2080,2.68326,gcam-v9.1
+SSP2,Brazil,2085,2.84138,gcam-v9.1
+SSP2,Brazil,2090,2.98793,gcam-v9.1
+SSP2,Brazil,2095,3.14004,gcam-v9.1
+SSP2,Brazil,2100,3.29859,gcam-v9.1
+SSP2,Canada,1975,0,gcam-v9.1
+SSP2,Canada,1990,0,gcam-v9.1
+SSP2,Canada,2005,0,gcam-v9.1
+SSP2,Canada,2010,0,gcam-v9.1
+SSP2,Canada,2015,0,gcam-v9.1
+SSP2,Canada,2021,0,gcam-v9.1
+SSP2,Canada,2025,1.00316,gcam-v9.1
+SSP2,Canada,2030,1.08271,gcam-v9.1
+SSP2,Canada,2035,1.16661,gcam-v9.1
+SSP2,Canada,2040,1.2609,gcam-v9.1
+SSP2,Canada,2045,1.35995,gcam-v9.1
+SSP2,Canada,2050,1.46527,gcam-v9.1
+SSP2,Canada,2055,1.56266,gcam-v9.1
+SSP2,Canada,2060,1.66045,gcam-v9.1
+SSP2,Canada,2065,1.75567,gcam-v9.1
+SSP2,Canada,2070,1.83783,gcam-v9.1
+SSP2,Canada,2075,1.92158,gcam-v9.1
+SSP2,Canada,2080,2.01299,gcam-v9.1
+SSP2,Canada,2085,2.09834,gcam-v9.1
+SSP2,Canada,2090,2.16757,gcam-v9.1
+SSP2,Canada,2095,2.23674,gcam-v9.1
+SSP2,Canada,2100,2.30743,gcam-v9.1
+SSP2,Central America and Caribbean,1975,0,gcam-v9.1
+SSP2,Central America and Caribbean,1990,0,gcam-v9.1
+SSP2,Central America and Caribbean,2005,0,gcam-v9.1
+SSP2,Central America and Caribbean,2010,0,gcam-v9.1
+SSP2,Central America and Caribbean,2015,0,gcam-v9.1
+SSP2,Central America and Caribbean,2021,0,gcam-v9.1
+SSP2,Central America and Caribbean,2025,1.06734,gcam-v9.1
+SSP2,Central America and Caribbean,2030,1.1516,gcam-v9.1
+SSP2,Central America and Caribbean,2035,1.25039,gcam-v9.1
+SSP2,Central America and Caribbean,2040,1.35282,gcam-v9.1
+SSP2,Central America and Caribbean,2045,1.44927,gcam-v9.1
+SSP2,Central America and Caribbean,2050,1.54389,gcam-v9.1
+SSP2,Central America and Caribbean,2055,1.64116,gcam-v9.1
+SSP2,Central America and Caribbean,2060,1.7375,gcam-v9.1
+SSP2,Central America and Caribbean,2065,1.83622,gcam-v9.1
+SSP2,Central America and Caribbean,2070,1.93377,gcam-v9.1
+SSP2,Central America and Caribbean,2075,2.03015,gcam-v9.1
+SSP2,Central America and Caribbean,2080,2.12874,gcam-v9.1
+SSP2,Central America and Caribbean,2085,2.22819,gcam-v9.1
+SSP2,Central America and Caribbean,2090,2.32839,gcam-v9.1
+SSP2,Central America and Caribbean,2095,2.43266,gcam-v9.1
+SSP2,Central America and Caribbean,2100,2.54146,gcam-v9.1
+SSP2,Central Asia,1975,0,gcam-v9.1
+SSP2,Central Asia,1990,0,gcam-v9.1
+SSP2,Central Asia,2005,0,gcam-v9.1
+SSP2,Central Asia,2010,0,gcam-v9.1
+SSP2,Central Asia,2015,0,gcam-v9.1
+SSP2,Central Asia,2021,0,gcam-v9.1
+SSP2,Central Asia,2025,1.18278,gcam-v9.1
+SSP2,Central Asia,2030,1.30473,gcam-v9.1
+SSP2,Central Asia,2035,1.42727,gcam-v9.1
+SSP2,Central Asia,2040,1.51304,gcam-v9.1
+SSP2,Central Asia,2045,1.53673,gcam-v9.1
+SSP2,Central Asia,2050,1.56038,gcam-v9.1
+SSP2,Central Asia,2055,1.60746,gcam-v9.1
+SSP2,Central Asia,2060,1.66211,gcam-v9.1
+SSP2,Central Asia,2065,1.72123,gcam-v9.1
+SSP2,Central Asia,2070,1.78054,gcam-v9.1
+SSP2,Central Asia,2075,1.8367,gcam-v9.1
+SSP2,Central Asia,2080,1.90933,gcam-v9.1
+SSP2,Central Asia,2085,1.99616,gcam-v9.1
+SSP2,Central Asia,2090,2.09344,gcam-v9.1
+SSP2,Central Asia,2095,2.19182,gcam-v9.1
+SSP2,Central Asia,2100,2.29083,gcam-v9.1
+SSP2,China,1975,0,gcam-v9.1
+SSP2,China,1990,0,gcam-v9.1
+SSP2,China,2005,0,gcam-v9.1
+SSP2,China,2010,0,gcam-v9.1
+SSP2,China,2015,0,gcam-v9.1
+SSP2,China,2021,0,gcam-v9.1
+SSP2,China,2025,1.10264,gcam-v9.1
+SSP2,China,2030,1.22531,gcam-v9.1
+SSP2,China,2035,1.33818,gcam-v9.1
+SSP2,China,2040,1.42915,gcam-v9.1
+SSP2,China,2045,1.50625,gcam-v9.1
+SSP2,China,2050,1.61978,gcam-v9.1
+SSP2,China,2055,1.76674,gcam-v9.1
+SSP2,China,2060,1.91006,gcam-v9.1
+SSP2,China,2065,2.03124,gcam-v9.1
+SSP2,China,2070,2.14229,gcam-v9.1
+SSP2,China,2075,2.26829,gcam-v9.1
+SSP2,China,2080,2.42966,gcam-v9.1
+SSP2,China,2085,2.60205,gcam-v9.1
+SSP2,China,2090,2.71354,gcam-v9.1
+SSP2,China,2095,2.8105,gcam-v9.1
+SSP2,China,2100,2.90787,gcam-v9.1
+SSP2,Colombia,1975,0,gcam-v9.1
+SSP2,Colombia,1990,0,gcam-v9.1
+SSP2,Colombia,2005,0,gcam-v9.1
+SSP2,Colombia,2010,0,gcam-v9.1
+SSP2,Colombia,2015,0,gcam-v9.1
+SSP2,Colombia,2021,0,gcam-v9.1
+SSP2,Colombia,2025,1.05173,gcam-v9.1
+SSP2,Colombia,2030,1.12675,gcam-v9.1
+SSP2,Colombia,2035,1.267,gcam-v9.1
+SSP2,Colombia,2040,1.44106,gcam-v9.1
+SSP2,Colombia,2045,1.59131,gcam-v9.1
+SSP2,Colombia,2050,1.7237,gcam-v9.1
+SSP2,Colombia,2055,1.85151,gcam-v9.1
+SSP2,Colombia,2060,1.97978,gcam-v9.1
+SSP2,Colombia,2065,2.10841,gcam-v9.1
+SSP2,Colombia,2070,2.22712,gcam-v9.1
+SSP2,Colombia,2075,2.3282,gcam-v9.1
+SSP2,Colombia,2080,2.42036,gcam-v9.1
+SSP2,Colombia,2085,2.51295,gcam-v9.1
+SSP2,Colombia,2090,2.60463,gcam-v9.1
+SSP2,Colombia,2095,2.69601,gcam-v9.1
+SSP2,Colombia,2100,2.78716,gcam-v9.1
+SSP2,EU-12,1975,0,gcam-v9.1
+SSP2,EU-12,1990,0,gcam-v9.1
+SSP2,EU-12,2005,0,gcam-v9.1
+SSP2,EU-12,2010,0,gcam-v9.1
+SSP2,EU-12,2015,0,gcam-v9.1
+SSP2,EU-12,2021,0,gcam-v9.1
+SSP2,EU-12,2025,1.05375,gcam-v9.1
+SSP2,EU-12,2030,1.14684,gcam-v9.1
+SSP2,EU-12,2035,1.20869,gcam-v9.1
+SSP2,EU-12,2040,1.26502,gcam-v9.1
+SSP2,EU-12,2045,1.31623,gcam-v9.1
+SSP2,EU-12,2050,1.36488,gcam-v9.1
+SSP2,EU-12,2055,1.4208,gcam-v9.1
+SSP2,EU-12,2060,1.46942,gcam-v9.1
+SSP2,EU-12,2065,1.50477,gcam-v9.1
+SSP2,EU-12,2070,1.53519,gcam-v9.1
+SSP2,EU-12,2075,1.57388,gcam-v9.1
+SSP2,EU-12,2080,1.61697,gcam-v9.1
+SSP2,EU-12,2085,1.66823,gcam-v9.1
+SSP2,EU-12,2090,1.71845,gcam-v9.1
+SSP2,EU-12,2095,1.76605,gcam-v9.1
+SSP2,EU-12,2100,1.81209,gcam-v9.1
+SSP2,EU-15,1975,0,gcam-v9.1
+SSP2,EU-15,1990,0,gcam-v9.1
+SSP2,EU-15,2005,0,gcam-v9.1
+SSP2,EU-15,2010,0,gcam-v9.1
+SSP2,EU-15,2015,0,gcam-v9.1
+SSP2,EU-15,2021,0,gcam-v9.1
+SSP2,EU-15,2025,1.04205,gcam-v9.1
+SSP2,EU-15,2030,1.09319,gcam-v9.1
+SSP2,EU-15,2035,1.15158,gcam-v9.1
+SSP2,EU-15,2040,1.21717,gcam-v9.1
+SSP2,EU-15,2045,1.2844,gcam-v9.1
+SSP2,EU-15,2050,1.35108,gcam-v9.1
+SSP2,EU-15,2055,1.41863,gcam-v9.1
+SSP2,EU-15,2060,1.48337,gcam-v9.1
+SSP2,EU-15,2065,1.5443,gcam-v9.1
+SSP2,EU-15,2070,1.60056,gcam-v9.1
+SSP2,EU-15,2075,1.66028,gcam-v9.1
+SSP2,EU-15,2080,1.72371,gcam-v9.1
+SSP2,EU-15,2085,1.78373,gcam-v9.1
+SSP2,EU-15,2090,1.83576,gcam-v9.1
+SSP2,EU-15,2095,1.88688,gcam-v9.1
+SSP2,EU-15,2100,1.93701,gcam-v9.1
+SSP2,Europe_Non_EU,1975,0,gcam-v9.1
+SSP2,Europe_Non_EU,1990,0,gcam-v9.1
+SSP2,Europe_Non_EU,2005,0,gcam-v9.1
+SSP2,Europe_Non_EU,2010,0,gcam-v9.1
+SSP2,Europe_Non_EU,2015,0,gcam-v9.1
+SSP2,Europe_Non_EU,2021,0,gcam-v9.1
+SSP2,Europe_Non_EU,2025,1.01483,gcam-v9.1
+SSP2,Europe_Non_EU,2030,1.07589,gcam-v9.1
+SSP2,Europe_Non_EU,2035,1.12096,gcam-v9.1
+SSP2,Europe_Non_EU,2040,1.15142,gcam-v9.1
+SSP2,Europe_Non_EU,2045,1.1817,gcam-v9.1
+SSP2,Europe_Non_EU,2050,1.20847,gcam-v9.1
+SSP2,Europe_Non_EU,2055,1.24298,gcam-v9.1
+SSP2,Europe_Non_EU,2060,1.27645,gcam-v9.1
+SSP2,Europe_Non_EU,2065,1.30732,gcam-v9.1
+SSP2,Europe_Non_EU,2070,1.33266,gcam-v9.1
+SSP2,Europe_Non_EU,2075,1.35784,gcam-v9.1
+SSP2,Europe_Non_EU,2080,1.38945,gcam-v9.1
+SSP2,Europe_Non_EU,2085,1.42713,gcam-v9.1
+SSP2,Europe_Non_EU,2090,1.46048,gcam-v9.1
+SSP2,Europe_Non_EU,2095,1.49642,gcam-v9.1
+SSP2,Europe_Non_EU,2100,1.53379,gcam-v9.1
+SSP2,European Free Trade Association,1975,0,gcam-v9.1
+SSP2,European Free Trade Association,1990,0,gcam-v9.1
+SSP2,European Free Trade Association,2005,0,gcam-v9.1
+SSP2,European Free Trade Association,2010,0,gcam-v9.1
+SSP2,European Free Trade Association,2015,0,gcam-v9.1
+SSP2,European Free Trade Association,2021,0,gcam-v9.1
+SSP2,European Free Trade Association,2025,1.00738,gcam-v9.1
+SSP2,European Free Trade Association,2030,1.01883,gcam-v9.1
+SSP2,European Free Trade Association,2035,1.04536,gcam-v9.1
+SSP2,European Free Trade Association,2040,1.07382,gcam-v9.1
+SSP2,European Free Trade Association,2045,1.10162,gcam-v9.1
+SSP2,European Free Trade Association,2050,1.13761,gcam-v9.1
+SSP2,European Free Trade Association,2055,1.18217,gcam-v9.1
+SSP2,European Free Trade Association,2060,1.23298,gcam-v9.1
+SSP2,European Free Trade Association,2065,1.28188,gcam-v9.1
+SSP2,European Free Trade Association,2070,1.3249,gcam-v9.1
+SSP2,European Free Trade Association,2075,1.37299,gcam-v9.1
+SSP2,European Free Trade Association,2080,1.42743,gcam-v9.1
+SSP2,European Free Trade Association,2085,1.48065,gcam-v9.1
+SSP2,European Free Trade Association,2090,1.52612,gcam-v9.1
+SSP2,European Free Trade Association,2095,1.57089,gcam-v9.1
+SSP2,European Free Trade Association,2100,1.61461,gcam-v9.1
+SSP2,India,1975,0,gcam-v9.1
+SSP2,India,1990,0,gcam-v9.1
+SSP2,India,2005,0,gcam-v9.1
+SSP2,India,2010,0,gcam-v9.1
+SSP2,India,2015,0,gcam-v9.1
+SSP2,India,2021,0,gcam-v9.1
+SSP2,India,2025,1.0591,gcam-v9.1
+SSP2,India,2030,1.20764,gcam-v9.1
+SSP2,India,2035,1.31753,gcam-v9.1
+SSP2,India,2040,1.42176,gcam-v9.1
+SSP2,India,2045,1.5233,gcam-v9.1
+SSP2,India,2050,1.63517,gcam-v9.1
+SSP2,India,2055,1.7612,gcam-v9.1
+SSP2,India,2060,1.89982,gcam-v9.1
+SSP2,India,2065,2.05302,gcam-v9.1
+SSP2,India,2070,2.21543,gcam-v9.1
+SSP2,India,2075,2.38036,gcam-v9.1
+SSP2,India,2080,2.54266,gcam-v9.1
+SSP2,India,2085,2.70082,gcam-v9.1
+SSP2,India,2090,2.85336,gcam-v9.1
+SSP2,India,2095,3.01042,gcam-v9.1
+SSP2,India,2100,3.17361,gcam-v9.1
+SSP2,Indonesia,1975,0,gcam-v9.1
+SSP2,Indonesia,1990,0,gcam-v9.1
+SSP2,Indonesia,2005,0,gcam-v9.1
+SSP2,Indonesia,2010,0,gcam-v9.1
+SSP2,Indonesia,2015,0,gcam-v9.1
+SSP2,Indonesia,2021,0,gcam-v9.1
+SSP2,Indonesia,2025,1.11348,gcam-v9.1
+SSP2,Indonesia,2030,1.27182,gcam-v9.1
+SSP2,Indonesia,2035,1.3853,gcam-v9.1
+SSP2,Indonesia,2040,1.49611,gcam-v9.1
+SSP2,Indonesia,2045,1.59633,gcam-v9.1
+SSP2,Indonesia,2050,1.68693,gcam-v9.1
+SSP2,Indonesia,2055,1.78032,gcam-v9.1
+SSP2,Indonesia,2060,1.8766,gcam-v9.1
+SSP2,Indonesia,2065,1.98026,gcam-v9.1
+SSP2,Indonesia,2070,2.08892,gcam-v9.1
+SSP2,Indonesia,2075,2.20852,gcam-v9.1
+SSP2,Indonesia,2080,2.33697,gcam-v9.1
+SSP2,Indonesia,2085,2.46288,gcam-v9.1
+SSP2,Indonesia,2090,2.58465,gcam-v9.1
+SSP2,Indonesia,2095,2.70485,gcam-v9.1
+SSP2,Indonesia,2100,2.8223,gcam-v9.1
+SSP2,Japan,1975,0,gcam-v9.1
+SSP2,Japan,1990,0,gcam-v9.1
+SSP2,Japan,2005,0,gcam-v9.1
+SSP2,Japan,2010,0,gcam-v9.1
+SSP2,Japan,2015,0,gcam-v9.1
+SSP2,Japan,2021,0,gcam-v9.1
+SSP2,Japan,2025,1.02514,gcam-v9.1
+SSP2,Japan,2030,1.0511,gcam-v9.1
+SSP2,Japan,2035,1.09978,gcam-v9.1
+SSP2,Japan,2040,1.17354,gcam-v9.1
+SSP2,Japan,2045,1.24477,gcam-v9.1
+SSP2,Japan,2050,1.31301,gcam-v9.1
+SSP2,Japan,2055,1.37907,gcam-v9.1
+SSP2,Japan,2060,1.43954,gcam-v9.1
+SSP2,Japan,2065,1.50325,gcam-v9.1
+SSP2,Japan,2070,1.56694,gcam-v9.1
+SSP2,Japan,2075,1.6311,gcam-v9.1
+SSP2,Japan,2080,1.70038,gcam-v9.1
+SSP2,Japan,2085,1.76345,gcam-v9.1
+SSP2,Japan,2090,1.8254,gcam-v9.1
+SSP2,Japan,2095,1.88986,gcam-v9.1
+SSP2,Japan,2100,1.95411,gcam-v9.1
+SSP2,Mexico,1975,0,gcam-v9.1
+SSP2,Mexico,1990,0,gcam-v9.1
+SSP2,Mexico,2005,0,gcam-v9.1
+SSP2,Mexico,2010,0,gcam-v9.1
+SSP2,Mexico,2015,0,gcam-v9.1
+SSP2,Mexico,2021,0,gcam-v9.1
+SSP2,Mexico,2025,1.02159,gcam-v9.1
+SSP2,Mexico,2030,1.05873,gcam-v9.1
+SSP2,Mexico,2035,1.11339,gcam-v9.1
+SSP2,Mexico,2040,1.18355,gcam-v9.1
+SSP2,Mexico,2045,1.24649,gcam-v9.1
+SSP2,Mexico,2050,1.29805,gcam-v9.1
+SSP2,Mexico,2055,1.34651,gcam-v9.1
+SSP2,Mexico,2060,1.38726,gcam-v9.1
+SSP2,Mexico,2065,1.42785,gcam-v9.1
+SSP2,Mexico,2070,1.47255,gcam-v9.1
+SSP2,Mexico,2075,1.51177,gcam-v9.1
+SSP2,Mexico,2080,1.5485,gcam-v9.1
+SSP2,Mexico,2085,1.58045,gcam-v9.1
+SSP2,Mexico,2090,1.61105,gcam-v9.1
+SSP2,Mexico,2095,1.64036,gcam-v9.1
+SSP2,Mexico,2100,1.66859,gcam-v9.1
+SSP2,Middle East,1975,0,gcam-v9.1
+SSP2,Middle East,1990,0,gcam-v9.1
+SSP2,Middle East,2005,0,gcam-v9.1
+SSP2,Middle East,2010,0,gcam-v9.1
+SSP2,Middle East,2015,0,gcam-v9.1
+SSP2,Middle East,2021,0,gcam-v9.1
+SSP2,Middle East,2025,1.11065,gcam-v9.1
+SSP2,Middle East,2030,1.12569,gcam-v9.1
+SSP2,Middle East,2035,1.15448,gcam-v9.1
+SSP2,Middle East,2040,1.19879,gcam-v9.1
+SSP2,Middle East,2045,1.25497,gcam-v9.1
+SSP2,Middle East,2050,1.3085,gcam-v9.1
+SSP2,Middle East,2055,1.37794,gcam-v9.1
+SSP2,Middle East,2060,1.43651,gcam-v9.1
+SSP2,Middle East,2065,1.48926,gcam-v9.1
+SSP2,Middle East,2070,1.5431,gcam-v9.1
+SSP2,Middle East,2075,1.60383,gcam-v9.1
+SSP2,Middle East,2080,1.6719,gcam-v9.1
+SSP2,Middle East,2085,1.74186,gcam-v9.1
+SSP2,Middle East,2090,1.81585,gcam-v9.1
+SSP2,Middle East,2095,1.89212,gcam-v9.1
+SSP2,Middle East,2100,1.97493,gcam-v9.1
+SSP2,Pakistan,1975,0,gcam-v9.1
+SSP2,Pakistan,1990,0,gcam-v9.1
+SSP2,Pakistan,2005,0,gcam-v9.1
+SSP2,Pakistan,2010,0,gcam-v9.1
+SSP2,Pakistan,2015,0,gcam-v9.1
+SSP2,Pakistan,2021,0,gcam-v9.1
+SSP2,Pakistan,2025,1.04099,gcam-v9.1
+SSP2,Pakistan,2030,1.22512,gcam-v9.1
+SSP2,Pakistan,2035,1.38589,gcam-v9.1
+SSP2,Pakistan,2040,1.56107,gcam-v9.1
+SSP2,Pakistan,2045,1.69664,gcam-v9.1
+SSP2,Pakistan,2050,1.77803,gcam-v9.1
+SSP2,Pakistan,2055,1.82166,gcam-v9.1
+SSP2,Pakistan,2060,1.85004,gcam-v9.1
+SSP2,Pakistan,2065,1.88472,gcam-v9.1
+SSP2,Pakistan,2070,1.92523,gcam-v9.1
+SSP2,Pakistan,2075,1.98547,gcam-v9.1
+SSP2,Pakistan,2080,2.06337,gcam-v9.1
+SSP2,Pakistan,2085,2.15503,gcam-v9.1
+SSP2,Pakistan,2090,2.26634,gcam-v9.1
+SSP2,Pakistan,2095,2.39549,gcam-v9.1
+SSP2,Pakistan,2100,2.54299,gcam-v9.1
+SSP2,Russia,1975,0,gcam-v9.1
+SSP2,Russia,1990,0,gcam-v9.1
+SSP2,Russia,2005,0,gcam-v9.1
+SSP2,Russia,2010,0,gcam-v9.1
+SSP2,Russia,2015,0,gcam-v9.1
+SSP2,Russia,2021,0,gcam-v9.1
+SSP2,Russia,2025,0.938227,gcam-v9.1
+SSP2,Russia,2030,1.01551,gcam-v9.1
+SSP2,Russia,2035,1.12941,gcam-v9.1
+SSP2,Russia,2040,1.25128,gcam-v9.1
+SSP2,Russia,2045,1.35226,gcam-v9.1
+SSP2,Russia,2050,1.47124,gcam-v9.1
+SSP2,Russia,2055,1.60932,gcam-v9.1
+SSP2,Russia,2060,1.72765,gcam-v9.1
+SSP2,Russia,2065,1.82268,gcam-v9.1
+SSP2,Russia,2070,1.92892,gcam-v9.1
+SSP2,Russia,2075,2.03716,gcam-v9.1
+SSP2,Russia,2080,2.18043,gcam-v9.1
+SSP2,Russia,2085,2.33769,gcam-v9.1
+SSP2,Russia,2090,2.48224,gcam-v9.1
+SSP2,Russia,2095,2.62263,gcam-v9.1
+SSP2,Russia,2100,2.76165,gcam-v9.1
+SSP2,South Africa,1975,0,gcam-v9.1
+SSP2,South Africa,1990,0,gcam-v9.1
+SSP2,South Africa,2005,0,gcam-v9.1
+SSP2,South Africa,2010,0,gcam-v9.1
+SSP2,South Africa,2015,0,gcam-v9.1
+SSP2,South Africa,2021,0,gcam-v9.1
+SSP2,South Africa,2025,0.997671,gcam-v9.1
+SSP2,South Africa,2030,1.05729,gcam-v9.1
+SSP2,South Africa,2035,1.18076,gcam-v9.1
+SSP2,South Africa,2040,1.33258,gcam-v9.1
+SSP2,South Africa,2045,1.45629,gcam-v9.1
+SSP2,South Africa,2050,1.5718,gcam-v9.1
+SSP2,South Africa,2055,1.6937,gcam-v9.1
+SSP2,South Africa,2060,1.80614,gcam-v9.1
+SSP2,South Africa,2065,1.90969,gcam-v9.1
+SSP2,South Africa,2070,2.01021,gcam-v9.1
+SSP2,South Africa,2075,2.12873,gcam-v9.1
+SSP2,South Africa,2080,2.2631,gcam-v9.1
+SSP2,South Africa,2085,2.4093,gcam-v9.1
+SSP2,South Africa,2090,2.55984,gcam-v9.1
+SSP2,South Africa,2095,2.71403,gcam-v9.1
+SSP2,South Africa,2100,2.87305,gcam-v9.1
+SSP2,South America_Northern,1975,0,gcam-v9.1
+SSP2,South America_Northern,1990,0,gcam-v9.1
+SSP2,South America_Northern,2005,0,gcam-v9.1
+SSP2,South America_Northern,2010,0,gcam-v9.1
+SSP2,South America_Northern,2015,0,gcam-v9.1
+SSP2,South America_Northern,2021,0,gcam-v9.1
+SSP2,South America_Northern,2025,1.77979,gcam-v9.1
+SSP2,South America_Northern,2030,2.59146,gcam-v9.1
+SSP2,South America_Northern,2035,3.20781,gcam-v9.1
+SSP2,South America_Northern,2040,3.48847,gcam-v9.1
+SSP2,South America_Northern,2045,3.51424,gcam-v9.1
+SSP2,South America_Northern,2050,3.39421,gcam-v9.1
+SSP2,South America_Northern,2055,3.27082,gcam-v9.1
+SSP2,South America_Northern,2060,3.21857,gcam-v9.1
+SSP2,South America_Northern,2065,3.26107,gcam-v9.1
+SSP2,South America_Northern,2070,3.38366,gcam-v9.1
+SSP2,South America_Northern,2075,3.56523,gcam-v9.1
+SSP2,South America_Northern,2080,3.77064,gcam-v9.1
+SSP2,South America_Northern,2085,3.9827,gcam-v9.1
+SSP2,South America_Northern,2090,4.18902,gcam-v9.1
+SSP2,South America_Northern,2095,4.39779,gcam-v9.1
+SSP2,South America_Northern,2100,4.59956,gcam-v9.1
+SSP2,South America_Southern,1975,0,gcam-v9.1
+SSP2,South America_Southern,1990,0,gcam-v9.1
+SSP2,South America_Southern,2005,0,gcam-v9.1
+SSP2,South America_Southern,2010,0,gcam-v9.1
+SSP2,South America_Southern,2015,0,gcam-v9.1
+SSP2,South America_Southern,2021,0,gcam-v9.1
+SSP2,South America_Southern,2025,1.0163,gcam-v9.1
+SSP2,South America_Southern,2030,1.04019,gcam-v9.1
+SSP2,South America_Southern,2035,1.09136,gcam-v9.1
+SSP2,South America_Southern,2040,1.15781,gcam-v9.1
+SSP2,South America_Southern,2045,1.2247,gcam-v9.1
+SSP2,South America_Southern,2050,1.29311,gcam-v9.1
+SSP2,South America_Southern,2055,1.36998,gcam-v9.1
+SSP2,South America_Southern,2060,1.44936,gcam-v9.1
+SSP2,South America_Southern,2065,1.53227,gcam-v9.1
+SSP2,South America_Southern,2070,1.61334,gcam-v9.1
+SSP2,South America_Southern,2075,1.69469,gcam-v9.1
+SSP2,South America_Southern,2080,1.77667,gcam-v9.1
+SSP2,South America_Southern,2085,1.85713,gcam-v9.1
+SSP2,South America_Southern,2090,1.93685,gcam-v9.1
+SSP2,South America_Southern,2095,2.01745,gcam-v9.1
+SSP2,South America_Southern,2100,2.09904,gcam-v9.1
+SSP2,South Asia,1975,0,gcam-v9.1
+SSP2,South Asia,1990,0,gcam-v9.1
+SSP2,South Asia,2005,0,gcam-v9.1
+SSP2,South Asia,2010,0,gcam-v9.1
+SSP2,South Asia,2015,0,gcam-v9.1
+SSP2,South Asia,2021,0,gcam-v9.1
+SSP2,South Asia,2025,0.980408,gcam-v9.1
+SSP2,South Asia,2030,1.15271,gcam-v9.1
+SSP2,South Asia,2035,1.28274,gcam-v9.1
+SSP2,South Asia,2040,1.37478,gcam-v9.1
+SSP2,South Asia,2045,1.44892,gcam-v9.1
+SSP2,South Asia,2050,1.5219,gcam-v9.1
+SSP2,South Asia,2055,1.59976,gcam-v9.1
+SSP2,South Asia,2060,1.68715,gcam-v9.1
+SSP2,South Asia,2065,1.78763,gcam-v9.1
+SSP2,South Asia,2070,1.89361,gcam-v9.1
+SSP2,South Asia,2075,1.99797,gcam-v9.1
+SSP2,South Asia,2080,2.09511,gcam-v9.1
+SSP2,South Asia,2085,2.19269,gcam-v9.1
+SSP2,South Asia,2090,2.29523,gcam-v9.1
+SSP2,South Asia,2095,2.40261,gcam-v9.1
+SSP2,South Asia,2100,2.51454,gcam-v9.1
+SSP2,South Korea,1975,0,gcam-v9.1
+SSP2,South Korea,1990,0,gcam-v9.1
+SSP2,South Korea,2005,0,gcam-v9.1
+SSP2,South Korea,2010,0,gcam-v9.1
+SSP2,South Korea,2015,0,gcam-v9.1
+SSP2,South Korea,2021,0,gcam-v9.1
+SSP2,South Korea,2025,1.04103,gcam-v9.1
+SSP2,South Korea,2030,1.13498,gcam-v9.1
+SSP2,South Korea,2035,1.21084,gcam-v9.1
+SSP2,South Korea,2040,1.3167,gcam-v9.1
+SSP2,South Korea,2045,1.38754,gcam-v9.1
+SSP2,South Korea,2050,1.47593,gcam-v9.1
+SSP2,South Korea,2055,1.55295,gcam-v9.1
+SSP2,South Korea,2060,1.63701,gcam-v9.1
+SSP2,South Korea,2065,1.73275,gcam-v9.1
+SSP2,South Korea,2070,1.79744,gcam-v9.1
+SSP2,South Korea,2075,1.84711,gcam-v9.1
+SSP2,South Korea,2080,1.91688,gcam-v9.1
+SSP2,South Korea,2085,1.96975,gcam-v9.1
+SSP2,South Korea,2090,1.99281,gcam-v9.1
+SSP2,South Korea,2095,2.02496,gcam-v9.1
+SSP2,South Korea,2100,2.06321,gcam-v9.1
+SSP2,Southeast Asia,1975,0,gcam-v9.1
+SSP2,Southeast Asia,1990,0,gcam-v9.1
+SSP2,Southeast Asia,2005,0,gcam-v9.1
+SSP2,Southeast Asia,2010,0,gcam-v9.1
+SSP2,Southeast Asia,2015,0,gcam-v9.1
+SSP2,Southeast Asia,2021,0,gcam-v9.1
+SSP2,Southeast Asia,2025,1.07956,gcam-v9.1
+SSP2,Southeast Asia,2030,1.2126,gcam-v9.1
+SSP2,Southeast Asia,2035,1.30449,gcam-v9.1
+SSP2,Southeast Asia,2040,1.35548,gcam-v9.1
+SSP2,Southeast Asia,2045,1.38609,gcam-v9.1
+SSP2,Southeast Asia,2050,1.42178,gcam-v9.1
+SSP2,Southeast Asia,2055,1.46977,gcam-v9.1
+SSP2,Southeast Asia,2060,1.5271,gcam-v9.1
+SSP2,Southeast Asia,2065,1.58994,gcam-v9.1
+SSP2,Southeast Asia,2070,1.6549,gcam-v9.1
+SSP2,Southeast Asia,2075,1.72313,gcam-v9.1
+SSP2,Southeast Asia,2080,1.79775,gcam-v9.1
+SSP2,Southeast Asia,2085,1.87915,gcam-v9.1
+SSP2,Southeast Asia,2090,1.9646,gcam-v9.1
+SSP2,Southeast Asia,2095,2.05485,gcam-v9.1
+SSP2,Southeast Asia,2100,2.14925,gcam-v9.1
+SSP2,Taiwan,1975,0,gcam-v9.1
+SSP2,Taiwan,1990,0,gcam-v9.1
+SSP2,Taiwan,2005,0,gcam-v9.1
+SSP2,Taiwan,2010,0,gcam-v9.1
+SSP2,Taiwan,2015,0,gcam-v9.1
+SSP2,Taiwan,2021,0,gcam-v9.1
+SSP2,Taiwan,2025,1.10209,gcam-v9.1
+SSP2,Taiwan,2030,1.2075,gcam-v9.1
+SSP2,Taiwan,2035,1.26897,gcam-v9.1
+SSP2,Taiwan,2040,1.28244,gcam-v9.1
+SSP2,Taiwan,2045,1.33433,gcam-v9.1
+SSP2,Taiwan,2050,1.41278,gcam-v9.1
+SSP2,Taiwan,2055,1.49006,gcam-v9.1
+SSP2,Taiwan,2060,1.58058,gcam-v9.1
+SSP2,Taiwan,2065,1.67692,gcam-v9.1
+SSP2,Taiwan,2070,1.7468,gcam-v9.1
+SSP2,Taiwan,2075,1.80187,gcam-v9.1
+SSP2,Taiwan,2080,1.87818,gcam-v9.1
+SSP2,Taiwan,2085,1.96384,gcam-v9.1
+SSP2,Taiwan,2090,2.03412,gcam-v9.1
+SSP2,Taiwan,2095,2.11999,gcam-v9.1
+SSP2,Taiwan,2100,2.21005,gcam-v9.1
+SSP2,Ukraine,1975,0,gcam-v9.1
+SSP2,Ukraine,1990,0,gcam-v9.1
+SSP2,Ukraine,2005,0,gcam-v9.1
+SSP2,Ukraine,2010,0,gcam-v9.1
+SSP2,Ukraine,2015,0,gcam-v9.1
+SSP2,Ukraine,2021,0,gcam-v9.1
+SSP2,Ukraine,2025,0.46835,gcam-v9.1
+SSP2,Ukraine,2030,0.679292,gcam-v9.1
+SSP2,Ukraine,2035,0.914207,gcam-v9.1
+SSP2,Ukraine,2040,1.16336,gcam-v9.1
+SSP2,Ukraine,2045,1.40166,gcam-v9.1
+SSP2,Ukraine,2050,1.65539,gcam-v9.1
+SSP2,Ukraine,2055,1.92125,gcam-v9.1
+SSP2,Ukraine,2060,2.14621,gcam-v9.1
+SSP2,Ukraine,2065,2.31815,gcam-v9.1
+SSP2,Ukraine,2070,2.4596,gcam-v9.1
+SSP2,Ukraine,2075,2.62782,gcam-v9.1
+SSP2,Ukraine,2080,2.82063,gcam-v9.1
+SSP2,Ukraine,2085,2.99305,gcam-v9.1
+SSP2,Ukraine,2090,3.16683,gcam-v9.1
+SSP2,Ukraine,2095,3.32193,gcam-v9.1
+SSP2,Ukraine,2100,3.488,gcam-v9.1
+SSP2,USA,1975,0,gcam-v9.1
+SSP2,USA,1990,0,gcam-v9.1
+SSP2,USA,2005,0,gcam-v9.1
+SSP2,USA,2010,0,gcam-v9.1
+SSP2,USA,2015,0,gcam-v9.1
+SSP2,USA,2021,0,gcam-v9.1
+SSP2,USA,2025,1.00683,gcam-v9.1
+SSP2,USA,2030,1.03919,gcam-v9.1
+SSP2,USA,2035,1.06691,gcam-v9.1
+SSP2,USA,2040,1.09895,gcam-v9.1
+SSP2,USA,2045,1.13517,gcam-v9.1
+SSP2,USA,2050,1.17671,gcam-v9.1
+SSP2,USA,2055,1.21957,gcam-v9.1
+SSP2,USA,2060,1.26303,gcam-v9.1
+SSP2,USA,2065,1.30432,gcam-v9.1
+SSP2,USA,2070,1.34794,gcam-v9.1
+SSP2,USA,2075,1.39636,gcam-v9.1
+SSP2,USA,2080,1.44439,gcam-v9.1
+SSP2,USA,2085,1.48998,gcam-v9.1
+SSP2,USA,2090,1.5297,gcam-v9.1
+SSP2,USA,2095,1.5727,gcam-v9.1
+SSP2,USA,2100,1.6193,gcam-v9.1
+SSP3,Africa_Eastern,1975,0,gcam-v9.1
+SSP3,Africa_Eastern,1990,0,gcam-v9.1
+SSP3,Africa_Eastern,2005,0,gcam-v9.1
+SSP3,Africa_Eastern,2010,0,gcam-v9.1
+SSP3,Africa_Eastern,2015,0,gcam-v9.1
+SSP3,Africa_Eastern,2021,0,gcam-v9.1
+SSP3,Africa_Eastern,2025,0.995177,gcam-v9.1
+SSP3,Africa_Eastern,2030,1.10308,gcam-v9.1
+SSP3,Africa_Eastern,2035,1.19956,gcam-v9.1
+SSP3,Africa_Eastern,2040,1.25819,gcam-v9.1
+SSP3,Africa_Eastern,2045,1.2689,gcam-v9.1
+SSP3,Africa_Eastern,2050,1.26876,gcam-v9.1
+SSP3,Africa_Eastern,2055,1.26341,gcam-v9.1
+SSP3,Africa_Eastern,2060,1.25526,gcam-v9.1
+SSP3,Africa_Eastern,2065,1.25005,gcam-v9.1
+SSP3,Africa_Eastern,2070,1.24389,gcam-v9.1
+SSP3,Africa_Eastern,2075,1.23864,gcam-v9.1
+SSP3,Africa_Eastern,2080,1.23428,gcam-v9.1
+SSP3,Africa_Eastern,2085,1.22959,gcam-v9.1
+SSP3,Africa_Eastern,2090,1.22951,gcam-v9.1
+SSP3,Africa_Eastern,2095,1.23651,gcam-v9.1
+SSP3,Africa_Eastern,2100,1.24845,gcam-v9.1
+SSP3,Africa_Northern,1975,0,gcam-v9.1
+SSP3,Africa_Northern,1990,0,gcam-v9.1
+SSP3,Africa_Northern,2005,0,gcam-v9.1
+SSP3,Africa_Northern,2010,0,gcam-v9.1
+SSP3,Africa_Northern,2015,0,gcam-v9.1
+SSP3,Africa_Northern,2021,0,gcam-v9.1
+SSP3,Africa_Northern,2025,1.15776,gcam-v9.1
+SSP3,Africa_Northern,2030,1.2532,gcam-v9.1
+SSP3,Africa_Northern,2035,1.33959,gcam-v9.1
+SSP3,Africa_Northern,2040,1.40996,gcam-v9.1
+SSP3,Africa_Northern,2045,1.41679,gcam-v9.1
+SSP3,Africa_Northern,2050,1.43106,gcam-v9.1
+SSP3,Africa_Northern,2055,1.45607,gcam-v9.1
+SSP3,Africa_Northern,2060,1.46105,gcam-v9.1
+SSP3,Africa_Northern,2065,1.45436,gcam-v9.1
+SSP3,Africa_Northern,2070,1.44336,gcam-v9.1
+SSP3,Africa_Northern,2075,1.43835,gcam-v9.1
+SSP3,Africa_Northern,2080,1.44501,gcam-v9.1
+SSP3,Africa_Northern,2085,1.454,gcam-v9.1
+SSP3,Africa_Northern,2090,1.46299,gcam-v9.1
+SSP3,Africa_Northern,2095,1.47955,gcam-v9.1
+SSP3,Africa_Northern,2100,1.49964,gcam-v9.1
+SSP3,Africa_Southern,1975,0,gcam-v9.1
+SSP3,Africa_Southern,1990,0,gcam-v9.1
+SSP3,Africa_Southern,2005,0,gcam-v9.1
+SSP3,Africa_Southern,2010,0,gcam-v9.1
+SSP3,Africa_Southern,2015,0,gcam-v9.1
+SSP3,Africa_Southern,2021,0,gcam-v9.1
+SSP3,Africa_Southern,2025,0.918319,gcam-v9.1
+SSP3,Africa_Southern,2030,0.961624,gcam-v9.1
+SSP3,Africa_Southern,2035,1.01898,gcam-v9.1
+SSP3,Africa_Southern,2040,1.04238,gcam-v9.1
+SSP3,Africa_Southern,2045,1.02145,gcam-v9.1
+SSP3,Africa_Southern,2050,1.00387,gcam-v9.1
+SSP3,Africa_Southern,2055,1.00651,gcam-v9.1
+SSP3,Africa_Southern,2060,1.01613,gcam-v9.1
+SSP3,Africa_Southern,2065,1.02961,gcam-v9.1
+SSP3,Africa_Southern,2070,1.04285,gcam-v9.1
+SSP3,Africa_Southern,2075,1.0549,gcam-v9.1
+SSP3,Africa_Southern,2080,1.06753,gcam-v9.1
+SSP3,Africa_Southern,2085,1.078,gcam-v9.1
+SSP3,Africa_Southern,2090,1.08737,gcam-v9.1
+SSP3,Africa_Southern,2095,1.09927,gcam-v9.1
+SSP3,Africa_Southern,2100,1.1127,gcam-v9.1
+SSP3,Africa_Western,1975,0,gcam-v9.1
+SSP3,Africa_Western,1990,0,gcam-v9.1
+SSP3,Africa_Western,2005,0,gcam-v9.1
+SSP3,Africa_Western,2010,0,gcam-v9.1
+SSP3,Africa_Western,2015,0,gcam-v9.1
+SSP3,Africa_Western,2021,0,gcam-v9.1
+SSP3,Africa_Western,2025,1.06808,gcam-v9.1
+SSP3,Africa_Western,2030,1.14549,gcam-v9.1
+SSP3,Africa_Western,2035,1.2691,gcam-v9.1
+SSP3,Africa_Western,2040,1.36003,gcam-v9.1
+SSP3,Africa_Western,2045,1.39438,gcam-v9.1
+SSP3,Africa_Western,2050,1.41198,gcam-v9.1
+SSP3,Africa_Western,2055,1.42072,gcam-v9.1
+SSP3,Africa_Western,2060,1.41444,gcam-v9.1
+SSP3,Africa_Western,2065,1.40575,gcam-v9.1
+SSP3,Africa_Western,2070,1.39635,gcam-v9.1
+SSP3,Africa_Western,2075,1.38824,gcam-v9.1
+SSP3,Africa_Western,2080,1.38332,gcam-v9.1
+SSP3,Africa_Western,2085,1.38055,gcam-v9.1
+SSP3,Africa_Western,2090,1.38066,gcam-v9.1
+SSP3,Africa_Western,2095,1.38722,gcam-v9.1
+SSP3,Africa_Western,2100,1.39612,gcam-v9.1
+SSP3,Argentina,1975,0,gcam-v9.1
+SSP3,Argentina,1990,0,gcam-v9.1
+SSP3,Argentina,2005,0,gcam-v9.1
+SSP3,Argentina,2010,0,gcam-v9.1
+SSP3,Argentina,2015,0,gcam-v9.1
+SSP3,Argentina,2021,0,gcam-v9.1
+SSP3,Argentina,2025,1.03733,gcam-v9.1
+SSP3,Argentina,2030,1.07912,gcam-v9.1
+SSP3,Argentina,2035,1.09782,gcam-v9.1
+SSP3,Argentina,2040,1.12807,gcam-v9.1
+SSP3,Argentina,2045,1.16442,gcam-v9.1
+SSP3,Argentina,2050,1.20633,gcam-v9.1
+SSP3,Argentina,2055,1.25487,gcam-v9.1
+SSP3,Argentina,2060,1.30283,gcam-v9.1
+SSP3,Argentina,2065,1.34797,gcam-v9.1
+SSP3,Argentina,2070,1.39052,gcam-v9.1
+SSP3,Argentina,2075,1.43166,gcam-v9.1
+SSP3,Argentina,2080,1.4753,gcam-v9.1
+SSP3,Argentina,2085,1.51384,gcam-v9.1
+SSP3,Argentina,2090,1.5398,gcam-v9.1
+SSP3,Argentina,2095,1.57068,gcam-v9.1
+SSP3,Argentina,2100,1.60572,gcam-v9.1
+SSP3,Australia_NZ,1975,0,gcam-v9.1
+SSP3,Australia_NZ,1990,0,gcam-v9.1
+SSP3,Australia_NZ,2005,0,gcam-v9.1
+SSP3,Australia_NZ,2010,0,gcam-v9.1
+SSP3,Australia_NZ,2015,0,gcam-v9.1
+SSP3,Australia_NZ,2021,0,gcam-v9.1
+SSP3,Australia_NZ,2025,1.01406,gcam-v9.1
+SSP3,Australia_NZ,2030,1.06636,gcam-v9.1
+SSP3,Australia_NZ,2035,1.10044,gcam-v9.1
+SSP3,Australia_NZ,2040,1.12684,gcam-v9.1
+SSP3,Australia_NZ,2045,1.14243,gcam-v9.1
+SSP3,Australia_NZ,2050,1.15925,gcam-v9.1
+SSP3,Australia_NZ,2055,1.17767,gcam-v9.1
+SSP3,Australia_NZ,2060,1.19766,gcam-v9.1
+SSP3,Australia_NZ,2065,1.21219,gcam-v9.1
+SSP3,Australia_NZ,2070,1.21659,gcam-v9.1
+SSP3,Australia_NZ,2075,1.22276,gcam-v9.1
+SSP3,Australia_NZ,2080,1.22969,gcam-v9.1
+SSP3,Australia_NZ,2085,1.23238,gcam-v9.1
+SSP3,Australia_NZ,2090,1.22968,gcam-v9.1
+SSP3,Australia_NZ,2095,1.23343,gcam-v9.1
+SSP3,Australia_NZ,2100,1.23929,gcam-v9.1
+SSP3,Brazil,1975,0,gcam-v9.1
+SSP3,Brazil,1990,0,gcam-v9.1
+SSP3,Brazil,2005,0,gcam-v9.1
+SSP3,Brazil,2010,0,gcam-v9.1
+SSP3,Brazil,2015,0,gcam-v9.1
+SSP3,Brazil,2021,0,gcam-v9.1
+SSP3,Brazil,2025,1.0287,gcam-v9.1
+SSP3,Brazil,2030,1.05905,gcam-v9.1
+SSP3,Brazil,2035,1.16203,gcam-v9.1
+SSP3,Brazil,2040,1.29685,gcam-v9.1
+SSP3,Brazil,2045,1.42506,gcam-v9.1
+SSP3,Brazil,2050,1.54065,gcam-v9.1
+SSP3,Brazil,2055,1.63806,gcam-v9.1
+SSP3,Brazil,2060,1.7127,gcam-v9.1
+SSP3,Brazil,2065,1.7839,gcam-v9.1
+SSP3,Brazil,2070,1.84096,gcam-v9.1
+SSP3,Brazil,2075,1.88689,gcam-v9.1
+SSP3,Brazil,2080,1.92695,gcam-v9.1
+SSP3,Brazil,2085,1.96417,gcam-v9.1
+SSP3,Brazil,2090,1.99269,gcam-v9.1
+SSP3,Brazil,2095,2.03386,gcam-v9.1
+SSP3,Brazil,2100,2.08372,gcam-v9.1
+SSP3,Canada,1975,0,gcam-v9.1
+SSP3,Canada,1990,0,gcam-v9.1
+SSP3,Canada,2005,0,gcam-v9.1
+SSP3,Canada,2010,0,gcam-v9.1
+SSP3,Canada,2015,0,gcam-v9.1
+SSP3,Canada,2021,0,gcam-v9.1
+SSP3,Canada,2025,0.996857,gcam-v9.1
+SSP3,Canada,2030,1.07183,gcam-v9.1
+SSP3,Canada,2035,1.14189,gcam-v9.1
+SSP3,Canada,2040,1.2111,gcam-v9.1
+SSP3,Canada,2045,1.27908,gcam-v9.1
+SSP3,Canada,2050,1.34026,gcam-v9.1
+SSP3,Canada,2055,1.39731,gcam-v9.1
+SSP3,Canada,2060,1.44115,gcam-v9.1
+SSP3,Canada,2065,1.47312,gcam-v9.1
+SSP3,Canada,2070,1.4866,gcam-v9.1
+SSP3,Canada,2075,1.49633,gcam-v9.1
+SSP3,Canada,2080,1.50669,gcam-v9.1
+SSP3,Canada,2085,1.504,gcam-v9.1
+SSP3,Canada,2090,1.48586,gcam-v9.1
+SSP3,Canada,2095,1.47455,gcam-v9.1
+SSP3,Canada,2100,1.46742,gcam-v9.1
+SSP3,Central America and Caribbean,1975,0,gcam-v9.1
+SSP3,Central America and Caribbean,1990,0,gcam-v9.1
+SSP3,Central America and Caribbean,2005,0,gcam-v9.1
+SSP3,Central America and Caribbean,2010,0,gcam-v9.1
+SSP3,Central America and Caribbean,2015,0,gcam-v9.1
+SSP3,Central America and Caribbean,2021,0,gcam-v9.1
+SSP3,Central America and Caribbean,2025,1.07444,gcam-v9.1
+SSP3,Central America and Caribbean,2030,1.14222,gcam-v9.1
+SSP3,Central America and Caribbean,2035,1.2189,gcam-v9.1
+SSP3,Central America and Caribbean,2040,1.28357,gcam-v9.1
+SSP3,Central America and Caribbean,2045,1.32746,gcam-v9.1
+SSP3,Central America and Caribbean,2050,1.3649,gcam-v9.1
+SSP3,Central America and Caribbean,2055,1.40061,gcam-v9.1
+SSP3,Central America and Caribbean,2060,1.43047,gcam-v9.1
+SSP3,Central America and Caribbean,2065,1.45756,gcam-v9.1
+SSP3,Central America and Caribbean,2070,1.47923,gcam-v9.1
+SSP3,Central America and Caribbean,2075,1.49503,gcam-v9.1
+SSP3,Central America and Caribbean,2080,1.5076,gcam-v9.1
+SSP3,Central America and Caribbean,2085,1.51695,gcam-v9.1
+SSP3,Central America and Caribbean,2090,1.52375,gcam-v9.1
+SSP3,Central America and Caribbean,2095,1.53677,gcam-v9.1
+SSP3,Central America and Caribbean,2100,1.55302,gcam-v9.1
+SSP3,Central Asia,1975,0,gcam-v9.1
+SSP3,Central Asia,1990,0,gcam-v9.1
+SSP3,Central Asia,2005,0,gcam-v9.1
+SSP3,Central Asia,2010,0,gcam-v9.1
+SSP3,Central Asia,2015,0,gcam-v9.1
+SSP3,Central Asia,2021,0,gcam-v9.1
+SSP3,Central Asia,2025,1.23612,gcam-v9.1
+SSP3,Central Asia,2030,1.32708,gcam-v9.1
+SSP3,Central Asia,2035,1.41899,gcam-v9.1
+SSP3,Central Asia,2040,1.46222,gcam-v9.1
+SSP3,Central Asia,2045,1.4295,gcam-v9.1
+SSP3,Central Asia,2050,1.39966,gcam-v9.1
+SSP3,Central Asia,2055,1.40101,gcam-v9.1
+SSP3,Central Asia,2060,1.41351,gcam-v9.1
+SSP3,Central Asia,2065,1.43541,gcam-v9.1
+SSP3,Central Asia,2070,1.45384,gcam-v9.1
+SSP3,Central Asia,2075,1.47265,gcam-v9.1
+SSP3,Central Asia,2080,1.50312,gcam-v9.1
+SSP3,Central Asia,2085,1.54063,gcam-v9.1
+SSP3,Central Asia,2090,1.58274,gcam-v9.1
+SSP3,Central Asia,2095,1.62615,gcam-v9.1
+SSP3,Central Asia,2100,1.66616,gcam-v9.1
+SSP3,China,1975,0,gcam-v9.1
+SSP3,China,1990,0,gcam-v9.1
+SSP3,China,2005,0,gcam-v9.1
+SSP3,China,2010,0,gcam-v9.1
+SSP3,China,2015,0,gcam-v9.1
+SSP3,China,2021,0,gcam-v9.1
+SSP3,China,2025,1.11167,gcam-v9.1
+SSP3,China,2030,1.21838,gcam-v9.1
+SSP3,China,2035,1.30251,gcam-v9.1
+SSP3,China,2040,1.35128,gcam-v9.1
+SSP3,China,2045,1.38159,gcam-v9.1
+SSP3,China,2050,1.4373,gcam-v9.1
+SSP3,China,2055,1.51116,gcam-v9.1
+SSP3,China,2060,1.57017,gcam-v9.1
+SSP3,China,2065,1.6047,gcam-v9.1
+SSP3,China,2070,1.62939,gcam-v9.1
+SSP3,China,2075,1.66169,gcam-v9.1
+SSP3,China,2080,1.71048,gcam-v9.1
+SSP3,China,2085,1.758,gcam-v9.1
+SSP3,China,2090,1.76798,gcam-v9.1
+SSP3,China,2095,1.78053,gcam-v9.1
+SSP3,China,2100,1.80261,gcam-v9.1
+SSP3,Colombia,1975,0,gcam-v9.1
+SSP3,Colombia,1990,0,gcam-v9.1
+SSP3,Colombia,2005,0,gcam-v9.1
+SSP3,Colombia,2010,0,gcam-v9.1
+SSP3,Colombia,2015,0,gcam-v9.1
+SSP3,Colombia,2021,0,gcam-v9.1
+SSP3,Colombia,2025,1.06153,gcam-v9.1
+SSP3,Colombia,2030,1.11984,gcam-v9.1
+SSP3,Colombia,2035,1.23331,gcam-v9.1
+SSP3,Colombia,2040,1.35726,gcam-v9.1
+SSP3,Colombia,2045,1.43763,gcam-v9.1
+SSP3,Colombia,2050,1.4929,gcam-v9.1
+SSP3,Colombia,2055,1.54262,gcam-v9.1
+SSP3,Colombia,2060,1.5836,gcam-v9.1
+SSP3,Colombia,2065,1.61916,gcam-v9.1
+SSP3,Colombia,2070,1.64311,gcam-v9.1
+SSP3,Colombia,2075,1.6494,gcam-v9.1
+SSP3,Colombia,2080,1.64718,gcam-v9.1
+SSP3,Colombia,2085,1.64331,gcam-v9.1
+SSP3,Colombia,2090,1.64053,gcam-v9.1
+SSP3,Colombia,2095,1.64771,gcam-v9.1
+SSP3,Colombia,2100,1.65955,gcam-v9.1
+SSP3,EU-12,1975,0,gcam-v9.1
+SSP3,EU-12,1990,0,gcam-v9.1
+SSP3,EU-12,2005,0,gcam-v9.1
+SSP3,EU-12,2010,0,gcam-v9.1
+SSP3,EU-12,2015,0,gcam-v9.1
+SSP3,EU-12,2021,0,gcam-v9.1
+SSP3,EU-12,2025,1.05523,gcam-v9.1
+SSP3,EU-12,2030,1.12856,gcam-v9.1
+SSP3,EU-12,2035,1.16102,gcam-v9.1
+SSP3,EU-12,2040,1.18296,gcam-v9.1
+SSP3,EU-12,2045,1.19516,gcam-v9.1
+SSP3,EU-12,2050,1.20712,gcam-v9.1
+SSP3,EU-12,2055,1.22391,gcam-v9.1
+SSP3,EU-12,2060,1.23088,gcam-v9.1
+SSP3,EU-12,2065,1.22406,gcam-v9.1
+SSP3,EU-12,2070,1.21258,gcam-v9.1
+SSP3,EU-12,2075,1.20738,gcam-v9.1
+SSP3,EU-12,2080,1.20496,gcam-v9.1
+SSP3,EU-12,2085,1.20649,gcam-v9.1
+SSP3,EU-12,2090,1.20509,gcam-v9.1
+SSP3,EU-12,2095,1.20506,gcam-v9.1
+SSP3,EU-12,2100,1.20419,gcam-v9.1
+SSP3,EU-15,1975,0,gcam-v9.1
+SSP3,EU-15,1990,0,gcam-v9.1
+SSP3,EU-15,2005,0,gcam-v9.1
+SSP3,EU-15,2010,0,gcam-v9.1
+SSP3,EU-15,2015,0,gcam-v9.1
+SSP3,EU-15,2021,0,gcam-v9.1
+SSP3,EU-15,2025,1.03228,gcam-v9.1
+SSP3,EU-15,2030,1.08083,gcam-v9.1
+SSP3,EU-15,2035,1.12318,gcam-v9.1
+SSP3,EU-15,2040,1.16009,gcam-v9.1
+SSP3,EU-15,2045,1.18927,gcam-v9.1
+SSP3,EU-15,2050,1.21088,gcam-v9.1
+SSP3,EU-15,2055,1.22691,gcam-v9.1
+SSP3,EU-15,2060,1.23655,gcam-v9.1
+SSP3,EU-15,2065,1.24038,gcam-v9.1
+SSP3,EU-15,2070,1.23882,gcam-v9.1
+SSP3,EU-15,2075,1.23876,gcam-v9.1
+SSP3,EU-15,2080,1.23906,gcam-v9.1
+SSP3,EU-15,2085,1.23417,gcam-v9.1
+SSP3,EU-15,2090,1.22248,gcam-v9.1
+SSP3,EU-15,2095,1.21588,gcam-v9.1
+SSP3,EU-15,2100,1.21088,gcam-v9.1
+SSP3,Europe_Non_EU,1975,0,gcam-v9.1
+SSP3,Europe_Non_EU,1990,0,gcam-v9.1
+SSP3,Europe_Non_EU,2005,0,gcam-v9.1
+SSP3,Europe_Non_EU,2010,0,gcam-v9.1
+SSP3,Europe_Non_EU,2015,0,gcam-v9.1
+SSP3,Europe_Non_EU,2021,0,gcam-v9.1
+SSP3,Europe_Non_EU,2025,1.02497,gcam-v9.1
+SSP3,Europe_Non_EU,2030,1.05915,gcam-v9.1
+SSP3,Europe_Non_EU,2035,1.08028,gcam-v9.1
+SSP3,Europe_Non_EU,2040,1.09084,gcam-v9.1
+SSP3,Europe_Non_EU,2045,1.10966,gcam-v9.1
+SSP3,Europe_Non_EU,2050,1.13318,gcam-v9.1
+SSP3,Europe_Non_EU,2055,1.16486,gcam-v9.1
+SSP3,Europe_Non_EU,2060,1.19522,gcam-v9.1
+SSP3,Europe_Non_EU,2065,1.22104,gcam-v9.1
+SSP3,Europe_Non_EU,2070,1.24044,gcam-v9.1
+SSP3,Europe_Non_EU,2075,1.25862,gcam-v9.1
+SSP3,Europe_Non_EU,2080,1.28095,gcam-v9.1
+SSP3,Europe_Non_EU,2085,1.30523,gcam-v9.1
+SSP3,Europe_Non_EU,2090,1.32374,gcam-v9.1
+SSP3,Europe_Non_EU,2095,1.34724,gcam-v9.1
+SSP3,Europe_Non_EU,2100,1.37335,gcam-v9.1
+SSP3,European Free Trade Association,1975,0,gcam-v9.1
+SSP3,European Free Trade Association,1990,0,gcam-v9.1
+SSP3,European Free Trade Association,2005,0,gcam-v9.1
+SSP3,European Free Trade Association,2010,0,gcam-v9.1
+SSP3,European Free Trade Association,2015,0,gcam-v9.1
+SSP3,European Free Trade Association,2021,0,gcam-v9.1
+SSP3,European Free Trade Association,2025,0.998563,gcam-v9.1
+SSP3,European Free Trade Association,2030,1.01184,gcam-v9.1
+SSP3,European Free Trade Association,2035,1.02679,gcam-v9.1
+SSP3,European Free Trade Association,2040,1.03217,gcam-v9.1
+SSP3,European Free Trade Association,2045,1.03021,gcam-v9.1
+SSP3,European Free Trade Association,2050,1.02557,gcam-v9.1
+SSP3,European Free Trade Association,2055,1.03179,gcam-v9.1
+SSP3,European Free Trade Association,2060,1.03565,gcam-v9.1
+SSP3,European Free Trade Association,2065,1.03546,gcam-v9.1
+SSP3,European Free Trade Association,2070,1.02852,gcam-v9.1
+SSP3,European Free Trade Association,2075,1.0233,gcam-v9.1
+SSP3,European Free Trade Association,2080,1.02041,gcam-v9.1
+SSP3,European Free Trade Association,2085,1.01398,gcam-v9.1
+SSP3,European Free Trade Association,2090,1.00203,gcam-v9.1
+SSP3,European Free Trade Association,2095,0.994614,gcam-v9.1
+SSP3,European Free Trade Association,2100,0.987827,gcam-v9.1
+SSP3,India,1975,0,gcam-v9.1
+SSP3,India,1990,0,gcam-v9.1
+SSP3,India,2005,0,gcam-v9.1
+SSP3,India,2010,0,gcam-v9.1
+SSP3,India,2015,0,gcam-v9.1
+SSP3,India,2021,0,gcam-v9.1
+SSP3,India,2025,1.04334,gcam-v9.1
+SSP3,India,2030,1.1757,gcam-v9.1
+SSP3,India,2035,1.25162,gcam-v9.1
+SSP3,India,2040,1.3044,gcam-v9.1
+SSP3,India,2045,1.34146,gcam-v9.1
+SSP3,India,2050,1.38156,gcam-v9.1
+SSP3,India,2055,1.42784,gcam-v9.1
+SSP3,India,2060,1.47675,gcam-v9.1
+SSP3,India,2065,1.52895,gcam-v9.1
+SSP3,India,2070,1.58117,gcam-v9.1
+SSP3,India,2075,1.62687,gcam-v9.1
+SSP3,India,2080,1.66334,gcam-v9.1
+SSP3,India,2085,1.69111,gcam-v9.1
+SSP3,India,2090,1.71322,gcam-v9.1
+SSP3,India,2095,1.74497,gcam-v9.1
+SSP3,India,2100,1.78249,gcam-v9.1
+SSP3,Indonesia,1975,0,gcam-v9.1
+SSP3,Indonesia,1990,0,gcam-v9.1
+SSP3,Indonesia,2005,0,gcam-v9.1
+SSP3,Indonesia,2010,0,gcam-v9.1
+SSP3,Indonesia,2015,0,gcam-v9.1
+SSP3,Indonesia,2021,0,gcam-v9.1
+SSP3,Indonesia,2025,1.11391,gcam-v9.1
+SSP3,Indonesia,2030,1.25976,gcam-v9.1
+SSP3,Indonesia,2035,1.33768,gcam-v9.1
+SSP3,Indonesia,2040,1.39407,gcam-v9.1
+SSP3,Indonesia,2045,1.42728,gcam-v9.1
+SSP3,Indonesia,2050,1.44627,gcam-v9.1
+SSP3,Indonesia,2055,1.46652,gcam-v9.1
+SSP3,Indonesia,2060,1.48463,gcam-v9.1
+SSP3,Indonesia,2065,1.50553,gcam-v9.1
+SSP3,Indonesia,2070,1.52737,gcam-v9.1
+SSP3,Indonesia,2075,1.55221,gcam-v9.1
+SSP3,Indonesia,2080,1.57761,gcam-v9.1
+SSP3,Indonesia,2085,1.59751,gcam-v9.1
+SSP3,Indonesia,2090,1.61245,gcam-v9.1
+SSP3,Indonesia,2095,1.63302,gcam-v9.1
+SSP3,Indonesia,2100,1.65492,gcam-v9.1
+SSP3,Japan,1975,0,gcam-v9.1
+SSP3,Japan,1990,0,gcam-v9.1
+SSP3,Japan,2005,0,gcam-v9.1
+SSP3,Japan,2010,0,gcam-v9.1
+SSP3,Japan,2015,0,gcam-v9.1
+SSP3,Japan,2021,0,gcam-v9.1
+SSP3,Japan,2025,1.01989,gcam-v9.1
+SSP3,Japan,2030,1.03593,gcam-v9.1
+SSP3,Japan,2035,1.06072,gcam-v9.1
+SSP3,Japan,2040,1.09206,gcam-v9.1
+SSP3,Japan,2045,1.11276,gcam-v9.1
+SSP3,Japan,2050,1.12525,gcam-v9.1
+SSP3,Japan,2055,1.12723,gcam-v9.1
+SSP3,Japan,2060,1.1226,gcam-v9.1
+SSP3,Japan,2065,1.11909,gcam-v9.1
+SSP3,Japan,2070,1.11678,gcam-v9.1
+SSP3,Japan,2075,1.1167,gcam-v9.1
+SSP3,Japan,2080,1.12043,gcam-v9.1
+SSP3,Japan,2085,1.12001,gcam-v9.1
+SSP3,Japan,2090,1.11766,gcam-v9.1
+SSP3,Japan,2095,1.12313,gcam-v9.1
+SSP3,Japan,2100,1.13207,gcam-v9.1
+SSP3,Mexico,1975,0,gcam-v9.1
+SSP3,Mexico,1990,0,gcam-v9.1
+SSP3,Mexico,2005,0,gcam-v9.1
+SSP3,Mexico,2010,0,gcam-v9.1
+SSP3,Mexico,2015,0,gcam-v9.1
+SSP3,Mexico,2021,0,gcam-v9.1
+SSP3,Mexico,2025,1.0299,gcam-v9.1
+SSP3,Mexico,2030,1.0577,gcam-v9.1
+SSP3,Mexico,2035,1.09596,gcam-v9.1
+SSP3,Mexico,2040,1.13625,gcam-v9.1
+SSP3,Mexico,2045,1.15785,gcam-v9.1
+SSP3,Mexico,2050,1.16704,gcam-v9.1
+SSP3,Mexico,2055,1.17618,gcam-v9.1
+SSP3,Mexico,2060,1.17763,gcam-v9.1
+SSP3,Mexico,2065,1.181,gcam-v9.1
+SSP3,Mexico,2070,1.18776,gcam-v9.1
+SSP3,Mexico,2075,1.19062,gcam-v9.1
+SSP3,Mexico,2080,1.19144,gcam-v9.1
+SSP3,Mexico,2085,1.18799,gcam-v9.1
+SSP3,Mexico,2090,1.18395,gcam-v9.1
+SSP3,Mexico,2095,1.18402,gcam-v9.1
+SSP3,Mexico,2100,1.18629,gcam-v9.1
+SSP3,Middle East,1975,0,gcam-v9.1
+SSP3,Middle East,1990,0,gcam-v9.1
+SSP3,Middle East,2005,0,gcam-v9.1
+SSP3,Middle East,2010,0,gcam-v9.1
+SSP3,Middle East,2015,0,gcam-v9.1
+SSP3,Middle East,2021,0,gcam-v9.1
+SSP3,Middle East,2025,1.11953,gcam-v9.1
+SSP3,Middle East,2030,1.10389,gcam-v9.1
+SSP3,Middle East,2035,1.11352,gcam-v9.1
+SSP3,Middle East,2040,1.13199,gcam-v9.1
+SSP3,Middle East,2045,1.15549,gcam-v9.1
+SSP3,Middle East,2050,1.18204,gcam-v9.1
+SSP3,Middle East,2055,1.19986,gcam-v9.1
+SSP3,Middle East,2060,1.2168,gcam-v9.1
+SSP3,Middle East,2065,1.22264,gcam-v9.1
+SSP3,Middle East,2070,1.23084,gcam-v9.1
+SSP3,Middle East,2075,1.241,gcam-v9.1
+SSP3,Middle East,2080,1.25941,gcam-v9.1
+SSP3,Middle East,2085,1.28507,gcam-v9.1
+SSP3,Middle East,2090,1.31057,gcam-v9.1
+SSP3,Middle East,2095,1.33623,gcam-v9.1
+SSP3,Middle East,2100,1.36327,gcam-v9.1
+SSP3,Pakistan,1975,0,gcam-v9.1
+SSP3,Pakistan,1990,0,gcam-v9.1
+SSP3,Pakistan,2005,0,gcam-v9.1
+SSP3,Pakistan,2010,0,gcam-v9.1
+SSP3,Pakistan,2015,0,gcam-v9.1
+SSP3,Pakistan,2021,0,gcam-v9.1
+SSP3,Pakistan,2025,1.05847,gcam-v9.1
+SSP3,Pakistan,2030,1.19475,gcam-v9.1
+SSP3,Pakistan,2035,1.31273,gcam-v9.1
+SSP3,Pakistan,2040,1.43367,gcam-v9.1
+SSP3,Pakistan,2045,1.4945,gcam-v9.1
+SSP3,Pakistan,2050,1.50032,gcam-v9.1
+SSP3,Pakistan,2055,1.47858,gcam-v9.1
+SSP3,Pakistan,2060,1.45185,gcam-v9.1
+SSP3,Pakistan,2065,1.42804,gcam-v9.1
+SSP3,Pakistan,2070,1.4049,gcam-v9.1
+SSP3,Pakistan,2075,1.38357,gcam-v9.1
+SSP3,Pakistan,2080,1.3645,gcam-v9.1
+SSP3,Pakistan,2085,1.34691,gcam-v9.1
+SSP3,Pakistan,2090,1.33749,gcam-v9.1
+SSP3,Pakistan,2095,1.33781,gcam-v9.1
+SSP3,Pakistan,2100,1.34577,gcam-v9.1
+SSP3,Russia,1975,0,gcam-v9.1
+SSP3,Russia,1990,0,gcam-v9.1
+SSP3,Russia,2005,0,gcam-v9.1
+SSP3,Russia,2010,0,gcam-v9.1
+SSP3,Russia,2015,0,gcam-v9.1
+SSP3,Russia,2021,0,gcam-v9.1
+SSP3,Russia,2025,0.944773,gcam-v9.1
+SSP3,Russia,2030,1.02025,gcam-v9.1
+SSP3,Russia,2035,1.12673,gcam-v9.1
+SSP3,Russia,2040,1.22958,gcam-v9.1
+SSP3,Russia,2045,1.29468,gcam-v9.1
+SSP3,Russia,2050,1.35551,gcam-v9.1
+SSP3,Russia,2055,1.43951,gcam-v9.1
+SSP3,Russia,2060,1.48487,gcam-v9.1
+SSP3,Russia,2065,1.51604,gcam-v9.1
+SSP3,Russia,2070,1.53427,gcam-v9.1
+SSP3,Russia,2075,1.56194,gcam-v9.1
+SSP3,Russia,2080,1.61817,gcam-v9.1
+SSP3,Russia,2085,1.67348,gcam-v9.1
+SSP3,Russia,2090,1.71501,gcam-v9.1
+SSP3,Russia,2095,1.7574,gcam-v9.1
+SSP3,Russia,2100,1.80016,gcam-v9.1
+SSP3,South Africa,1975,0,gcam-v9.1
+SSP3,South Africa,1990,0,gcam-v9.1
+SSP3,South Africa,2005,0,gcam-v9.1
+SSP3,South Africa,2010,0,gcam-v9.1
+SSP3,South Africa,2015,0,gcam-v9.1
+SSP3,South Africa,2021,0,gcam-v9.1
+SSP3,South Africa,2025,1.0134,gcam-v9.1
+SSP3,South Africa,2030,1.06428,gcam-v9.1
+SSP3,South Africa,2035,1.1725,gcam-v9.1
+SSP3,South Africa,2040,1.30423,gcam-v9.1
+SSP3,South Africa,2045,1.3985,gcam-v9.1
+SSP3,South Africa,2050,1.47883,gcam-v9.1
+SSP3,South Africa,2055,1.55609,gcam-v9.1
+SSP3,South Africa,2060,1.61621,gcam-v9.1
+SSP3,South Africa,2065,1.66312,gcam-v9.1
+SSP3,South Africa,2070,1.70271,gcam-v9.1
+SSP3,South Africa,2075,1.74962,gcam-v9.1
+SSP3,South Africa,2080,1.80225,gcam-v9.1
+SSP3,South Africa,2085,1.85694,gcam-v9.1
+SSP3,South Africa,2090,1.90999,gcam-v9.1
+SSP3,South Africa,2095,1.96755,gcam-v9.1
+SSP3,South Africa,2100,2.02698,gcam-v9.1
+SSP3,South America_Northern,1975,0,gcam-v9.1
+SSP3,South America_Northern,1990,0,gcam-v9.1
+SSP3,South America_Northern,2005,0,gcam-v9.1
+SSP3,South America_Northern,2010,0,gcam-v9.1
+SSP3,South America_Northern,2015,0,gcam-v9.1
+SSP3,South America_Northern,2021,0,gcam-v9.1
+SSP3,South America_Northern,2025,1.78217,gcam-v9.1
+SSP3,South America_Northern,2030,2.56913,gcam-v9.1
+SSP3,South America_Northern,2035,3.08987,gcam-v9.1
+SSP3,South America_Northern,2040,3.32266,gcam-v9.1
+SSP3,South America_Northern,2045,3.37532,gcam-v9.1
+SSP3,South America_Northern,2050,3.25418,gcam-v9.1
+SSP3,South America_Northern,2055,3.05358,gcam-v9.1
+SSP3,South America_Northern,2060,2.86388,gcam-v9.1
+SSP3,South America_Northern,2065,2.74925,gcam-v9.1
+SSP3,South America_Northern,2070,2.71876,gcam-v9.1
+SSP3,South America_Northern,2075,2.7513,gcam-v9.1
+SSP3,South America_Northern,2080,2.81652,gcam-v9.1
+SSP3,South America_Northern,2085,2.90031,gcam-v9.1
+SSP3,South America_Northern,2090,2.99406,gcam-v9.1
+SSP3,South America_Northern,2095,3.10264,gcam-v9.1
+SSP3,South America_Northern,2100,3.21127,gcam-v9.1
+SSP3,South America_Southern,1975,0,gcam-v9.1
+SSP3,South America_Southern,1990,0,gcam-v9.1
+SSP3,South America_Southern,2005,0,gcam-v9.1
+SSP3,South America_Southern,2010,0,gcam-v9.1
+SSP3,South America_Southern,2015,0,gcam-v9.1
+SSP3,South America_Southern,2021,0,gcam-v9.1
+SSP3,South America_Southern,2025,1.03131,gcam-v9.1
+SSP3,South America_Southern,2030,1.04267,gcam-v9.1
+SSP3,South America_Southern,2035,1.07787,gcam-v9.1
+SSP3,South America_Southern,2040,1.11239,gcam-v9.1
+SSP3,South America_Southern,2045,1.13114,gcam-v9.1
+SSP3,South America_Southern,2050,1.14569,gcam-v9.1
+SSP3,South America_Southern,2055,1.16294,gcam-v9.1
+SSP3,South America_Southern,2060,1.17965,gcam-v9.1
+SSP3,South America_Southern,2065,1.19717,gcam-v9.1
+SSP3,South America_Southern,2070,1.21243,gcam-v9.1
+SSP3,South America_Southern,2075,1.22641,gcam-v9.1
+SSP3,South America_Southern,2080,1.2395,gcam-v9.1
+SSP3,South America_Southern,2085,1.24983,gcam-v9.1
+SSP3,South America_Southern,2090,1.25841,gcam-v9.1
+SSP3,South America_Southern,2095,1.27191,gcam-v9.1
+SSP3,South America_Southern,2100,1.28768,gcam-v9.1
+SSP3,South Asia,1975,0,gcam-v9.1
+SSP3,South Asia,1990,0,gcam-v9.1
+SSP3,South Asia,2005,0,gcam-v9.1
+SSP3,South Asia,2010,0,gcam-v9.1
+SSP3,South Asia,2015,0,gcam-v9.1
+SSP3,South Asia,2021,0,gcam-v9.1
+SSP3,South Asia,2025,0.974804,gcam-v9.1
+SSP3,South Asia,2030,1.13268,gcam-v9.1
+SSP3,South Asia,2035,1.22163,gcam-v9.1
+SSP3,South Asia,2040,1.24888,gcam-v9.1
+SSP3,South Asia,2045,1.24315,gcam-v9.1
+SSP3,South Asia,2050,1.23821,gcam-v9.1
+SSP3,South Asia,2055,1.23981,gcam-v9.1
+SSP3,South Asia,2060,1.24781,gcam-v9.1
+SSP3,South Asia,2065,1.263,gcam-v9.1
+SSP3,South Asia,2070,1.27797,gcam-v9.1
+SSP3,South Asia,2075,1.28767,gcam-v9.1
+SSP3,South Asia,2080,1.28983,gcam-v9.1
+SSP3,South Asia,2085,1.29048,gcam-v9.1
+SSP3,South Asia,2090,1.29273,gcam-v9.1
+SSP3,South Asia,2095,1.30198,gcam-v9.1
+SSP3,South Asia,2100,1.3158,gcam-v9.1
+SSP3,South Korea,1975,0,gcam-v9.1
+SSP3,South Korea,1990,0,gcam-v9.1
+SSP3,South Korea,2005,0,gcam-v9.1
+SSP3,South Korea,2010,0,gcam-v9.1
+SSP3,South Korea,2015,0,gcam-v9.1
+SSP3,South Korea,2021,0,gcam-v9.1
+SSP3,South Korea,2025,1.02971,gcam-v9.1
+SSP3,South Korea,2030,1.0858,gcam-v9.1
+SSP3,South Korea,2035,1.12663,gcam-v9.1
+SSP3,South Korea,2040,1.17828,gcam-v9.1
+SSP3,South Korea,2045,1.19282,gcam-v9.1
+SSP3,South Korea,2050,1.22421,gcam-v9.1
+SSP3,South Korea,2055,1.2405,gcam-v9.1
+SSP3,South Korea,2060,1.2628,gcam-v9.1
+SSP3,South Korea,2065,1.29381,gcam-v9.1
+SSP3,South Korea,2070,1.30047,gcam-v9.1
+SSP3,South Korea,2075,1.29753,gcam-v9.1
+SSP3,South Korea,2080,1.3124,gcam-v9.1
+SSP3,South Korea,2085,1.3153,gcam-v9.1
+SSP3,South Korea,2090,1.30016,gcam-v9.1
+SSP3,South Korea,2095,1.30053,gcam-v9.1
+SSP3,South Korea,2100,1.31005,gcam-v9.1
+SSP3,Southeast Asia,1975,0,gcam-v9.1
+SSP3,Southeast Asia,1990,0,gcam-v9.1
+SSP3,Southeast Asia,2005,0,gcam-v9.1
+SSP3,Southeast Asia,2010,0,gcam-v9.1
+SSP3,Southeast Asia,2015,0,gcam-v9.1
+SSP3,Southeast Asia,2021,0,gcam-v9.1
+SSP3,Southeast Asia,2025,1.0814,gcam-v9.1
+SSP3,Southeast Asia,2030,1.20213,gcam-v9.1
+SSP3,Southeast Asia,2035,1.26157,gcam-v9.1
+SSP3,Southeast Asia,2040,1.27177,gcam-v9.1
+SSP3,Southeast Asia,2045,1.26053,gcam-v9.1
+SSP3,Southeast Asia,2050,1.25759,gcam-v9.1
+SSP3,Southeast Asia,2055,1.26598,gcam-v9.1
+SSP3,Southeast Asia,2060,1.28031,gcam-v9.1
+SSP3,Southeast Asia,2065,1.29597,gcam-v9.1
+SSP3,Southeast Asia,2070,1.31045,gcam-v9.1
+SSP3,Southeast Asia,2075,1.32459,gcam-v9.1
+SSP3,Southeast Asia,2080,1.33988,gcam-v9.1
+SSP3,Southeast Asia,2085,1.35677,gcam-v9.1
+SSP3,Southeast Asia,2090,1.37349,gcam-v9.1
+SSP3,Southeast Asia,2095,1.39582,gcam-v9.1
+SSP3,Southeast Asia,2100,1.42038,gcam-v9.1
+SSP3,Taiwan,1975,0,gcam-v9.1
+SSP3,Taiwan,1990,0,gcam-v9.1
+SSP3,Taiwan,2005,0,gcam-v9.1
+SSP3,Taiwan,2010,0,gcam-v9.1
+SSP3,Taiwan,2015,0,gcam-v9.1
+SSP3,Taiwan,2021,0,gcam-v9.1
+SSP3,Taiwan,2025,1.10047,gcam-v9.1
+SSP3,Taiwan,2030,1.19915,gcam-v9.1
+SSP3,Taiwan,2035,1.24869,gcam-v9.1
+SSP3,Taiwan,2040,1.25778,gcam-v9.1
+SSP3,Taiwan,2045,1.3136,gcam-v9.1
+SSP3,Taiwan,2050,1.38959,gcam-v9.1
+SSP3,Taiwan,2055,1.45617,gcam-v9.1
+SSP3,Taiwan,2060,1.52967,gcam-v9.1
+SSP3,Taiwan,2065,1.60361,gcam-v9.1
+SSP3,Taiwan,2070,1.64791,gcam-v9.1
+SSP3,Taiwan,2075,1.67457,gcam-v9.1
+SSP3,Taiwan,2080,1.7143,gcam-v9.1
+SSP3,Taiwan,2085,1.7533,gcam-v9.1
+SSP3,Taiwan,2090,1.77145,gcam-v9.1
+SSP3,Taiwan,2095,1.80781,gcam-v9.1
+SSP3,Taiwan,2100,1.84637,gcam-v9.1
+SSP3,Ukraine,1975,0,gcam-v9.1
+SSP3,Ukraine,1990,0,gcam-v9.1
+SSP3,Ukraine,2005,0,gcam-v9.1
+SSP3,Ukraine,2010,0,gcam-v9.1
+SSP3,Ukraine,2015,0,gcam-v9.1
+SSP3,Ukraine,2021,0,gcam-v9.1
+SSP3,Ukraine,2025,0.465577,gcam-v9.1
+SSP3,Ukraine,2030,0.681731,gcam-v9.1
+SSP3,Ukraine,2035,0.870445,gcam-v9.1
+SSP3,Ukraine,2040,1.01516,gcam-v9.1
+SSP3,Ukraine,2045,1.09311,gcam-v9.1
+SSP3,Ukraine,2050,1.16783,gcam-v9.1
+SSP3,Ukraine,2055,1.25727,gcam-v9.1
+SSP3,Ukraine,2060,1.31415,gcam-v9.1
+SSP3,Ukraine,2065,1.33588,gcam-v9.1
+SSP3,Ukraine,2070,1.33845,gcam-v9.1
+SSP3,Ukraine,2075,1.36667,gcam-v9.1
+SSP3,Ukraine,2080,1.40695,gcam-v9.1
+SSP3,Ukraine,2085,1.43771,gcam-v9.1
+SSP3,Ukraine,2090,1.46368,gcam-v9.1
+SSP3,Ukraine,2095,1.48403,gcam-v9.1
+SSP3,Ukraine,2100,1.51001,gcam-v9.1
+SSP3,USA,1975,0,gcam-v9.1
+SSP3,USA,1990,0,gcam-v9.1
+SSP3,USA,2005,0,gcam-v9.1
+SSP3,USA,2010,0,gcam-v9.1
+SSP3,USA,2015,0,gcam-v9.1
+SSP3,USA,2021,0,gcam-v9.1
+SSP3,USA,2025,1.00586,gcam-v9.1
+SSP3,USA,2030,1.03823,gcam-v9.1
+SSP3,USA,2035,1.05246,gcam-v9.1
+SSP3,USA,2040,1.06576,gcam-v9.1
+SSP3,USA,2045,1.08303,gcam-v9.1
+SSP3,USA,2050,1.10566,gcam-v9.1
+SSP3,USA,2055,1.12917,gcam-v9.1
+SSP3,USA,2060,1.14994,gcam-v9.1
+SSP3,USA,2065,1.16596,gcam-v9.1
+SSP3,USA,2070,1.1819,gcam-v9.1
+SSP3,USA,2075,1.19967,gcam-v9.1
+SSP3,USA,2080,1.21311,gcam-v9.1
+SSP3,USA,2085,1.22082,gcam-v9.1
+SSP3,USA,2090,1.222,gcam-v9.1
+SSP3,USA,2095,1.23029,gcam-v9.1
+SSP3,USA,2100,1.24334,gcam-v9.1
+SSP4,Africa_Eastern,1975,0,gcam-v9.1
+SSP4,Africa_Eastern,1990,0,gcam-v9.1
+SSP4,Africa_Eastern,2005,0,gcam-v9.1
+SSP4,Africa_Eastern,2010,0,gcam-v9.1
+SSP4,Africa_Eastern,2015,0,gcam-v9.1
+SSP4,Africa_Eastern,2021,0,gcam-v9.1
+SSP4,Africa_Eastern,2025,0.995989,gcam-v9.1
+SSP4,Africa_Eastern,2030,1.1023,gcam-v9.1
+SSP4,Africa_Eastern,2035,1.20572,gcam-v9.1
+SSP4,Africa_Eastern,2040,1.27407,gcam-v9.1
+SSP4,Africa_Eastern,2045,1.29531,gcam-v9.1
+SSP4,Africa_Eastern,2050,1.30488,gcam-v9.1
+SSP4,Africa_Eastern,2055,1.31156,gcam-v9.1
+SSP4,Africa_Eastern,2060,1.31577,gcam-v9.1
+SSP4,Africa_Eastern,2065,1.32178,gcam-v9.1
+SSP4,Africa_Eastern,2070,1.32603,gcam-v9.1
+SSP4,Africa_Eastern,2075,1.33021,gcam-v9.1
+SSP4,Africa_Eastern,2080,1.33347,gcam-v9.1
+SSP4,Africa_Eastern,2085,1.34039,gcam-v9.1
+SSP4,Africa_Eastern,2090,1.35247,gcam-v9.1
+SSP4,Africa_Eastern,2095,1.37424,gcam-v9.1
+SSP4,Africa_Eastern,2100,1.40395,gcam-v9.1
+SSP4,Africa_Northern,1975,0,gcam-v9.1
+SSP4,Africa_Northern,1990,0,gcam-v9.1
+SSP4,Africa_Northern,2005,0,gcam-v9.1
+SSP4,Africa_Northern,2010,0,gcam-v9.1
+SSP4,Africa_Northern,2015,0,gcam-v9.1
+SSP4,Africa_Northern,2021,0,gcam-v9.1
+SSP4,Africa_Northern,2025,1.15489,gcam-v9.1
+SSP4,Africa_Northern,2030,1.24719,gcam-v9.1
+SSP4,Africa_Northern,2035,1.34783,gcam-v9.1
+SSP4,Africa_Northern,2040,1.44676,gcam-v9.1
+SSP4,Africa_Northern,2045,1.48577,gcam-v9.1
+SSP4,Africa_Northern,2050,1.52618,gcam-v9.1
+SSP4,Africa_Northern,2055,1.57231,gcam-v9.1
+SSP4,Africa_Northern,2060,1.59905,gcam-v9.1
+SSP4,Africa_Northern,2065,1.61621,gcam-v9.1
+SSP4,Africa_Northern,2070,1.62976,gcam-v9.1
+SSP4,Africa_Northern,2075,1.65231,gcam-v9.1
+SSP4,Africa_Northern,2080,1.69718,gcam-v9.1
+SSP4,Africa_Northern,2085,1.75361,gcam-v9.1
+SSP4,Africa_Northern,2090,1.80917,gcam-v9.1
+SSP4,Africa_Northern,2095,1.86776,gcam-v9.1
+SSP4,Africa_Northern,2100,1.93075,gcam-v9.1
+SSP4,Africa_Southern,1975,0,gcam-v9.1
+SSP4,Africa_Southern,1990,0,gcam-v9.1
+SSP4,Africa_Southern,2005,0,gcam-v9.1
+SSP4,Africa_Southern,2010,0,gcam-v9.1
+SSP4,Africa_Southern,2015,0,gcam-v9.1
+SSP4,Africa_Southern,2021,0,gcam-v9.1
+SSP4,Africa_Southern,2025,0.916303,gcam-v9.1
+SSP4,Africa_Southern,2030,0.960251,gcam-v9.1
+SSP4,Africa_Southern,2035,1.0227,gcam-v9.1
+SSP4,Africa_Southern,2040,1.0609,gcam-v9.1
+SSP4,Africa_Southern,2045,1.05804,gcam-v9.1
+SSP4,Africa_Southern,2050,1.0533,gcam-v9.1
+SSP4,Africa_Southern,2055,1.08438,gcam-v9.1
+SSP4,Africa_Southern,2060,1.11729,gcam-v9.1
+SSP4,Africa_Southern,2065,1.15592,gcam-v9.1
+SSP4,Africa_Southern,2070,1.19123,gcam-v9.1
+SSP4,Africa_Southern,2075,1.22537,gcam-v9.1
+SSP4,Africa_Southern,2080,1.25847,gcam-v9.1
+SSP4,Africa_Southern,2085,1.28855,gcam-v9.1
+SSP4,Africa_Southern,2090,1.32239,gcam-v9.1
+SSP4,Africa_Southern,2095,1.36279,gcam-v9.1
+SSP4,Africa_Southern,2100,1.40857,gcam-v9.1
+SSP4,Africa_Western,1975,0,gcam-v9.1
+SSP4,Africa_Western,1990,0,gcam-v9.1
+SSP4,Africa_Western,2005,0,gcam-v9.1
+SSP4,Africa_Western,2010,0,gcam-v9.1
+SSP4,Africa_Western,2015,0,gcam-v9.1
+SSP4,Africa_Western,2021,0,gcam-v9.1
+SSP4,Africa_Western,2025,1.06904,gcam-v9.1
+SSP4,Africa_Western,2030,1.14627,gcam-v9.1
+SSP4,Africa_Western,2035,1.27633,gcam-v9.1
+SSP4,Africa_Western,2040,1.38136,gcam-v9.1
+SSP4,Africa_Western,2045,1.43079,gcam-v9.1
+SSP4,Africa_Western,2050,1.46033,gcam-v9.1
+SSP4,Africa_Western,2055,1.48026,gcam-v9.1
+SSP4,Africa_Western,2060,1.48719,gcam-v9.1
+SSP4,Africa_Western,2065,1.49161,gcam-v9.1
+SSP4,Africa_Western,2070,1.49463,gcam-v9.1
+SSP4,Africa_Western,2075,1.49942,gcam-v9.1
+SSP4,Africa_Western,2080,1.51076,gcam-v9.1
+SSP4,Africa_Western,2085,1.53407,gcam-v9.1
+SSP4,Africa_Western,2090,1.55749,gcam-v9.1
+SSP4,Africa_Western,2095,1.58653,gcam-v9.1
+SSP4,Africa_Western,2100,1.62344,gcam-v9.1
+SSP4,Argentina,1975,0,gcam-v9.1
+SSP4,Argentina,1990,0,gcam-v9.1
+SSP4,Argentina,2005,0,gcam-v9.1
+SSP4,Argentina,2010,0,gcam-v9.1
+SSP4,Argentina,2015,0,gcam-v9.1
+SSP4,Argentina,2021,0,gcam-v9.1
+SSP4,Argentina,2025,1.03687,gcam-v9.1
+SSP4,Argentina,2030,1.07797,gcam-v9.1
+SSP4,Argentina,2035,1.11864,gcam-v9.1
+SSP4,Argentina,2040,1.19123,gcam-v9.1
+SSP4,Argentina,2045,1.28588,gcam-v9.1
+SSP4,Argentina,2050,1.38884,gcam-v9.1
+SSP4,Argentina,2055,1.49984,gcam-v9.1
+SSP4,Argentina,2060,1.61314,gcam-v9.1
+SSP4,Argentina,2065,1.7249,gcam-v9.1
+SSP4,Argentina,2070,1.83491,gcam-v9.1
+SSP4,Argentina,2075,1.94549,gcam-v9.1
+SSP4,Argentina,2080,2.05995,gcam-v9.1
+SSP4,Argentina,2085,2.1692,gcam-v9.1
+SSP4,Argentina,2090,2.26418,gcam-v9.1
+SSP4,Argentina,2095,2.37016,gcam-v9.1
+SSP4,Argentina,2100,2.48409,gcam-v9.1
+SSP4,Australia_NZ,1975,0,gcam-v9.1
+SSP4,Australia_NZ,1990,0,gcam-v9.1
+SSP4,Australia_NZ,2005,0,gcam-v9.1
+SSP4,Australia_NZ,2010,0,gcam-v9.1
+SSP4,Australia_NZ,2015,0,gcam-v9.1
+SSP4,Australia_NZ,2021,0,gcam-v9.1
+SSP4,Australia_NZ,2025,1.01634,gcam-v9.1
+SSP4,Australia_NZ,2030,1.06582,gcam-v9.1
+SSP4,Australia_NZ,2035,1.13992,gcam-v9.1
+SSP4,Australia_NZ,2040,1.22759,gcam-v9.1
+SSP4,Australia_NZ,2045,1.30774,gcam-v9.1
+SSP4,Australia_NZ,2050,1.3798,gcam-v9.1
+SSP4,Australia_NZ,2055,1.44592,gcam-v9.1
+SSP4,Australia_NZ,2060,1.5134,gcam-v9.1
+SSP4,Australia_NZ,2065,1.57551,gcam-v9.1
+SSP4,Australia_NZ,2070,1.6273,gcam-v9.1
+SSP4,Australia_NZ,2075,1.68281,gcam-v9.1
+SSP4,Australia_NZ,2080,1.74248,gcam-v9.1
+SSP4,Australia_NZ,2085,1.79918,gcam-v9.1
+SSP4,Australia_NZ,2090,1.84908,gcam-v9.1
+SSP4,Australia_NZ,2095,1.89416,gcam-v9.1
+SSP4,Australia_NZ,2100,1.93661,gcam-v9.1
+SSP4,Brazil,1975,0,gcam-v9.1
+SSP4,Brazil,1990,0,gcam-v9.1
+SSP4,Brazil,2005,0,gcam-v9.1
+SSP4,Brazil,2010,0,gcam-v9.1
+SSP4,Brazil,2015,0,gcam-v9.1
+SSP4,Brazil,2021,0,gcam-v9.1
+SSP4,Brazil,2025,1.03014,gcam-v9.1
+SSP4,Brazil,2030,1.05827,gcam-v9.1
+SSP4,Brazil,2035,1.18141,gcam-v9.1
+SSP4,Brazil,2040,1.36518,gcam-v9.1
+SSP4,Brazil,2045,1.57195,gcam-v9.1
+SSP4,Brazil,2050,1.77574,gcam-v9.1
+SSP4,Brazil,2055,1.96303,gcam-v9.1
+SSP4,Brazil,2060,2.12819,gcam-v9.1
+SSP4,Brazil,2065,2.29304,gcam-v9.1
+SSP4,Brazil,2070,2.44286,gcam-v9.1
+SSP4,Brazil,2075,2.58114,gcam-v9.1
+SSP4,Brazil,2080,2.71176,gcam-v9.1
+SSP4,Brazil,2085,2.83922,gcam-v9.1
+SSP4,Brazil,2090,2.95518,gcam-v9.1
+SSP4,Brazil,2095,3.09297,gcam-v9.1
+SSP4,Brazil,2100,3.24621,gcam-v9.1
+SSP4,Canada,1975,0,gcam-v9.1
+SSP4,Canada,1990,0,gcam-v9.1
+SSP4,Canada,2005,0,gcam-v9.1
+SSP4,Canada,2010,0,gcam-v9.1
+SSP4,Canada,2015,0,gcam-v9.1
+SSP4,Canada,2021,0,gcam-v9.1
+SSP4,Canada,2025,0.998426,gcam-v9.1
+SSP4,Canada,2030,1.06699,gcam-v9.1
+SSP4,Canada,2035,1.15841,gcam-v9.1
+SSP4,Canada,2040,1.26191,gcam-v9.1
+SSP4,Canada,2045,1.3633,gcam-v9.1
+SSP4,Canada,2050,1.44542,gcam-v9.1
+SSP4,Canada,2055,1.52778,gcam-v9.1
+SSP4,Canada,2060,1.60715,gcam-v9.1
+SSP4,Canada,2065,1.6869,gcam-v9.1
+SSP4,Canada,2070,1.75779,gcam-v9.1
+SSP4,Canada,2075,1.83364,gcam-v9.1
+SSP4,Canada,2080,1.91508,gcam-v9.1
+SSP4,Canada,2085,1.98459,gcam-v9.1
+SSP4,Canada,2090,2.04236,gcam-v9.1
+SSP4,Canada,2095,2.09613,gcam-v9.1
+SSP4,Canada,2100,2.15613,gcam-v9.1
+SSP4,Central America and Caribbean,1975,0,gcam-v9.1
+SSP4,Central America and Caribbean,1990,0,gcam-v9.1
+SSP4,Central America and Caribbean,2005,0,gcam-v9.1
+SSP4,Central America and Caribbean,2010,0,gcam-v9.1
+SSP4,Central America and Caribbean,2015,0,gcam-v9.1
+SSP4,Central America and Caribbean,2021,0,gcam-v9.1
+SSP4,Central America and Caribbean,2025,1.07542,gcam-v9.1
+SSP4,Central America and Caribbean,2030,1.14632,gcam-v9.1
+SSP4,Central America and Caribbean,2035,1.2468,gcam-v9.1
+SSP4,Central America and Caribbean,2040,1.35966,gcam-v9.1
+SSP4,Central America and Caribbean,2045,1.46242,gcam-v9.1
+SSP4,Central America and Caribbean,2050,1.5566,gcam-v9.1
+SSP4,Central America and Caribbean,2055,1.64605,gcam-v9.1
+SSP4,Central America and Caribbean,2060,1.72879,gcam-v9.1
+SSP4,Central America and Caribbean,2065,1.80981,gcam-v9.1
+SSP4,Central America and Caribbean,2070,1.88669,gcam-v9.1
+SSP4,Central America and Caribbean,2075,1.95985,gcam-v9.1
+SSP4,Central America and Caribbean,2080,2.03213,gcam-v9.1
+SSP4,Central America and Caribbean,2085,2.10332,gcam-v9.1
+SSP4,Central America and Caribbean,2090,2.17443,gcam-v9.1
+SSP4,Central America and Caribbean,2095,2.25712,gcam-v9.1
+SSP4,Central America and Caribbean,2100,2.34843,gcam-v9.1
+SSP4,Central Asia,1975,0,gcam-v9.1
+SSP4,Central Asia,1990,0,gcam-v9.1
+SSP4,Central Asia,2005,0,gcam-v9.1
+SSP4,Central Asia,2010,0,gcam-v9.1
+SSP4,Central Asia,2015,0,gcam-v9.1
+SSP4,Central Asia,2021,0,gcam-v9.1
+SSP4,Central Asia,2025,1.23247,gcam-v9.1
+SSP4,Central Asia,2030,1.32036,gcam-v9.1
+SSP4,Central Asia,2035,1.43566,gcam-v9.1
+SSP4,Central Asia,2040,1.51693,gcam-v9.1
+SSP4,Central Asia,2045,1.52529,gcam-v9.1
+SSP4,Central Asia,2050,1.52449,gcam-v9.1
+SSP4,Central Asia,2055,1.5579,gcam-v9.1
+SSP4,Central Asia,2060,1.61143,gcam-v9.1
+SSP4,Central Asia,2065,1.67189,gcam-v9.1
+SSP4,Central Asia,2070,1.72448,gcam-v9.1
+SSP4,Central Asia,2075,1.78113,gcam-v9.1
+SSP4,Central Asia,2080,1.85041,gcam-v9.1
+SSP4,Central Asia,2085,1.92519,gcam-v9.1
+SSP4,Central Asia,2090,2.00685,gcam-v9.1
+SSP4,Central Asia,2095,2.09474,gcam-v9.1
+SSP4,Central Asia,2100,2.18336,gcam-v9.1
+SSP4,China,1975,0,gcam-v9.1
+SSP4,China,1990,0,gcam-v9.1
+SSP4,China,2005,0,gcam-v9.1
+SSP4,China,2010,0,gcam-v9.1
+SSP4,China,2015,0,gcam-v9.1
+SSP4,China,2021,0,gcam-v9.1
+SSP4,China,2025,1.11243,gcam-v9.1
+SSP4,China,2030,1.2145,gcam-v9.1
+SSP4,China,2035,1.32736,gcam-v9.1
+SSP4,China,2040,1.42842,gcam-v9.1
+SSP4,China,2045,1.51624,gcam-v9.1
+SSP4,China,2050,1.6319,gcam-v9.1
+SSP4,China,2055,1.77199,gcam-v9.1
+SSP4,China,2060,1.90615,gcam-v9.1
+SSP4,China,2065,2.0199,gcam-v9.1
+SSP4,China,2070,2.1246,gcam-v9.1
+SSP4,China,2075,2.24365,gcam-v9.1
+SSP4,China,2080,2.39849,gcam-v9.1
+SSP4,China,2085,2.56735,gcam-v9.1
+SSP4,China,2090,2.67302,gcam-v9.1
+SSP4,China,2095,2.75528,gcam-v9.1
+SSP4,China,2100,2.84119,gcam-v9.1
+SSP4,Colombia,1975,0,gcam-v9.1
+SSP4,Colombia,1990,0,gcam-v9.1
+SSP4,Colombia,2005,0,gcam-v9.1
+SSP4,Colombia,2010,0,gcam-v9.1
+SSP4,Colombia,2015,0,gcam-v9.1
+SSP4,Colombia,2021,0,gcam-v9.1
+SSP4,Colombia,2025,1.05994,gcam-v9.1
+SSP4,Colombia,2030,1.11524,gcam-v9.1
+SSP4,Colombia,2035,1.26288,gcam-v9.1
+SSP4,Colombia,2040,1.46528,gcam-v9.1
+SSP4,Colombia,2045,1.64908,gcam-v9.1
+SSP4,Colombia,2050,1.80466,gcam-v9.1
+SSP4,Colombia,2055,1.94631,gcam-v9.1
+SSP4,Colombia,2060,2.0768,gcam-v9.1
+SSP4,Colombia,2065,2.19991,gcam-v9.1
+SSP4,Colombia,2070,2.30793,gcam-v9.1
+SSP4,Colombia,2075,2.39561,gcam-v9.1
+SSP4,Colombia,2080,2.47146,gcam-v9.1
+SSP4,Colombia,2085,2.54356,gcam-v9.1
+SSP4,Colombia,2090,2.61537,gcam-v9.1
+SSP4,Colombia,2095,2.70261,gcam-v9.1
+SSP4,Colombia,2100,2.79804,gcam-v9.1
+SSP4,EU-12,1975,0,gcam-v9.1
+SSP4,EU-12,1990,0,gcam-v9.1
+SSP4,EU-12,2005,0,gcam-v9.1
+SSP4,EU-12,2010,0,gcam-v9.1
+SSP4,EU-12,2015,0,gcam-v9.1
+SSP4,EU-12,2021,0,gcam-v9.1
+SSP4,EU-12,2025,1.05601,gcam-v9.1
+SSP4,EU-12,2030,1.13196,gcam-v9.1
+SSP4,EU-12,2035,1.20119,gcam-v9.1
+SSP4,EU-12,2040,1.26716,gcam-v9.1
+SSP4,EU-12,2045,1.31647,gcam-v9.1
+SSP4,EU-12,2050,1.35758,gcam-v9.1
+SSP4,EU-12,2055,1.40279,gcam-v9.1
+SSP4,EU-12,2060,1.44265,gcam-v9.1
+SSP4,EU-12,2065,1.47144,gcam-v9.1
+SSP4,EU-12,2070,1.49589,gcam-v9.1
+SSP4,EU-12,2075,1.53,gcam-v9.1
+SSP4,EU-12,2080,1.56937,gcam-v9.1
+SSP4,EU-12,2085,1.61954,gcam-v9.1
+SSP4,EU-12,2090,1.67061,gcam-v9.1
+SSP4,EU-12,2095,1.71162,gcam-v9.1
+SSP4,EU-12,2100,1.74882,gcam-v9.1
+SSP4,EU-15,1975,0,gcam-v9.1
+SSP4,EU-15,1990,0,gcam-v9.1
+SSP4,EU-15,2005,0,gcam-v9.1
+SSP4,EU-15,2010,0,gcam-v9.1
+SSP4,EU-15,2015,0,gcam-v9.1
+SSP4,EU-15,2021,0,gcam-v9.1
+SSP4,EU-15,2025,1.03252,gcam-v9.1
+SSP4,EU-15,2030,1.07518,gcam-v9.1
+SSP4,EU-15,2035,1.13741,gcam-v9.1
+SSP4,EU-15,2040,1.21014,gcam-v9.1
+SSP4,EU-15,2045,1.28255,gcam-v9.1
+SSP4,EU-15,2050,1.34972,gcam-v9.1
+SSP4,EU-15,2055,1.41326,gcam-v9.1
+SSP4,EU-15,2060,1.47388,gcam-v9.1
+SSP4,EU-15,2065,1.5309,gcam-v9.1
+SSP4,EU-15,2070,1.58343,gcam-v9.1
+SSP4,EU-15,2075,1.63893,gcam-v9.1
+SSP4,EU-15,2080,1.69813,gcam-v9.1
+SSP4,EU-15,2085,1.75491,gcam-v9.1
+SSP4,EU-15,2090,1.8045,gcam-v9.1
+SSP4,EU-15,2095,1.84752,gcam-v9.1
+SSP4,EU-15,2100,1.8886,gcam-v9.1
+SSP4,Europe_Non_EU,1975,0,gcam-v9.1
+SSP4,Europe_Non_EU,1990,0,gcam-v9.1
+SSP4,Europe_Non_EU,2005,0,gcam-v9.1
+SSP4,Europe_Non_EU,2010,0,gcam-v9.1
+SSP4,Europe_Non_EU,2015,0,gcam-v9.1
+SSP4,Europe_Non_EU,2021,0,gcam-v9.1
+SSP4,Europe_Non_EU,2025,1.02635,gcam-v9.1
+SSP4,Europe_Non_EU,2030,1.06022,gcam-v9.1
+SSP4,Europe_Non_EU,2035,1.101,gcam-v9.1
+SSP4,Europe_Non_EU,2040,1.12835,gcam-v9.1
+SSP4,Europe_Non_EU,2045,1.14997,gcam-v9.1
+SSP4,Europe_Non_EU,2050,1.16789,gcam-v9.1
+SSP4,Europe_Non_EU,2055,1.19116,gcam-v9.1
+SSP4,Europe_Non_EU,2060,1.21561,gcam-v9.1
+SSP4,Europe_Non_EU,2065,1.23918,gcam-v9.1
+SSP4,Europe_Non_EU,2070,1.25778,gcam-v9.1
+SSP4,Europe_Non_EU,2075,1.27758,gcam-v9.1
+SSP4,Europe_Non_EU,2080,1.30499,gcam-v9.1
+SSP4,Europe_Non_EU,2085,1.34019,gcam-v9.1
+SSP4,Europe_Non_EU,2090,1.37187,gcam-v9.1
+SSP4,Europe_Non_EU,2095,1.40285,gcam-v9.1
+SSP4,Europe_Non_EU,2100,1.43378,gcam-v9.1
+SSP4,European Free Trade Association,1975,0,gcam-v9.1
+SSP4,European Free Trade Association,1990,0,gcam-v9.1
+SSP4,European Free Trade Association,2005,0,gcam-v9.1
+SSP4,European Free Trade Association,2010,0,gcam-v9.1
+SSP4,European Free Trade Association,2015,0,gcam-v9.1
+SSP4,European Free Trade Association,2021,0,gcam-v9.1
+SSP4,European Free Trade Association,2025,1.00027,gcam-v9.1
+SSP4,European Free Trade Association,2030,1.0085,gcam-v9.1
+SSP4,European Free Trade Association,2035,1.04118,gcam-v9.1
+SSP4,European Free Trade Association,2040,1.07342,gcam-v9.1
+SSP4,European Free Trade Association,2045,1.10012,gcam-v9.1
+SSP4,European Free Trade Association,2050,1.12469,gcam-v9.1
+SSP4,European Free Trade Association,2055,1.16238,gcam-v9.1
+SSP4,European Free Trade Association,2060,1.2049,gcam-v9.1
+SSP4,European Free Trade Association,2065,1.24679,gcam-v9.1
+SSP4,European Free Trade Association,2070,1.28419,gcam-v9.1
+SSP4,European Free Trade Association,2075,1.32799,gcam-v9.1
+SSP4,European Free Trade Association,2080,1.37734,gcam-v9.1
+SSP4,European Free Trade Association,2085,1.4223,gcam-v9.1
+SSP4,European Free Trade Association,2090,1.46195,gcam-v9.1
+SSP4,European Free Trade Association,2095,1.4983,gcam-v9.1
+SSP4,European Free Trade Association,2100,1.53244,gcam-v9.1
+SSP4,India,1975,0,gcam-v9.1
+SSP4,India,1990,0,gcam-v9.1
+SSP4,India,2005,0,gcam-v9.1
+SSP4,India,2010,0,gcam-v9.1
+SSP4,India,2015,0,gcam-v9.1
+SSP4,India,2021,0,gcam-v9.1
+SSP4,India,2025,1.04421,gcam-v9.1
+SSP4,India,2030,1.17041,gcam-v9.1
+SSP4,India,2035,1.25906,gcam-v9.1
+SSP4,India,2040,1.33701,gcam-v9.1
+SSP4,India,2045,1.40457,gcam-v9.1
+SSP4,India,2050,1.48028,gcam-v9.1
+SSP4,India,2055,1.56538,gcam-v9.1
+SSP4,India,2060,1.6568,gcam-v9.1
+SSP4,India,2065,1.75627,gcam-v9.1
+SSP4,India,2070,1.85948,gcam-v9.1
+SSP4,India,2075,1.96102,gcam-v9.1
+SSP4,India,2080,2.05604,gcam-v9.1
+SSP4,India,2085,2.14388,gcam-v9.1
+SSP4,India,2090,2.22698,gcam-v9.1
+SSP4,India,2095,2.32497,gcam-v9.1
+SSP4,India,2100,2.43375,gcam-v9.1
+SSP4,Indonesia,1975,0,gcam-v9.1
+SSP4,Indonesia,1990,0,gcam-v9.1
+SSP4,Indonesia,2005,0,gcam-v9.1
+SSP4,Indonesia,2010,0,gcam-v9.1
+SSP4,Indonesia,2015,0,gcam-v9.1
+SSP4,Indonesia,2021,0,gcam-v9.1
+SSP4,Indonesia,2025,1.11153,gcam-v9.1
+SSP4,Indonesia,2030,1.24871,gcam-v9.1
+SSP4,Indonesia,2035,1.33865,gcam-v9.1
+SSP4,Indonesia,2040,1.41915,gcam-v9.1
+SSP4,Indonesia,2045,1.48139,gcam-v9.1
+SSP4,Indonesia,2050,1.53346,gcam-v9.1
+SSP4,Indonesia,2055,1.58834,gcam-v9.1
+SSP4,Indonesia,2060,1.64544,gcam-v9.1
+SSP4,Indonesia,2065,1.70916,gcam-v9.1
+SSP4,Indonesia,2070,1.77728,gcam-v9.1
+SSP4,Indonesia,2075,1.85164,gcam-v9.1
+SSP4,Indonesia,2080,1.92956,gcam-v9.1
+SSP4,Indonesia,2085,2.00289,gcam-v9.1
+SSP4,Indonesia,2090,2.07205,gcam-v9.1
+SSP4,Indonesia,2095,2.15076,gcam-v9.1
+SSP4,Indonesia,2100,2.23323,gcam-v9.1
+SSP4,Japan,1975,0,gcam-v9.1
+SSP4,Japan,1990,0,gcam-v9.1
+SSP4,Japan,2005,0,gcam-v9.1
+SSP4,Japan,2010,0,gcam-v9.1
+SSP4,Japan,2015,0,gcam-v9.1
+SSP4,Japan,2021,0,gcam-v9.1
+SSP4,Japan,2025,1.02067,gcam-v9.1
+SSP4,Japan,2030,1.03572,gcam-v9.1
+SSP4,Japan,2035,1.09425,gcam-v9.1
+SSP4,Japan,2040,1.18549,gcam-v9.1
+SSP4,Japan,2045,1.27898,gcam-v9.1
+SSP4,Japan,2050,1.35954,gcam-v9.1
+SSP4,Japan,2055,1.42539,gcam-v9.1
+SSP4,Japan,2060,1.48334,gcam-v9.1
+SSP4,Japan,2065,1.54402,gcam-v9.1
+SSP4,Japan,2070,1.60328,gcam-v9.1
+SSP4,Japan,2075,1.66136,gcam-v9.1
+SSP4,Japan,2080,1.72485,gcam-v9.1
+SSP4,Japan,2085,1.78522,gcam-v9.1
+SSP4,Japan,2090,1.84838,gcam-v9.1
+SSP4,Japan,2095,1.904,gcam-v9.1
+SSP4,Japan,2100,1.95439,gcam-v9.1
+SSP4,Mexico,1975,0,gcam-v9.1
+SSP4,Mexico,1990,0,gcam-v9.1
+SSP4,Mexico,2005,0,gcam-v9.1
+SSP4,Mexico,2010,0,gcam-v9.1
+SSP4,Mexico,2015,0,gcam-v9.1
+SSP4,Mexico,2021,0,gcam-v9.1
+SSP4,Mexico,2025,1.02969,gcam-v9.1
+SSP4,Mexico,2030,1.0561,gcam-v9.1
+SSP4,Mexico,2035,1.11674,gcam-v9.1
+SSP4,Mexico,2040,1.20386,gcam-v9.1
+SSP4,Mexico,2045,1.28638,gcam-v9.1
+SSP4,Mexico,2050,1.35056,gcam-v9.1
+SSP4,Mexico,2055,1.40545,gcam-v9.1
+SSP4,Mexico,2060,1.44856,gcam-v9.1
+SSP4,Mexico,2065,1.49062,gcam-v9.1
+SSP4,Mexico,2070,1.53126,gcam-v9.1
+SSP4,Mexico,2075,1.56589,gcam-v9.1
+SSP4,Mexico,2080,1.59642,gcam-v9.1
+SSP4,Mexico,2085,1.62008,gcam-v9.1
+SSP4,Mexico,2090,1.64108,gcam-v9.1
+SSP4,Mexico,2095,1.66654,gcam-v9.1
+SSP4,Mexico,2100,1.69447,gcam-v9.1
+SSP4,Middle East,1975,0,gcam-v9.1
+SSP4,Middle East,1990,0,gcam-v9.1
+SSP4,Middle East,2005,0,gcam-v9.1
+SSP4,Middle East,2010,0,gcam-v9.1
+SSP4,Middle East,2015,0,gcam-v9.1
+SSP4,Middle East,2021,0,gcam-v9.1
+SSP4,Middle East,2025,1.11263,gcam-v9.1
+SSP4,Middle East,2030,1.09692,gcam-v9.1
+SSP4,Middle East,2035,1.12946,gcam-v9.1
+SSP4,Middle East,2040,1.17512,gcam-v9.1
+SSP4,Middle East,2045,1.21963,gcam-v9.1
+SSP4,Middle East,2050,1.28299,gcam-v9.1
+SSP4,Middle East,2055,1.33736,gcam-v9.1
+SSP4,Middle East,2060,1.38508,gcam-v9.1
+SSP4,Middle East,2065,1.42723,gcam-v9.1
+SSP4,Middle East,2070,1.47599,gcam-v9.1
+SSP4,Middle East,2075,1.52676,gcam-v9.1
+SSP4,Middle East,2080,1.58317,gcam-v9.1
+SSP4,Middle East,2085,1.64602,gcam-v9.1
+SSP4,Middle East,2090,1.71355,gcam-v9.1
+SSP4,Middle East,2095,1.78603,gcam-v9.1
+SSP4,Middle East,2100,1.86063,gcam-v9.1
+SSP4,Pakistan,1975,0,gcam-v9.1
+SSP4,Pakistan,1990,0,gcam-v9.1
+SSP4,Pakistan,2005,0,gcam-v9.1
+SSP4,Pakistan,2010,0,gcam-v9.1
+SSP4,Pakistan,2015,0,gcam-v9.1
+SSP4,Pakistan,2021,0,gcam-v9.1
+SSP4,Pakistan,2025,1.05873,gcam-v9.1
+SSP4,Pakistan,2030,1.19339,gcam-v9.1
+SSP4,Pakistan,2035,1.32307,gcam-v9.1
+SSP4,Pakistan,2040,1.46487,gcam-v9.1
+SSP4,Pakistan,2045,1.55093,gcam-v9.1
+SSP4,Pakistan,2050,1.57598,gcam-v9.1
+SSP4,Pakistan,2055,1.58486,gcam-v9.1
+SSP4,Pakistan,2060,1.58609,gcam-v9.1
+SSP4,Pakistan,2065,1.58835,gcam-v9.1
+SSP4,Pakistan,2070,1.59487,gcam-v9.1
+SSP4,Pakistan,2075,1.60977,gcam-v9.1
+SSP4,Pakistan,2080,1.63249,gcam-v9.1
+SSP4,Pakistan,2085,1.66426,gcam-v9.1
+SSP4,Pakistan,2090,1.71022,gcam-v9.1
+SSP4,Pakistan,2095,1.77232,gcam-v9.1
+SSP4,Pakistan,2100,1.8482,gcam-v9.1
+SSP4,Russia,1975,0,gcam-v9.1
+SSP4,Russia,1990,0,gcam-v9.1
+SSP4,Russia,2005,0,gcam-v9.1
+SSP4,Russia,2010,0,gcam-v9.1
+SSP4,Russia,2015,0,gcam-v9.1
+SSP4,Russia,2021,0,gcam-v9.1
+SSP4,Russia,2025,0.940211,gcam-v9.1
+SSP4,Russia,2030,1.00218,gcam-v9.1
+SSP4,Russia,2035,1.12077,gcam-v9.1
+SSP4,Russia,2040,1.24527,gcam-v9.1
+SSP4,Russia,2045,1.3407,gcam-v9.1
+SSP4,Russia,2050,1.42482,gcam-v9.1
+SSP4,Russia,2055,1.56221,gcam-v9.1
+SSP4,Russia,2060,1.68173,gcam-v9.1
+SSP4,Russia,2065,1.78439,gcam-v9.1
+SSP4,Russia,2070,1.87253,gcam-v9.1
+SSP4,Russia,2075,1.97275,gcam-v9.1
+SSP4,Russia,2080,2.10709,gcam-v9.1
+SSP4,Russia,2085,2.24154,gcam-v9.1
+SSP4,Russia,2090,2.36103,gcam-v9.1
+SSP4,Russia,2095,2.47224,gcam-v9.1
+SSP4,Russia,2100,2.58457,gcam-v9.1
+SSP4,South Africa,1975,0,gcam-v9.1
+SSP4,South Africa,1990,0,gcam-v9.1
+SSP4,South Africa,2005,0,gcam-v9.1
+SSP4,South Africa,2010,0,gcam-v9.1
+SSP4,South Africa,2015,0,gcam-v9.1
+SSP4,South Africa,2021,0,gcam-v9.1
+SSP4,South Africa,2025,1.01305,gcam-v9.1
+SSP4,South Africa,2030,1.05677,gcam-v9.1
+SSP4,South Africa,2035,1.17572,gcam-v9.1
+SSP4,South Africa,2040,1.33582,gcam-v9.1
+SSP4,South Africa,2045,1.47048,gcam-v9.1
+SSP4,South Africa,2050,1.59682,gcam-v9.1
+SSP4,South Africa,2055,1.72288,gcam-v9.1
+SSP4,South Africa,2060,1.8349,gcam-v9.1
+SSP4,South Africa,2065,1.93827,gcam-v9.1
+SSP4,South Africa,2070,2.03724,gcam-v9.1
+SSP4,South Africa,2075,2.14962,gcam-v9.1
+SSP4,South Africa,2080,2.27307,gcam-v9.1
+SSP4,South Africa,2085,2.40389,gcam-v9.1
+SSP4,South Africa,2090,2.53517,gcam-v9.1
+SSP4,South Africa,2095,2.67498,gcam-v9.1
+SSP4,South Africa,2100,2.82074,gcam-v9.1
+SSP4,South America_Northern,1975,0,gcam-v9.1
+SSP4,South America_Northern,1990,0,gcam-v9.1
+SSP4,South America_Northern,2005,0,gcam-v9.1
+SSP4,South America_Northern,2010,0,gcam-v9.1
+SSP4,South America_Northern,2015,0,gcam-v9.1
+SSP4,South America_Northern,2021,0,gcam-v9.1
+SSP4,South America_Northern,2025,1.77315,gcam-v9.1
+SSP4,South America_Northern,2030,2.56895,gcam-v9.1
+SSP4,South America_Northern,2035,3.19881,gcam-v9.1
+SSP4,South America_Northern,2040,3.49897,gcam-v9.1
+SSP4,South America_Northern,2045,3.52515,gcam-v9.1
+SSP4,South America_Northern,2050,3.40463,gcam-v9.1
+SSP4,South America_Northern,2055,3.29223,gcam-v9.1
+SSP4,South America_Northern,2060,3.25315,gcam-v9.1
+SSP4,South America_Northern,2065,3.30461,gcam-v9.1
+SSP4,South America_Northern,2070,3.43244,gcam-v9.1
+SSP4,South America_Northern,2075,3.60763,gcam-v9.1
+SSP4,South America_Northern,2080,3.79332,gcam-v9.1
+SSP4,South America_Northern,2085,3.9697,gcam-v9.1
+SSP4,South America_Northern,2090,4.1376,gcam-v9.1
+SSP4,South America_Northern,2095,4.31574,gcam-v9.1
+SSP4,South America_Northern,2100,4.49522,gcam-v9.1
+SSP4,South America_Southern,1975,0,gcam-v9.1
+SSP4,South America_Southern,1990,0,gcam-v9.1
+SSP4,South America_Southern,2005,0,gcam-v9.1
+SSP4,South America_Southern,2010,0,gcam-v9.1
+SSP4,South America_Southern,2015,0,gcam-v9.1
+SSP4,South America_Southern,2021,0,gcam-v9.1
+SSP4,South America_Southern,2025,1.03185,gcam-v9.1
+SSP4,South America_Southern,2030,1.04044,gcam-v9.1
+SSP4,South America_Southern,2035,1.09782,gcam-v9.1
+SSP4,South America_Southern,2040,1.18428,gcam-v9.1
+SSP4,South America_Southern,2045,1.27495,gcam-v9.1
+SSP4,South America_Southern,2050,1.36252,gcam-v9.1
+SSP4,South America_Southern,2055,1.44651,gcam-v9.1
+SSP4,South America_Southern,2060,1.52467,gcam-v9.1
+SSP4,South America_Southern,2065,1.60094,gcam-v9.1
+SSP4,South America_Southern,2070,1.67182,gcam-v9.1
+SSP4,South America_Southern,2075,1.73989,gcam-v9.1
+SSP4,South America_Southern,2080,1.80553,gcam-v9.1
+SSP4,South America_Southern,2085,1.86786,gcam-v9.1
+SSP4,South America_Southern,2090,1.92816,gcam-v9.1
+SSP4,South America_Southern,2095,1.99746,gcam-v9.1
+SSP4,South America_Southern,2100,2.07262,gcam-v9.1
+SSP4,South Asia,1975,0,gcam-v9.1
+SSP4,South Asia,1990,0,gcam-v9.1
+SSP4,South Asia,2005,0,gcam-v9.1
+SSP4,South Asia,2010,0,gcam-v9.1
+SSP4,South Asia,2015,0,gcam-v9.1
+SSP4,South Asia,2021,0,gcam-v9.1
+SSP4,South Asia,2025,0.974341,gcam-v9.1
+SSP4,South Asia,2030,1.12971,gcam-v9.1
+SSP4,South Asia,2035,1.2313,gcam-v9.1
+SSP4,South Asia,2040,1.28385,gcam-v9.1
+SSP4,South Asia,2045,1.30827,gcam-v9.1
+SSP4,South Asia,2050,1.33468,gcam-v9.1
+SSP4,South Asia,2055,1.36731,gcam-v9.1
+SSP4,South Asia,2060,1.40809,gcam-v9.1
+SSP4,South Asia,2065,1.45794,gcam-v9.1
+SSP4,South Asia,2070,1.50821,gcam-v9.1
+SSP4,South Asia,2075,1.55387,gcam-v9.1
+SSP4,South Asia,2080,1.59229,gcam-v9.1
+SSP4,South Asia,2085,1.63102,gcam-v9.1
+SSP4,South Asia,2090,1.67342,gcam-v9.1
+SSP4,South Asia,2095,1.72681,gcam-v9.1
+SSP4,South Asia,2100,1.78887,gcam-v9.1
+SSP4,South Korea,1975,0,gcam-v9.1
+SSP4,South Korea,1990,0,gcam-v9.1
+SSP4,South Korea,2005,0,gcam-v9.1
+SSP4,South Korea,2010,0,gcam-v9.1
+SSP4,South Korea,2015,0,gcam-v9.1
+SSP4,South Korea,2021,0,gcam-v9.1
+SSP4,South Korea,2025,1.03078,gcam-v9.1
+SSP4,South Korea,2030,1.08797,gcam-v9.1
+SSP4,South Korea,2035,1.15904,gcam-v9.1
+SSP4,South Korea,2040,1.2608,gcam-v9.1
+SSP4,South Korea,2045,1.3284,gcam-v9.1
+SSP4,South Korea,2050,1.4087,gcam-v9.1
+SSP4,South Korea,2055,1.46869,gcam-v9.1
+SSP4,South Korea,2060,1.53734,gcam-v9.1
+SSP4,South Korea,2065,1.61699,gcam-v9.1
+SSP4,South Korea,2070,1.66802,gcam-v9.1
+SSP4,South Korea,2075,1.70595,gcam-v9.1
+SSP4,South Korea,2080,1.76493,gcam-v9.1
+SSP4,South Korea,2085,1.80906,gcam-v9.1
+SSP4,South Korea,2090,1.82407,gcam-v9.1
+SSP4,South Korea,2095,1.8405,gcam-v9.1
+SSP4,South Korea,2100,1.86059,gcam-v9.1
+SSP4,Southeast Asia,1975,0,gcam-v9.1
+SSP4,Southeast Asia,1990,0,gcam-v9.1
+SSP4,Southeast Asia,2005,0,gcam-v9.1
+SSP4,Southeast Asia,2010,0,gcam-v9.1
+SSP4,Southeast Asia,2015,0,gcam-v9.1
+SSP4,Southeast Asia,2021,0,gcam-v9.1
+SSP4,Southeast Asia,2025,1.08328,gcam-v9.1
+SSP4,Southeast Asia,2030,1.20175,gcam-v9.1
+SSP4,Southeast Asia,2035,1.28084,gcam-v9.1
+SSP4,Southeast Asia,2040,1.3223,gcam-v9.1
+SSP4,Southeast Asia,2045,1.34208,gcam-v9.1
+SSP4,Southeast Asia,2050,1.3684,gcam-v9.1
+SSP4,Southeast Asia,2055,1.40429,gcam-v9.1
+SSP4,Southeast Asia,2060,1.44811,gcam-v9.1
+SSP4,Southeast Asia,2065,1.49704,gcam-v9.1
+SSP4,Southeast Asia,2070,1.54742,gcam-v9.1
+SSP4,Southeast Asia,2075,1.59969,gcam-v9.1
+SSP4,Southeast Asia,2080,1.65498,gcam-v9.1
+SSP4,Southeast Asia,2085,1.71489,gcam-v9.1
+SSP4,Southeast Asia,2090,1.77652,gcam-v9.1
+SSP4,Southeast Asia,2095,1.84693,gcam-v9.1
+SSP4,Southeast Asia,2100,1.92366,gcam-v9.1
+SSP4,Taiwan,1975,0,gcam-v9.1
+SSP4,Taiwan,1990,0,gcam-v9.1
+SSP4,Taiwan,2005,0,gcam-v9.1
+SSP4,Taiwan,2010,0,gcam-v9.1
+SSP4,Taiwan,2015,0,gcam-v9.1
+SSP4,Taiwan,2021,0,gcam-v9.1
+SSP4,Taiwan,2025,1.10169,gcam-v9.1
+SSP4,Taiwan,2030,1.20201,gcam-v9.1
+SSP4,Taiwan,2035,1.26418,gcam-v9.1
+SSP4,Taiwan,2040,1.27093,gcam-v9.1
+SSP4,Taiwan,2045,1.32566,gcam-v9.1
+SSP4,Taiwan,2050,1.41167,gcam-v9.1
+SSP4,Taiwan,2055,1.50029,gcam-v9.1
+SSP4,Taiwan,2060,1.6069,gcam-v9.1
+SSP4,Taiwan,2065,1.72404,gcam-v9.1
+SSP4,Taiwan,2070,1.81845,gcam-v9.1
+SSP4,Taiwan,2075,1.90001,gcam-v9.1
+SSP4,Taiwan,2080,2.00856,gcam-v9.1
+SSP4,Taiwan,2085,2.13483,gcam-v9.1
+SSP4,Taiwan,2090,2.2494,gcam-v9.1
+SSP4,Taiwan,2095,2.37843,gcam-v9.1
+SSP4,Taiwan,2100,2.51804,gcam-v9.1
+SSP4,Ukraine,1975,0,gcam-v9.1
+SSP4,Ukraine,1990,0,gcam-v9.1
+SSP4,Ukraine,2005,0,gcam-v9.1
+SSP4,Ukraine,2010,0,gcam-v9.1
+SSP4,Ukraine,2015,0,gcam-v9.1
+SSP4,Ukraine,2021,0,gcam-v9.1
+SSP4,Ukraine,2025,0.467256,gcam-v9.1
+SSP4,Ukraine,2030,0.68519,gcam-v9.1
+SSP4,Ukraine,2035,0.89392,gcam-v9.1
+SSP4,Ukraine,2040,1.07858,gcam-v9.1
+SSP4,Ukraine,2045,1.20875,gcam-v9.1
+SSP4,Ukraine,2050,1.34988,gcam-v9.1
+SSP4,Ukraine,2055,1.50813,gcam-v9.1
+SSP4,Ukraine,2060,1.64174,gcam-v9.1
+SSP4,Ukraine,2065,1.74179,gcam-v9.1
+SSP4,Ukraine,2070,1.82579,gcam-v9.1
+SSP4,Ukraine,2075,1.93853,gcam-v9.1
+SSP4,Ukraine,2080,2.06992,gcam-v9.1
+SSP4,Ukraine,2085,2.17065,gcam-v9.1
+SSP4,Ukraine,2090,2.2737,gcam-v9.1
+SSP4,Ukraine,2095,2.35167,gcam-v9.1
+SSP4,Ukraine,2100,2.43901,gcam-v9.1
+SSP4,USA,1975,0,gcam-v9.1
+SSP4,USA,1990,0,gcam-v9.1
+SSP4,USA,2005,0,gcam-v9.1
+SSP4,USA,2010,0,gcam-v9.1
+SSP4,USA,2015,0,gcam-v9.1
+SSP4,USA,2021,0,gcam-v9.1
+SSP4,USA,2025,1.00608,gcam-v9.1
+SSP4,USA,2030,1.03316,gcam-v9.1
+SSP4,USA,2035,1.07411,gcam-v9.1
+SSP4,USA,2040,1.12037,gcam-v9.1
+SSP4,USA,2045,1.16254,gcam-v9.1
+SSP4,USA,2050,1.20073,gcam-v9.1
+SSP4,USA,2055,1.23735,gcam-v9.1
+SSP4,USA,2060,1.27606,gcam-v9.1
+SSP4,USA,2065,1.3144,gcam-v9.1
+SSP4,USA,2070,1.35695,gcam-v9.1
+SSP4,USA,2075,1.40576,gcam-v9.1
+SSP4,USA,2080,1.45513,gcam-v9.1
+SSP4,USA,2085,1.50405,gcam-v9.1
+SSP4,USA,2090,1.54864,gcam-v9.1
+SSP4,USA,2095,1.59248,gcam-v9.1
+SSP4,USA,2100,1.63857,gcam-v9.1
+SSP5,Africa_Eastern,1975,0,gcam-v9.1
+SSP5,Africa_Eastern,1990,0,gcam-v9.1
+SSP5,Africa_Eastern,2005,0,gcam-v9.1
+SSP5,Africa_Eastern,2010,0,gcam-v9.1
+SSP5,Africa_Eastern,2015,0,gcam-v9.1
+SSP5,Africa_Eastern,2021,0,gcam-v9.1
+SSP5,Africa_Eastern,2025,1.00067,gcam-v9.1
+SSP5,Africa_Eastern,2030,1.16165,gcam-v9.1
+SSP5,Africa_Eastern,2035,1.35741,gcam-v9.1
+SSP5,Africa_Eastern,2040,1.58745,gcam-v9.1
+SSP5,Africa_Eastern,2045,1.81075,gcam-v9.1
+SSP5,Africa_Eastern,2050,1.98067,gcam-v9.1
+SSP5,Africa_Eastern,2055,2.12757,gcam-v9.1
+SSP5,Africa_Eastern,2060,2.27825,gcam-v9.1
+SSP5,Africa_Eastern,2065,2.44876,gcam-v9.1
+SSP5,Africa_Eastern,2070,2.63457,gcam-v9.1
+SSP5,Africa_Eastern,2075,2.84456,gcam-v9.1
+SSP5,Africa_Eastern,2080,3.07784,gcam-v9.1
+SSP5,Africa_Eastern,2085,3.34199,gcam-v9.1
+SSP5,Africa_Eastern,2090,3.64659,gcam-v9.1
+SSP5,Africa_Eastern,2095,3.96169,gcam-v9.1
+SSP5,Africa_Eastern,2100,4.29227,gcam-v9.1
+SSP5,Africa_Northern,1975,0,gcam-v9.1
+SSP5,Africa_Northern,1990,0,gcam-v9.1
+SSP5,Africa_Northern,2005,0,gcam-v9.1
+SSP5,Africa_Northern,2010,0,gcam-v9.1
+SSP5,Africa_Northern,2015,0,gcam-v9.1
+SSP5,Africa_Northern,2021,0,gcam-v9.1
+SSP5,Africa_Northern,2025,1.15996,gcam-v9.1
+SSP5,Africa_Northern,2030,1.27967,gcam-v9.1
+SSP5,Africa_Northern,2035,1.47695,gcam-v9.1
+SSP5,Africa_Northern,2040,1.73007,gcam-v9.1
+SSP5,Africa_Northern,2045,1.87469,gcam-v9.1
+SSP5,Africa_Northern,2050,1.92115,gcam-v9.1
+SSP5,Africa_Northern,2055,1.94694,gcam-v9.1
+SSP5,Africa_Northern,2060,1.98092,gcam-v9.1
+SSP5,Africa_Northern,2065,2.03126,gcam-v9.1
+SSP5,Africa_Northern,2070,2.09363,gcam-v9.1
+SSP5,Africa_Northern,2075,2.18254,gcam-v9.1
+SSP5,Africa_Northern,2080,2.30293,gcam-v9.1
+SSP5,Africa_Northern,2085,2.44279,gcam-v9.1
+SSP5,Africa_Northern,2090,2.59315,gcam-v9.1
+SSP5,Africa_Northern,2095,2.74473,gcam-v9.1
+SSP5,Africa_Northern,2100,2.90319,gcam-v9.1
+SSP5,Africa_Southern,1975,0,gcam-v9.1
+SSP5,Africa_Southern,1990,0,gcam-v9.1
+SSP5,Africa_Southern,2005,0,gcam-v9.1
+SSP5,Africa_Southern,2010,0,gcam-v9.1
+SSP5,Africa_Southern,2015,0,gcam-v9.1
+SSP5,Africa_Southern,2021,0,gcam-v9.1
+SSP5,Africa_Southern,2025,0.932985,gcam-v9.1
+SSP5,Africa_Southern,2030,1.00924,gcam-v9.1
+SSP5,Africa_Southern,2035,1.14485,gcam-v9.1
+SSP5,Africa_Southern,2040,1.31589,gcam-v9.1
+SSP5,Africa_Southern,2045,1.46245,gcam-v9.1
+SSP5,Africa_Southern,2050,1.56862,gcam-v9.1
+SSP5,Africa_Southern,2055,1.65789,gcam-v9.1
+SSP5,Africa_Southern,2060,1.74214,gcam-v9.1
+SSP5,Africa_Southern,2065,1.83511,gcam-v9.1
+SSP5,Africa_Southern,2070,1.93659,gcam-v9.1
+SSP5,Africa_Southern,2075,2.05188,gcam-v9.1
+SSP5,Africa_Southern,2080,2.18085,gcam-v9.1
+SSP5,Africa_Southern,2085,2.32802,gcam-v9.1
+SSP5,Africa_Southern,2090,2.4977,gcam-v9.1
+SSP5,Africa_Southern,2095,2.67457,gcam-v9.1
+SSP5,Africa_Southern,2100,2.86176,gcam-v9.1
+SSP5,Africa_Western,1975,0,gcam-v9.1
+SSP5,Africa_Western,1990,0,gcam-v9.1
+SSP5,Africa_Western,2005,0,gcam-v9.1
+SSP5,Africa_Western,2010,0,gcam-v9.1
+SSP5,Africa_Western,2015,0,gcam-v9.1
+SSP5,Africa_Western,2021,0,gcam-v9.1
+SSP5,Africa_Western,2025,1.07159,gcam-v9.1
+SSP5,Africa_Western,2030,1.17636,gcam-v9.1
+SSP5,Africa_Western,2035,1.35246,gcam-v9.1
+SSP5,Africa_Western,2040,1.54569,gcam-v9.1
+SSP5,Africa_Western,2045,1.70182,gcam-v9.1
+SSP5,Africa_Western,2050,1.80608,gcam-v9.1
+SSP5,Africa_Western,2055,1.87413,gcam-v9.1
+SSP5,Africa_Western,2060,1.92977,gcam-v9.1
+SSP5,Africa_Western,2065,1.98857,gcam-v9.1
+SSP5,Africa_Western,2070,2.05503,gcam-v9.1
+SSP5,Africa_Western,2075,2.13838,gcam-v9.1
+SSP5,Africa_Western,2080,2.23748,gcam-v9.1
+SSP5,Africa_Western,2085,2.35431,gcam-v9.1
+SSP5,Africa_Western,2090,2.4906,gcam-v9.1
+SSP5,Africa_Western,2095,2.64026,gcam-v9.1
+SSP5,Africa_Western,2100,2.80769,gcam-v9.1
+SSP5,Argentina,1975,0,gcam-v9.1
+SSP5,Argentina,1990,0,gcam-v9.1
+SSP5,Argentina,2005,0,gcam-v9.1
+SSP5,Argentina,2010,0,gcam-v9.1
+SSP5,Argentina,2015,0,gcam-v9.1
+SSP5,Argentina,2021,0,gcam-v9.1
+SSP5,Argentina,2025,1.03557,gcam-v9.1
+SSP5,Argentina,2030,1.09813,gcam-v9.1
+SSP5,Argentina,2035,1.16992,gcam-v9.1
+SSP5,Argentina,2040,1.28857,gcam-v9.1
+SSP5,Argentina,2045,1.43176,gcam-v9.1
+SSP5,Argentina,2050,1.57083,gcam-v9.1
+SSP5,Argentina,2055,1.71843,gcam-v9.1
+SSP5,Argentina,2060,1.87965,gcam-v9.1
+SSP5,Argentina,2065,2.0524,gcam-v9.1
+SSP5,Argentina,2070,2.23455,gcam-v9.1
+SSP5,Argentina,2075,2.42967,gcam-v9.1
+SSP5,Argentina,2080,2.64849,gcam-v9.1
+SSP5,Argentina,2085,2.88272,gcam-v9.1
+SSP5,Argentina,2090,3.10992,gcam-v9.1
+SSP5,Argentina,2095,3.32632,gcam-v9.1
+SSP5,Argentina,2100,3.54109,gcam-v9.1
+SSP5,Australia_NZ,1975,0,gcam-v9.1
+SSP5,Australia_NZ,1990,0,gcam-v9.1
+SSP5,Australia_NZ,2005,0,gcam-v9.1
+SSP5,Australia_NZ,2010,0,gcam-v9.1
+SSP5,Australia_NZ,2015,0,gcam-v9.1
+SSP5,Australia_NZ,2021,0,gcam-v9.1
+SSP5,Australia_NZ,2025,1.01343,gcam-v9.1
+SSP5,Australia_NZ,2030,1.06058,gcam-v9.1
+SSP5,Australia_NZ,2035,1.14873,gcam-v9.1
+SSP5,Australia_NZ,2040,1.27652,gcam-v9.1
+SSP5,Australia_NZ,2045,1.40779,gcam-v9.1
+SSP5,Australia_NZ,2050,1.52698,gcam-v9.1
+SSP5,Australia_NZ,2055,1.64065,gcam-v9.1
+SSP5,Australia_NZ,2060,1.75702,gcam-v9.1
+SSP5,Australia_NZ,2065,1.87671,gcam-v9.1
+SSP5,Australia_NZ,2070,1.99615,gcam-v9.1
+SSP5,Australia_NZ,2075,2.12973,gcam-v9.1
+SSP5,Australia_NZ,2080,2.27784,gcam-v9.1
+SSP5,Australia_NZ,2085,2.42899,gcam-v9.1
+SSP5,Australia_NZ,2090,2.57309,gcam-v9.1
+SSP5,Australia_NZ,2095,2.70083,gcam-v9.1
+SSP5,Australia_NZ,2100,2.81946,gcam-v9.1
+SSP5,Brazil,1975,0,gcam-v9.1
+SSP5,Brazil,1990,0,gcam-v9.1
+SSP5,Brazil,2005,0,gcam-v9.1
+SSP5,Brazil,2010,0,gcam-v9.1
+SSP5,Brazil,2015,0,gcam-v9.1
+SSP5,Brazil,2021,0,gcam-v9.1
+SSP5,Brazil,2025,1.02863,gcam-v9.1
+SSP5,Brazil,2030,1.07152,gcam-v9.1
+SSP5,Brazil,2035,1.22167,gcam-v9.1
+SSP5,Brazil,2040,1.46287,gcam-v9.1
+SSP5,Brazil,2045,1.74032,gcam-v9.1
+SSP5,Brazil,2050,2.00877,gcam-v9.1
+SSP5,Brazil,2055,2.25998,gcam-v9.1
+SSP5,Brazil,2060,2.50141,gcam-v9.1
+SSP5,Brazil,2065,2.76135,gcam-v9.1
+SSP5,Brazil,2070,3.01929,gcam-v9.1
+SSP5,Brazil,2075,3.28125,gcam-v9.1
+SSP5,Brazil,2080,3.55665,gcam-v9.1
+SSP5,Brazil,2085,3.85936,gcam-v9.1
+SSP5,Brazil,2090,4.16518,gcam-v9.1
+SSP5,Brazil,2095,4.45315,gcam-v9.1
+SSP5,Brazil,2100,4.72918,gcam-v9.1
+SSP5,Canada,1975,0,gcam-v9.1
+SSP5,Canada,1990,0,gcam-v9.1
+SSP5,Canada,2005,0,gcam-v9.1
+SSP5,Canada,2010,0,gcam-v9.1
+SSP5,Canada,2015,0,gcam-v9.1
+SSP5,Canada,2021,0,gcam-v9.1
+SSP5,Canada,2025,1.00122,gcam-v9.1
+SSP5,Canada,2030,1.06769,gcam-v9.1
+SSP5,Canada,2035,1.17408,gcam-v9.1
+SSP5,Canada,2040,1.32187,gcam-v9.1
+SSP5,Canada,2045,1.48078,gcam-v9.1
+SSP5,Canada,2050,1.63892,gcam-v9.1
+SSP5,Canada,2055,1.7983,gcam-v9.1
+SSP5,Canada,2060,1.95534,gcam-v9.1
+SSP5,Canada,2065,2.11922,gcam-v9.1
+SSP5,Canada,2070,2.28453,gcam-v9.1
+SSP5,Canada,2075,2.4664,gcam-v9.1
+SSP5,Canada,2080,2.67005,gcam-v9.1
+SSP5,Canada,2085,2.88317,gcam-v9.1
+SSP5,Canada,2090,3.09029,gcam-v9.1
+SSP5,Canada,2095,3.27653,gcam-v9.1
+SSP5,Canada,2100,3.44957,gcam-v9.1
+SSP5,Central America and Caribbean,1975,0,gcam-v9.1
+SSP5,Central America and Caribbean,1990,0,gcam-v9.1
+SSP5,Central America and Caribbean,2005,0,gcam-v9.1
+SSP5,Central America and Caribbean,2010,0,gcam-v9.1
+SSP5,Central America and Caribbean,2015,0,gcam-v9.1
+SSP5,Central America and Caribbean,2021,0,gcam-v9.1
+SSP5,Central America and Caribbean,2025,1.06978,gcam-v9.1
+SSP5,Central America and Caribbean,2030,1.17067,gcam-v9.1
+SSP5,Central America and Caribbean,2035,1.31214,gcam-v9.1
+SSP5,Central America and Caribbean,2040,1.49154,gcam-v9.1
+SSP5,Central America and Caribbean,2045,1.66677,gcam-v9.1
+SSP5,Central America and Caribbean,2050,1.81656,gcam-v9.1
+SSP5,Central America and Caribbean,2055,1.95828,gcam-v9.1
+SSP5,Central America and Caribbean,2060,2.10283,gcam-v9.1
+SSP5,Central America and Caribbean,2065,2.25637,gcam-v9.1
+SSP5,Central America and Caribbean,2070,2.4145,gcam-v9.1
+SSP5,Central America and Caribbean,2075,2.58095,gcam-v9.1
+SSP5,Central America and Caribbean,2080,2.76219,gcam-v9.1
+SSP5,Central America and Caribbean,2085,2.95844,gcam-v9.1
+SSP5,Central America and Caribbean,2090,3.17212,gcam-v9.1
+SSP5,Central America and Caribbean,2095,3.3776,gcam-v9.1
+SSP5,Central America and Caribbean,2100,3.58166,gcam-v9.1
+SSP5,Central Asia,1975,0,gcam-v9.1
+SSP5,Central Asia,1990,0,gcam-v9.1
+SSP5,Central Asia,2005,0,gcam-v9.1
+SSP5,Central Asia,2010,0,gcam-v9.1
+SSP5,Central Asia,2015,0,gcam-v9.1
+SSP5,Central Asia,2021,0,gcam-v9.1
+SSP5,Central Asia,2025,1.24602,gcam-v9.1
+SSP5,Central Asia,2030,1.35689,gcam-v9.1
+SSP5,Central Asia,2035,1.5386,gcam-v9.1
+SSP5,Central Asia,2040,1.71603,gcam-v9.1
+SSP5,Central Asia,2045,1.79296,gcam-v9.1
+SSP5,Central Asia,2050,1.82459,gcam-v9.1
+SSP5,Central Asia,2055,1.87903,gcam-v9.1
+SSP5,Central Asia,2060,1.9561,gcam-v9.1
+SSP5,Central Asia,2065,2.03281,gcam-v9.1
+SSP5,Central Asia,2070,2.1129,gcam-v9.1
+SSP5,Central Asia,2075,2.21117,gcam-v9.1
+SSP5,Central Asia,2080,2.33693,gcam-v9.1
+SSP5,Central Asia,2085,2.48675,gcam-v9.1
+SSP5,Central Asia,2090,2.66127,gcam-v9.1
+SSP5,Central Asia,2095,2.8373,gcam-v9.1
+SSP5,Central Asia,2100,3.02024,gcam-v9.1
+SSP5,China,1975,0,gcam-v9.1
+SSP5,China,1990,0,gcam-v9.1
+SSP5,China,2005,0,gcam-v9.1
+SSP5,China,2010,0,gcam-v9.1
+SSP5,China,2015,0,gcam-v9.1
+SSP5,China,2021,0,gcam-v9.1
+SSP5,China,2025,1.1095,gcam-v9.1
+SSP5,China,2030,1.23591,gcam-v9.1
+SSP5,China,2035,1.39951,gcam-v9.1
+SSP5,China,2040,1.57506,gcam-v9.1
+SSP5,China,2045,1.74138,gcam-v9.1
+SSP5,China,2050,1.92963,gcam-v9.1
+SSP5,China,2055,2.15259,gcam-v9.1
+SSP5,China,2060,2.37857,gcam-v9.1
+SSP5,China,2065,2.58568,gcam-v9.1
+SSP5,China,2070,2.78419,gcam-v9.1
+SSP5,China,2075,3.00804,gcam-v9.1
+SSP5,China,2080,3.29175,gcam-v9.1
+SSP5,China,2085,3.60491,gcam-v9.1
+SSP5,China,2090,3.83641,gcam-v9.1
+SSP5,China,2095,4.03602,gcam-v9.1
+SSP5,China,2100,4.24059,gcam-v9.1
+SSP5,Colombia,1975,0,gcam-v9.1
+SSP5,Colombia,1990,0,gcam-v9.1
+SSP5,Colombia,2005,0,gcam-v9.1
+SSP5,Colombia,2010,0,gcam-v9.1
+SSP5,Colombia,2015,0,gcam-v9.1
+SSP5,Colombia,2021,0,gcam-v9.1
+SSP5,Colombia,2025,1.06289,gcam-v9.1
+SSP5,Colombia,2030,1.14545,gcam-v9.1
+SSP5,Colombia,2035,1.347,gcam-v9.1
+SSP5,Colombia,2040,1.63135,gcam-v9.1
+SSP5,Colombia,2045,1.89332,gcam-v9.1
+SSP5,Colombia,2050,2.09629,gcam-v9.1
+SSP5,Colombia,2055,2.27872,gcam-v9.1
+SSP5,Colombia,2060,2.46293,gcam-v9.1
+SSP5,Colombia,2065,2.65623,gcam-v9.1
+SSP5,Colombia,2070,2.84765,gcam-v9.1
+SSP5,Colombia,2075,3.03216,gcam-v9.1
+SSP5,Colombia,2080,3.22039,gcam-v9.1
+SSP5,Colombia,2085,3.42453,gcam-v9.1
+SSP5,Colombia,2090,3.64341,gcam-v9.1
+SSP5,Colombia,2095,3.83864,gcam-v9.1
+SSP5,Colombia,2100,4.01752,gcam-v9.1
+SSP5,EU-12,1975,0,gcam-v9.1
+SSP5,EU-12,1990,0,gcam-v9.1
+SSP5,EU-12,2005,0,gcam-v9.1
+SSP5,EU-12,2010,0,gcam-v9.1
+SSP5,EU-12,2015,0,gcam-v9.1
+SSP5,EU-12,2021,0,gcam-v9.1
+SSP5,EU-12,2025,1.05224,gcam-v9.1
+SSP5,EU-12,2030,1.13933,gcam-v9.1
+SSP5,EU-12,2035,1.2423,gcam-v9.1
+SSP5,EU-12,2040,1.35624,gcam-v9.1
+SSP5,EU-12,2045,1.45374,gcam-v9.1
+SSP5,EU-12,2050,1.53576,gcam-v9.1
+SSP5,EU-12,2055,1.62346,gcam-v9.1
+SSP5,EU-12,2060,1.7094,gcam-v9.1
+SSP5,EU-12,2065,1.78752,gcam-v9.1
+SSP5,EU-12,2070,1.86495,gcam-v9.1
+SSP5,EU-12,2075,1.95752,gcam-v9.1
+SSP5,EU-12,2080,2.06105,gcam-v9.1
+SSP5,EU-12,2085,2.17925,gcam-v9.1
+SSP5,EU-12,2090,2.30136,gcam-v9.1
+SSP5,EU-12,2095,2.41366,gcam-v9.1
+SSP5,EU-12,2100,2.52225,gcam-v9.1
+SSP5,EU-15,1975,0,gcam-v9.1
+SSP5,EU-15,1990,0,gcam-v9.1
+SSP5,EU-15,2005,0,gcam-v9.1
+SSP5,EU-15,2010,0,gcam-v9.1
+SSP5,EU-15,2015,0,gcam-v9.1
+SSP5,EU-15,2021,0,gcam-v9.1
+SSP5,EU-15,2025,1.03053,gcam-v9.1
+SSP5,EU-15,2030,1.07477,gcam-v9.1
+SSP5,EU-15,2035,1.15234,gcam-v9.1
+SSP5,EU-15,2040,1.26555,gcam-v9.1
+SSP5,EU-15,2045,1.39488,gcam-v9.1
+SSP5,EU-15,2050,1.51926,gcam-v9.1
+SSP5,EU-15,2055,1.64124,gcam-v9.1
+SSP5,EU-15,2060,1.76205,gcam-v9.1
+SSP5,EU-15,2065,1.8839,gcam-v9.1
+SSP5,EU-15,2070,2.00734,gcam-v9.1
+SSP5,EU-15,2075,2.14332,gcam-v9.1
+SSP5,EU-15,2080,2.29187,gcam-v9.1
+SSP5,EU-15,2085,2.44164,gcam-v9.1
+SSP5,EU-15,2090,2.58412,gcam-v9.1
+SSP5,EU-15,2095,2.71039,gcam-v9.1
+SSP5,EU-15,2100,2.82727,gcam-v9.1
+SSP5,Europe_Non_EU,1975,0,gcam-v9.1
+SSP5,Europe_Non_EU,1990,0,gcam-v9.1
+SSP5,Europe_Non_EU,2005,0,gcam-v9.1
+SSP5,Europe_Non_EU,2010,0,gcam-v9.1
+SSP5,Europe_Non_EU,2015,0,gcam-v9.1
+SSP5,Europe_Non_EU,2021,0,gcam-v9.1
+SSP5,Europe_Non_EU,2025,1.02316,gcam-v9.1
+SSP5,Europe_Non_EU,2030,1.0679,gcam-v9.1
+SSP5,Europe_Non_EU,2035,1.14275,gcam-v9.1
+SSP5,Europe_Non_EU,2040,1.20956,gcam-v9.1
+SSP5,Europe_Non_EU,2045,1.25843,gcam-v9.1
+SSP5,Europe_Non_EU,2050,1.29236,gcam-v9.1
+SSP5,Europe_Non_EU,2055,1.3346,gcam-v9.1
+SSP5,Europe_Non_EU,2060,1.38575,gcam-v9.1
+SSP5,Europe_Non_EU,2065,1.44239,gcam-v9.1
+SSP5,Europe_Non_EU,2070,1.49762,gcam-v9.1
+SSP5,Europe_Non_EU,2075,1.55702,gcam-v9.1
+SSP5,Europe_Non_EU,2080,1.62717,gcam-v9.1
+SSP5,Europe_Non_EU,2085,1.70825,gcam-v9.1
+SSP5,Europe_Non_EU,2090,1.78781,gcam-v9.1
+SSP5,Europe_Non_EU,2095,1.86786,gcam-v9.1
+SSP5,Europe_Non_EU,2100,1.94853,gcam-v9.1
+SSP5,European Free Trade Association,1975,0,gcam-v9.1
+SSP5,European Free Trade Association,1990,0,gcam-v9.1
+SSP5,European Free Trade Association,2005,0,gcam-v9.1
+SSP5,European Free Trade Association,2010,0,gcam-v9.1
+SSP5,European Free Trade Association,2015,0,gcam-v9.1
+SSP5,European Free Trade Association,2021,0,gcam-v9.1
+SSP5,European Free Trade Association,2025,0.999786,gcam-v9.1
+SSP5,European Free Trade Association,2030,1.00369,gcam-v9.1
+SSP5,European Free Trade Association,2035,1.04446,gcam-v9.1
+SSP5,European Free Trade Association,2040,1.10864,gcam-v9.1
+SSP5,European Free Trade Association,2045,1.18014,gcam-v9.1
+SSP5,European Free Trade Association,2050,1.25692,gcam-v9.1
+SSP5,European Free Trade Association,2055,1.34778,gcam-v9.1
+SSP5,European Free Trade Association,2060,1.44464,gcam-v9.1
+SSP5,European Free Trade Association,2065,1.54904,gcam-v9.1
+SSP5,European Free Trade Association,2070,1.65847,gcam-v9.1
+SSP5,European Free Trade Association,2075,1.78116,gcam-v9.1
+SSP5,European Free Trade Association,2080,1.91609,gcam-v9.1
+SSP5,European Free Trade Association,2085,2.05241,gcam-v9.1
+SSP5,European Free Trade Association,2090,2.18099,gcam-v9.1
+SSP5,European Free Trade Association,2095,2.29605,gcam-v9.1
+SSP5,European Free Trade Association,2100,2.40609,gcam-v9.1
+SSP5,India,1975,0,gcam-v9.1
+SSP5,India,1990,0,gcam-v9.1
+SSP5,India,2005,0,gcam-v9.1
+SSP5,India,2010,0,gcam-v9.1
+SSP5,India,2015,0,gcam-v9.1
+SSP5,India,2021,0,gcam-v9.1
+SSP5,India,2025,1.04489,gcam-v9.1
+SSP5,India,2030,1.21984,gcam-v9.1
+SSP5,India,2035,1.39604,gcam-v9.1
+SSP5,India,2040,1.59788,gcam-v9.1
+SSP5,India,2045,1.78859,gcam-v9.1
+SSP5,India,2050,1.95878,gcam-v9.1
+SSP5,India,2055,2.14043,gcam-v9.1
+SSP5,India,2060,2.3504,gcam-v9.1
+SSP5,India,2065,2.59294,gcam-v9.1
+SSP5,India,2070,2.85879,gcam-v9.1
+SSP5,India,2075,3.1423,gcam-v9.1
+SSP5,India,2080,3.44191,gcam-v9.1
+SSP5,India,2085,3.7588,gcam-v9.1
+SSP5,India,2090,4.09259,gcam-v9.1
+SSP5,India,2095,4.41248,gcam-v9.1
+SSP5,India,2100,4.72821,gcam-v9.1
+SSP5,Indonesia,1975,0,gcam-v9.1
+SSP5,Indonesia,1990,0,gcam-v9.1
+SSP5,Indonesia,2005,0,gcam-v9.1
+SSP5,Indonesia,2010,0,gcam-v9.1
+SSP5,Indonesia,2015,0,gcam-v9.1
+SSP5,Indonesia,2021,0,gcam-v9.1
+SSP5,Indonesia,2025,1.11249,gcam-v9.1
+SSP5,Indonesia,2030,1.2872,gcam-v9.1
+SSP5,Indonesia,2035,1.46581,gcam-v9.1
+SSP5,Indonesia,2040,1.67609,gcam-v9.1
+SSP5,Indonesia,2045,1.86908,gcam-v9.1
+SSP5,Indonesia,2050,2.02382,gcam-v9.1
+SSP5,Indonesia,2055,2.17048,gcam-v9.1
+SSP5,Indonesia,2060,2.32721,gcam-v9.1
+SSP5,Indonesia,2065,2.49952,gcam-v9.1
+SSP5,Indonesia,2070,2.68471,gcam-v9.1
+SSP5,Indonesia,2075,2.89717,gcam-v9.1
+SSP5,Indonesia,2080,3.14228,gcam-v9.1
+SSP5,Indonesia,2085,3.40888,gcam-v9.1
+SSP5,Indonesia,2090,3.69926,gcam-v9.1
+SSP5,Indonesia,2095,3.97879,gcam-v9.1
+SSP5,Indonesia,2100,4.25291,gcam-v9.1
+SSP5,Japan,1975,0,gcam-v9.1
+SSP5,Japan,1990,0,gcam-v9.1
+SSP5,Japan,2005,0,gcam-v9.1
+SSP5,Japan,2010,0,gcam-v9.1
+SSP5,Japan,2015,0,gcam-v9.1
+SSP5,Japan,2021,0,gcam-v9.1
+SSP5,Japan,2025,1.01834,gcam-v9.1
+SSP5,Japan,2030,1.03814,gcam-v9.1
+SSP5,Japan,2035,1.1221,gcam-v9.1
+SSP5,Japan,2040,1.26542,gcam-v9.1
+SSP5,Japan,2045,1.42516,gcam-v9.1
+SSP5,Japan,2050,1.5649,gcam-v9.1
+SSP5,Japan,2055,1.68671,gcam-v9.1
+SSP5,Japan,2060,1.80332,gcam-v9.1
+SSP5,Japan,2065,1.92846,gcam-v9.1
+SSP5,Japan,2070,2.05896,gcam-v9.1
+SSP5,Japan,2075,2.19194,gcam-v9.1
+SSP5,Japan,2080,2.33012,gcam-v9.1
+SSP5,Japan,2085,2.46205,gcam-v9.1
+SSP5,Japan,2090,2.59558,gcam-v9.1
+SSP5,Japan,2095,2.72436,gcam-v9.1
+SSP5,Japan,2100,2.84246,gcam-v9.1
+SSP5,Mexico,1975,0,gcam-v9.1
+SSP5,Mexico,1990,0,gcam-v9.1
+SSP5,Mexico,2005,0,gcam-v9.1
+SSP5,Mexico,2010,0,gcam-v9.1
+SSP5,Mexico,2015,0,gcam-v9.1
+SSP5,Mexico,2021,0,gcam-v9.1
+SSP5,Mexico,2025,1.02542,gcam-v9.1
+SSP5,Mexico,2030,1.06819,gcam-v9.1
+SSP5,Mexico,2035,1.16086,gcam-v9.1
+SSP5,Mexico,2040,1.29386,gcam-v9.1
+SSP5,Mexico,2045,1.41237,gcam-v9.1
+SSP5,Mexico,2050,1.4908,gcam-v9.1
+SSP5,Mexico,2055,1.55432,gcam-v9.1
+SSP5,Mexico,2060,1.61244,gcam-v9.1
+SSP5,Mexico,2065,1.66997,gcam-v9.1
+SSP5,Mexico,2070,1.73179,gcam-v9.1
+SSP5,Mexico,2075,1.79517,gcam-v9.1
+SSP5,Mexico,2080,1.86044,gcam-v9.1
+SSP5,Mexico,2085,1.9245,gcam-v9.1
+SSP5,Mexico,2090,1.99216,gcam-v9.1
+SSP5,Mexico,2095,2.05065,gcam-v9.1
+SSP5,Mexico,2100,2.10026,gcam-v9.1
+SSP5,Middle East,1975,0,gcam-v9.1
+SSP5,Middle East,1990,0,gcam-v9.1
+SSP5,Middle East,2005,0,gcam-v9.1
+SSP5,Middle East,2010,0,gcam-v9.1
+SSP5,Middle East,2015,0,gcam-v9.1
+SSP5,Middle East,2021,0,gcam-v9.1
+SSP5,Middle East,2025,1.12036,gcam-v9.1
+SSP5,Middle East,2030,1.12181,gcam-v9.1
+SSP5,Middle East,2035,1.1773,gcam-v9.1
+SSP5,Middle East,2040,1.26873,gcam-v9.1
+SSP5,Middle East,2045,1.37174,gcam-v9.1
+SSP5,Middle East,2050,1.46406,gcam-v9.1
+SSP5,Middle East,2055,1.5504,gcam-v9.1
+SSP5,Middle East,2060,1.64434,gcam-v9.1
+SSP5,Middle East,2065,1.74139,gcam-v9.1
+SSP5,Middle East,2070,1.84184,gcam-v9.1
+SSP5,Middle East,2075,1.94599,gcam-v9.1
+SSP5,Middle East,2080,2.06513,gcam-v9.1
+SSP5,Middle East,2085,2.19721,gcam-v9.1
+SSP5,Middle East,2090,2.34325,gcam-v9.1
+SSP5,Middle East,2095,2.49475,gcam-v9.1
+SSP5,Middle East,2100,2.65031,gcam-v9.1
+SSP5,Pakistan,1975,0,gcam-v9.1
+SSP5,Pakistan,1990,0,gcam-v9.1
+SSP5,Pakistan,2005,0,gcam-v9.1
+SSP5,Pakistan,2010,0,gcam-v9.1
+SSP5,Pakistan,2015,0,gcam-v9.1
+SSP5,Pakistan,2021,0,gcam-v9.1
+SSP5,Pakistan,2025,1.06669,gcam-v9.1
+SSP5,Pakistan,2030,1.27242,gcam-v9.1
+SSP5,Pakistan,2035,1.47651,gcam-v9.1
+SSP5,Pakistan,2040,1.75702,gcam-v9.1
+SSP5,Pakistan,2045,2.00877,gcam-v9.1
+SSP5,Pakistan,2050,2.12103,gcam-v9.1
+SSP5,Pakistan,2055,2.13865,gcam-v9.1
+SSP5,Pakistan,2060,2.17688,gcam-v9.1
+SSP5,Pakistan,2065,2.27298,gcam-v9.1
+SSP5,Pakistan,2070,2.41083,gcam-v9.1
+SSP5,Pakistan,2075,2.58552,gcam-v9.1
+SSP5,Pakistan,2080,2.79508,gcam-v9.1
+SSP5,Pakistan,2085,3.03228,gcam-v9.1
+SSP5,Pakistan,2090,3.31242,gcam-v9.1
+SSP5,Pakistan,2095,3.61224,gcam-v9.1
+SSP5,Pakistan,2100,3.93907,gcam-v9.1
+SSP5,Russia,1975,0,gcam-v9.1
+SSP5,Russia,1990,0,gcam-v9.1
+SSP5,Russia,2005,0,gcam-v9.1
+SSP5,Russia,2010,0,gcam-v9.1
+SSP5,Russia,2015,0,gcam-v9.1
+SSP5,Russia,2021,0,gcam-v9.1
+SSP5,Russia,2025,0.956198,gcam-v9.1
+SSP5,Russia,2030,1.03787,gcam-v9.1
+SSP5,Russia,2035,1.17815,gcam-v9.1
+SSP5,Russia,2040,1.36132,gcam-v9.1
+SSP5,Russia,2045,1.54363,gcam-v9.1
+SSP5,Russia,2050,1.73882,gcam-v9.1
+SSP5,Russia,2055,1.97693,gcam-v9.1
+SSP5,Russia,2060,2.2048,gcam-v9.1
+SSP5,Russia,2065,2.39825,gcam-v9.1
+SSP5,Russia,2070,2.59633,gcam-v9.1
+SSP5,Russia,2075,2.8226,gcam-v9.1
+SSP5,Russia,2080,3.10471,gcam-v9.1
+SSP5,Russia,2085,3.416,gcam-v9.1
+SSP5,Russia,2090,3.73258,gcam-v9.1
+SSP5,Russia,2095,4.0464,gcam-v9.1
+SSP5,Russia,2100,4.37351,gcam-v9.1
+SSP5,South Africa,1975,0,gcam-v9.1
+SSP5,South Africa,1990,0,gcam-v9.1
+SSP5,South Africa,2005,0,gcam-v9.1
+SSP5,South Africa,2010,0,gcam-v9.1
+SSP5,South Africa,2015,0,gcam-v9.1
+SSP5,South Africa,2021,0,gcam-v9.1
+SSP5,South Africa,2025,1.01135,gcam-v9.1
+SSP5,South Africa,2030,1.05836,gcam-v9.1
+SSP5,South Africa,2035,1.19244,gcam-v9.1
+SSP5,South Africa,2040,1.38701,gcam-v9.1
+SSP5,South Africa,2045,1.56765,gcam-v9.1
+SSP5,South Africa,2050,1.74029,gcam-v9.1
+SSP5,South Africa,2055,1.91745,gcam-v9.1
+SSP5,South Africa,2060,2.09782,gcam-v9.1
+SSP5,South Africa,2065,2.27881,gcam-v9.1
+SSP5,South Africa,2070,2.46223,gcam-v9.1
+SSP5,South Africa,2075,2.68037,gcam-v9.1
+SSP5,South Africa,2080,2.93066,gcam-v9.1
+SSP5,South Africa,2085,3.21018,gcam-v9.1
+SSP5,South Africa,2090,3.50939,gcam-v9.1
+SSP5,South Africa,2095,3.80704,gcam-v9.1
+SSP5,South Africa,2100,4.11182,gcam-v9.1
+SSP5,South America_Northern,1975,0,gcam-v9.1
+SSP5,South America_Northern,1990,0,gcam-v9.1
+SSP5,South America_Northern,2005,0,gcam-v9.1
+SSP5,South America_Northern,2010,0,gcam-v9.1
+SSP5,South America_Northern,2015,0,gcam-v9.1
+SSP5,South America_Northern,2021,0,gcam-v9.1
+SSP5,South America_Northern,2025,1.80898,gcam-v9.1
+SSP5,South America_Northern,2030,2.67536,gcam-v9.1
+SSP5,South America_Northern,2035,3.46701,gcam-v9.1
+SSP5,South America_Northern,2040,3.77713,gcam-v9.1
+SSP5,South America_Northern,2045,3.70196,gcam-v9.1
+SSP5,South America_Northern,2050,3.57459,gcam-v9.1
+SSP5,South America_Northern,2055,3.53771,gcam-v9.1
+SSP5,South America_Northern,2060,3.5922,gcam-v9.1
+SSP5,South America_Northern,2065,3.73842,gcam-v9.1
+SSP5,South America_Northern,2070,3.95568,gcam-v9.1
+SSP5,South America_Northern,2075,4.22251,gcam-v9.1
+SSP5,South America_Northern,2080,4.51428,gcam-v9.1
+SSP5,South America_Northern,2085,4.81508,gcam-v9.1
+SSP5,South America_Northern,2090,5.12143,gcam-v9.1
+SSP5,South America_Northern,2095,5.41949,gcam-v9.1
+SSP5,South America_Northern,2100,5.68624,gcam-v9.1
+SSP5,South America_Southern,1975,0,gcam-v9.1
+SSP5,South America_Southern,1990,0,gcam-v9.1
+SSP5,South America_Southern,2005,0,gcam-v9.1
+SSP5,South America_Southern,2010,0,gcam-v9.1
+SSP5,South America_Southern,2015,0,gcam-v9.1
+SSP5,South America_Southern,2021,0,gcam-v9.1
+SSP5,South America_Southern,2025,1.02766,gcam-v9.1
+SSP5,South America_Southern,2030,1.05474,gcam-v9.1
+SSP5,South America_Southern,2035,1.14268,gcam-v9.1
+SSP5,South America_Southern,2040,1.28473,gcam-v9.1
+SSP5,South America_Southern,2045,1.43144,gcam-v9.1
+SSP5,South America_Southern,2050,1.55467,gcam-v9.1
+SSP5,South America_Southern,2055,1.66939,gcam-v9.1
+SSP5,South America_Southern,2060,1.78618,gcam-v9.1
+SSP5,South America_Southern,2065,1.90806,gcam-v9.1
+SSP5,South America_Southern,2070,2.03045,gcam-v9.1
+SSP5,South America_Southern,2075,2.15985,gcam-v9.1
+SSP5,South America_Southern,2080,2.29983,gcam-v9.1
+SSP5,South America_Southern,2085,2.44974,gcam-v9.1
+SSP5,South America_Southern,2090,2.61058,gcam-v9.1
+SSP5,South America_Southern,2095,2.76333,gcam-v9.1
+SSP5,South America_Southern,2100,2.91194,gcam-v9.1
+SSP5,South Asia,1975,0,gcam-v9.1
+SSP5,South Asia,1990,0,gcam-v9.1
+SSP5,South Asia,2005,0,gcam-v9.1
+SSP5,South Asia,2010,0,gcam-v9.1
+SSP5,South Asia,2015,0,gcam-v9.1
+SSP5,South Asia,2021,0,gcam-v9.1
+SSP5,South Asia,2025,0.974316,gcam-v9.1
+SSP5,South Asia,2030,1.17063,gcam-v9.1
+SSP5,South Asia,2035,1.38609,gcam-v9.1
+SSP5,South Asia,2040,1.60405,gcam-v9.1
+SSP5,South Asia,2045,1.77549,gcam-v9.1
+SSP5,South Asia,2050,1.88987,gcam-v9.1
+SSP5,South Asia,2055,1.99251,gcam-v9.1
+SSP5,South Asia,2060,2.11393,gcam-v9.1
+SSP5,South Asia,2065,2.26217,gcam-v9.1
+SSP5,South Asia,2070,2.42781,gcam-v9.1
+SSP5,South Asia,2075,2.60598,gcam-v9.1
+SSP5,South Asia,2080,2.78951,gcam-v9.1
+SSP5,South Asia,2085,2.98884,gcam-v9.1
+SSP5,South Asia,2090,3.21116,gcam-v9.1
+SSP5,South Asia,2095,3.43436,gcam-v9.1
+SSP5,South Asia,2100,3.66168,gcam-v9.1
+SSP5,South Korea,1975,0,gcam-v9.1
+SSP5,South Korea,1990,0,gcam-v9.1
+SSP5,South Korea,2005,0,gcam-v9.1
+SSP5,South Korea,2010,0,gcam-v9.1
+SSP5,South Korea,2015,0,gcam-v9.1
+SSP5,South Korea,2021,0,gcam-v9.1
+SSP5,South Korea,2025,1.02807,gcam-v9.1
+SSP5,South Korea,2030,1.09107,gcam-v9.1
+SSP5,South Korea,2035,1.19115,gcam-v9.1
+SSP5,South Korea,2040,1.34495,gcam-v9.1
+SSP5,South Korea,2045,1.4715,gcam-v9.1
+SSP5,South Korea,2050,1.60331,gcam-v9.1
+SSP5,South Korea,2055,1.71039,gcam-v9.1
+SSP5,South Korea,2060,1.82768,gcam-v9.1
+SSP5,South Korea,2065,1.95697,gcam-v9.1
+SSP5,South Korea,2070,2.0544,gcam-v9.1
+SSP5,South Korea,2075,2.14109,gcam-v9.1
+SSP5,South Korea,2080,2.25443,gcam-v9.1
+SSP5,South Korea,2085,2.35511,gcam-v9.1
+SSP5,South Korea,2090,2.42765,gcam-v9.1
+SSP5,South Korea,2095,2.4977,gcam-v9.1
+SSP5,South Korea,2100,2.56353,gcam-v9.1
+SSP5,Southeast Asia,1975,0,gcam-v9.1
+SSP5,Southeast Asia,1990,0,gcam-v9.1
+SSP5,Southeast Asia,2005,0,gcam-v9.1
+SSP5,Southeast Asia,2010,0,gcam-v9.1
+SSP5,Southeast Asia,2015,0,gcam-v9.1
+SSP5,Southeast Asia,2021,0,gcam-v9.1
+SSP5,Southeast Asia,2025,1.07793,gcam-v9.1
+SSP5,Southeast Asia,2030,1.22123,gcam-v9.1
+SSP5,Southeast Asia,2035,1.36522,gcam-v9.1
+SSP5,Southeast Asia,2040,1.48166,gcam-v9.1
+SSP5,Southeast Asia,2045,1.55581,gcam-v9.1
+SSP5,Southeast Asia,2050,1.61145,gcam-v9.1
+SSP5,Southeast Asia,2055,1.67717,gcam-v9.1
+SSP5,Southeast Asia,2060,1.76531,gcam-v9.1
+SSP5,Southeast Asia,2065,1.86967,gcam-v9.1
+SSP5,Southeast Asia,2070,1.98517,gcam-v9.1
+SSP5,Southeast Asia,2075,2.11244,gcam-v9.1
+SSP5,Southeast Asia,2080,2.25748,gcam-v9.1
+SSP5,Southeast Asia,2085,2.42361,gcam-v9.1
+SSP5,Southeast Asia,2090,2.60725,gcam-v9.1
+SSP5,Southeast Asia,2095,2.78964,gcam-v9.1
+SSP5,Southeast Asia,2100,2.97382,gcam-v9.1
+SSP5,Taiwan,1975,0,gcam-v9.1
+SSP5,Taiwan,1990,0,gcam-v9.1
+SSP5,Taiwan,2005,0,gcam-v9.1
+SSP5,Taiwan,2010,0,gcam-v9.1
+SSP5,Taiwan,2015,0,gcam-v9.1
+SSP5,Taiwan,2021,0,gcam-v9.1
+SSP5,Taiwan,2025,1.09622,gcam-v9.1
+SSP5,Taiwan,2030,1.21271,gcam-v9.1
+SSP5,Taiwan,2035,1.30075,gcam-v9.1
+SSP5,Taiwan,2040,1.33353,gcam-v9.1
+SSP5,Taiwan,2045,1.38066,gcam-v9.1
+SSP5,Taiwan,2050,1.4649,gcam-v9.1
+SSP5,Taiwan,2055,1.55457,gcam-v9.1
+SSP5,Taiwan,2060,1.66154,gcam-v9.1
+SSP5,Taiwan,2065,1.77476,gcam-v9.1
+SSP5,Taiwan,2070,1.86552,gcam-v9.1
+SSP5,Taiwan,2075,1.94974,gcam-v9.1
+SSP5,Taiwan,2080,2.06066,gcam-v9.1
+SSP5,Taiwan,2085,2.18961,gcam-v9.1
+SSP5,Taiwan,2090,2.31594,gcam-v9.1
+SSP5,Taiwan,2095,2.44841,gcam-v9.1
+SSP5,Taiwan,2100,2.58435,gcam-v9.1
+SSP5,Ukraine,1975,0,gcam-v9.1
+SSP5,Ukraine,1990,0,gcam-v9.1
+SSP5,Ukraine,2005,0,gcam-v9.1
+SSP5,Ukraine,2010,0,gcam-v9.1
+SSP5,Ukraine,2015,0,gcam-v9.1
+SSP5,Ukraine,2021,0,gcam-v9.1
+SSP5,Ukraine,2025,0.476774,gcam-v9.1
+SSP5,Ukraine,2030,0.710633,gcam-v9.1
+SSP5,Ukraine,2035,1.05817,gcam-v9.1
+SSP5,Ukraine,2040,1.50672,gcam-v9.1
+SSP5,Ukraine,2045,1.94878,gcam-v9.1
+SSP5,Ukraine,2050,2.34673,gcam-v9.1
+SSP5,Ukraine,2055,2.70739,gcam-v9.1
+SSP5,Ukraine,2060,3.00456,gcam-v9.1
+SSP5,Ukraine,2065,3.25438,gcam-v9.1
+SSP5,Ukraine,2070,3.49028,gcam-v9.1
+SSP5,Ukraine,2075,3.77905,gcam-v9.1
+SSP5,Ukraine,2080,4.12431,gcam-v9.1
+SSP5,Ukraine,2085,4.4761,gcam-v9.1
+SSP5,Ukraine,2090,4.86449,gcam-v9.1
+SSP5,Ukraine,2095,5.23969,gcam-v9.1
+SSP5,Ukraine,2100,5.64403,gcam-v9.1
+SSP5,USA,1975,0,gcam-v9.1
+SSP5,USA,1990,0,gcam-v9.1
+SSP5,USA,2005,0,gcam-v9.1
+SSP5,USA,2010,0,gcam-v9.1
+SSP5,USA,2015,0,gcam-v9.1
+SSP5,USA,2021,0,gcam-v9.1
+SSP5,USA,2025,1.00517,gcam-v9.1
+SSP5,USA,2030,1.03439,gcam-v9.1
+SSP5,USA,2035,1.08788,gcam-v9.1
+SSP5,USA,2040,1.16425,gcam-v9.1
+SSP5,USA,2045,1.24503,gcam-v9.1
+SSP5,USA,2050,1.32376,gcam-v9.1
+SSP5,USA,2055,1.40245,gcam-v9.1
+SSP5,USA,2060,1.48513,gcam-v9.1
+SSP5,USA,2065,1.57272,gcam-v9.1
+SSP5,USA,2070,1.67135,gcam-v9.1
+SSP5,USA,2075,1.78601,gcam-v9.1
+SSP5,USA,2080,1.91226,gcam-v9.1
+SSP5,USA,2085,2.04681,gcam-v9.1
+SSP5,USA,2090,2.18284,gcam-v9.1
+SSP5,USA,2095,2.31671,gcam-v9.1
+SSP5,USA,2100,2.44921,gcam-v9.1

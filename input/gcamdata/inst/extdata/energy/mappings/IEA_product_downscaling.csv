@@ -1,0 +1,76 @@
+# File: IEA_product_downscaling.csv
+# Title: FLOW assigned to each PRODUCT for downscaling from composite countries to specific constituent countries.
+# Source: NA
+# Units: NA
+# Description: This mapping table assigns a FLOW (i.e., sector or process) to each PRODUCT (fuel) to be used for downscaling from composite countries like the USSR to the 15 countries, in years when only values for the composite nation are reported. This assignment is designed to address the very large discrepancies in sectoral attribution of fuels that occurred over the time series.
+# Column types: cc
+# ----------
+PRODUCT,FLOW
+Hard coal (if no detail),TES
+Brown coal (if no detail),TES
+Anthracite,TES
+Coking coal,TES
+Other bituminous coal,TES
+Sub-bituminous coal,TES
+Lignite,TES
+Patent fuel,TPATFUEL
+Coke oven coke,TCOKEOVS
+Gas coke,TES
+Coal tar,TES
+BKB,TBKB
+Peat products,TES
+Gas works gas,TGASWKS
+Coke oven gas,TCOKEOVS
+Blast furnace gas,TBLASTFUR
+Other recovered gases,TES
+Peat,TES
+Natural gas,TES
+Crude/NGL/feedstocks (if no detail),TES
+Crude oil,TES
+Natural gas liquids,TES
+Refinery feedstocks,TES
+Additives/blending components,TES
+Other hydrocarbons,TES
+Refinery gas,TREFINER
+Ethane,TFC
+Liquefied petroleum gases (LPG),TFC
+Motor gasoline excl. biofuels,TFC
+Aviation gasoline,TFC
+Gasoline type jet fuel,TFC
+Kerosene type jet fuel excl. biofuels,TFC
+Other kerosene,TFC
+Gas/diesel oil excl. biofuels,TFC
+Fuel oil,TFC
+Naphtha,TFC
+White spirit & SBP,TFC
+Lubricants,TFC
+Bitumen,TFC
+Paraffin waxes,TFC
+Petroleum coke,TFC
+Other oil products,TFC
+Oil shale and oil sands,TES
+Industrial waste,TES
+Municipal waste (renewable),TES
+Municipal waste (non-renewable),TES
+Primary solid biofuels,TES
+Biogases,TES
+Bio jet kerosene,TES
+Biogasoline,TES
+Biodiesels,TES
+Other liquid biofuels,TES
+Non-specified primary biofuels and waste,TES
+Charcoal,TCHARCOAL
+Elec/heat output from non-specified manufactured gases,TFC
+Heat output from non-specified combustible fuels,TFC
+Nuclear,TES
+Hydro,TES
+Geothermal,TES
+Solar photovoltaics,TES
+Solar thermal,TES
+"Tide, wave and ocean",TES
+Wind,TES
+Other sources,TES
+Electricity,TFC
+Heat,TFC
+Total,TES
+Memo: Renewables,TES

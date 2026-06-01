@@ -1,0 +1,8 @@
+# File: A21.globalrsrctech_cost.csv
+# Title: non-energy costs related to fossil fuel technologies
+# Units: 1975$/GJ
+# Notes: Adding non-energy input of 0.15
+# Column types: ccccnnnn
+# ----------
+resource,reserve.subresource,resource.reserve.technology,minicam.non.energy.input,1971,final-calibration-year,initial-future-year,2100
+crude oil,unconventional oil,unconventional oil,non-energy,0.15,0.15,0.15,0.15
