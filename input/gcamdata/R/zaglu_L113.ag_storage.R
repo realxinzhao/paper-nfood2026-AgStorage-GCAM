@@ -150,6 +150,7 @@ module_aglu_L113_ag_storage <- function(command, ...) {
           mutate(opening.stock = closing.stock * loss.coefficient,
                  closing.stock = opening.stock) %>%
           repeat_add_columns(tibble(year = MODEL_FUTURE_YEARS)) %>%
+          filter(storage_model == TRUE) %>%
           left_join_error_no_match(L113.StorageLifeTime, by="year") %>%
           mutate(# setting carried.forward and closing stock to zero
                  # The two are not important because the values are not used)
