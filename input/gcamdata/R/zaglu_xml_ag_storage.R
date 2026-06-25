@@ -13,10 +13,12 @@
 module_aglu_batch_ag_storage_xml <- function(command, ...) {
 
   MODULE_INPUTS <-
-    c("L113.StorageTechAndPassThrough")
+    c("L113.StorageTechAndPassThrough",
+      "L201.Pop_Scen")
 
   MODULE_OUTPUTS <-
-    c(XML = "ag_storage.xml")
+    c(XML = "ag_storage.xml",
+      XML = "ag_storage_updateSecOutRatio.xml")
 
   if(command == driver.DECLARE_INPUTS) {
     return(MODULE_INPUTS)
@@ -153,6 +155,94 @@ module_aglu_batch_ag_storage_xml <- function(command, ...) {
       add_xml_data(passthrough_coef, "TechCoef") %>%
       add_xml_data(passthrough_cost, "TechCost") %>%
       add_precursors("L113.StorageTechAndPassThrough")
+
+
+    # The default storage structure assumes no stockbuilding in-between periods
+    # This would be fine with annual step
+    # With multiple-year step modeling, we make additional adjustments here
+
+    # Update fst_RESSecOut output ratio ----
+
+
+    L201.Pop_Scen %>%
+      filter(scenario == "SSP2", year >= MODEL_FINAL_BASE_YEAR) %>%
+      arrange(region, year) %>%
+      group_by(scenario, region) %>%
+      mutate(PopGrowthRatio = lead(totalPop)/totalPop) %>%
+      replace_na(list(PopGrowthRatio = 1)) %>%
+      ungroup ->
+      L113.InterPeriod_PopGrowthRatio
+
+    # L113.InterPeriod_PopGrowthRatio %>%
+    #   ggplot() +
+    #   geom_hline(yintercept = 1) +
+    #   geom_line(aes(x = year, y = PopGrowthRatio, group = region)) +
+    #   theme_bw()
+
+
+      bind_rows(
+        # For region with initial growth >1 set a floor at 1
+        L113.InterPeriod_PopGrowthRatio %>%
+          group_by(region) %>%
+          filter(PopGrowthRatio[year == MODEL_FINAL_BASE_YEAR] >1) %>%
+          mutate(PopGrowthRatio = pmax(1, PopGrowthRatio)),
+        # For region with initial growth >1 set a floor at initial value
+        L113.InterPeriod_PopGrowthRatio %>%
+          group_by(region) %>%
+          filter(PopGrowthRatio[year == MODEL_FINAL_BASE_YEAR] < 1, region != "Ukraine") %>%
+          mutate(PopGrowthRatio = pmax(PopGrowthRatio[year == MODEL_FINAL_BASE_YEAR], PopGrowthRatio)),
+        # For the special case of Ukraine, only adjust after 2035
+        L113.InterPeriod_PopGrowthRatio %>%
+          group_by(region) %>%
+          filter(region == "Ukraine") %>%
+          mutate(PopGrowthRatio = if_else(year >= 2035,
+                 pmax(PopGrowthRatio[year == 2035], PopGrowthRatio),
+                 PopGrowthRatio)) ) %>% ungroup ->
+        L113.InterPeriod_PopGrowthRatio_floor
+
+      # L113.InterPeriod_PopGrowthRatio_floor %>%
+      #   ggplot() +
+      #   geom_hline(yintercept = 1) +
+      #   geom_line(aes(x = year, y = PopGrowthRatio, group = region)) +
+      #   theme_bw()
+
+      L113.InterPeriod_PopGrowthRatio_floor %>%
+        transmute(region, year, output.ratio_update = PopGrowthRatio) ->
+        fst_RESSecOut_outratio
+
+
+    fst_RESSecOut %>%
+      filter(year < MODEL_FINAL_BASE_YEAR) %>%
+      bind_rows(
+        fst_RESSecOut %>%
+          filter(year >= MODEL_FINAL_BASE_YEAR) %>%
+          left_join_error_no_match(
+            fst_RESSecOut_outratio, by = c("region", "year")
+          )  %>%
+          mutate(output.ratio = output.ratio_update) %>%
+          select(names(fst_RESSecOut))
+      ) ->
+        fst_RESSecOut_updated
+
+
+    # Produce outputs ----
+    ag_storage_updateSecOutRatio.xml <-
+      create_xml("ag_storage_updateSecOutRatio.xml") %>%
+      add_logit_tables_xml(supplysec, "Supplysector") %>%
+      add_logit_tables_xml(subsec, "SubsectorLogit") %>%
+      add_xml_data(subsec_sw, "SubsectorShrwtFllt") %>%
+      add_xml_data(subsec_shwt, "SubsectorShrwt") %>%
+      add_xml_data(fst_interp, "FoodTechInterp") %>%
+      add_xml_data(fst_extra, "FoodTech") %>%
+      #add_xml_data(fst_cost, "FoodTechCost") %>%
+      add_xml_data(fst_coef, "FoodTechCoef") %>%
+      add_xml_data(fst_RESSecOut_updated, "FoodTechRESSecOut") %>%
+      add_xml_data(passthrough_interp, "TechInterp") %>%
+      add_xml_data(passthrough_techshrwt, "TechShrwt") %>%
+      add_xml_data(passthrough_coef, "TechCoef") %>%
+      add_xml_data(passthrough_cost, "TechCost") %>%
+      add_precursors("L113.StorageTechAndPassThrough")
+
 
 
     return_data(MODULE_OUTPUTS)
