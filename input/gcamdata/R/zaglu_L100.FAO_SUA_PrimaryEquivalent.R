@@ -44,6 +44,7 @@ module_aglu_L100.FAO_SUA_PrimaryEquivalent <- function(command, ...) {
     c("GCAM_AgLU_SUA_APE",
       "FAO_AgProd_Kt_All",
       "FAO_AgArea_Kha_All",
+      "FAO_Stock_Macronutrient_All",
       "FAO_Food_Macronutrient_All",
       "FAO_Food_MacronutrientRate_MaxValue")
 
@@ -1043,6 +1044,62 @@ module_aglu_L100.FAO_SUA_PrimaryEquivalent <- function(command, ...) {
         macronutrient == "proteinperc" ~ "MtProtein" )) %>%
       left_join_error_no_match(Area_Region_Map %>% select(-region), by = "area_code") ->
       FAO_Food_Macronutrient_All
+
+    ### Paper: get FAO_Stock_Macronutrient_All  ----
+    # Stock many have different SUA items in aggregation
+    # the calorie conversion rates could be different
+    # So we calculate the stock calorie from bottom-up approach (like did for food above)
+
+    FAO_SUA_Kt_2010to2019 %>%
+      filter(element == "Closing stocks") %>%
+      distinct(item_code) %>% pull ->
+      item_code_stocks
+
+    SUA_item_code_map %>%
+      filter(item_code %in% item_code_stocks) %>%
+      filter(item_code %in% unique(GCAMFAOSTAT_MacroNutrientRate$item_code)) %>%
+      # NA expected here
+      left_join(SUA_Items_GCAM %>% select(-item), by = "item_code") %>%
+      filter(!is.na(GCAM_commodity)) ->
+      SUA_Items_Stocks
+
+
+    FAO_SUA_Kt_2010to2019 %>%
+      filter(element == "Closing stocks", item_code %in% SUA_Items_Stocks$item_code) %>%
+      # ensure we at least have a complete series across time otherwise it may
+      # throw off moving avg calculations
+      complete(area_code = Area_Region_Map$area_code, year = pull(., year) %>% unique(), nesting(item_code, element), fill=list(value=0)) %>%
+      rename(Food_Kt = value) %>%
+      select(-element) %>%
+      left_join_error_no_match(SUA_Items_Stocks, by = c("item_code")) %>%
+      repeat_add_columns(
+        tibble(macronutrient = c("calperg", "fatperc", "proteinperc"))) %>%
+      left_join(
+        GCAMFAOSTAT_MacroNutrientRate %>%
+          select(-item) %>%
+          tidyr::gather(macronutrient, macronutrient_value, calperg:proteinperc),
+        by = c("area_code", "item_code", "macronutrient")
+      ) %>%
+      left_join_error_no_match(SUA_food_macronutrient_rate_World %>% select(-item),
+                               by = c("item_code", "macronutrient")) %>%
+      mutate(macronutrient_value = if_else(is.na(macronutrient_value),
+                                           macronutrient_value_World,
+                                           macronutrient_value),
+             # calculate total Cal, protein and fat in food
+             # value was in 1000 ton or 10^ 9 g
+             value = macronutrient_value * Food_Kt,
+             value = if_else(macronutrient %in% c("fatperc", "proteinperc"),
+                             value / 100 /1000, value)) %>% # unit from perc to Mt
+      select(-macronutrient_value, -macronutrient_value_World, -Food_Kt) %>%
+      # rename element with units
+      mutate(macronutrient = case_when(
+        macronutrient == "calperg" ~ "MKcal",
+        macronutrient == "fatperc" ~ "MtFat",
+        macronutrient == "proteinperc" ~ "MtProtein" )) %>%
+      left_join_error_no_match(Area_Region_Map %>% select(-region), by = "area_code") ->
+      FAO_Stock_Macronutrient_All
+
+
 
     ### c. Get the max values of macronutrient conversion rate (per GCAM_commodity) ----
     # This will be used later as an upper bound to improve the data
