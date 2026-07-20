@@ -18,7 +18,8 @@ module_aglu_batch_ag_storage_xml <- function(command, ...) {
 
   MODULE_OUTPUTS <-
     c(XML = "ag_storage.xml",
-      XML = "ag_storage_updateSecOutRatio.xml")
+      XML = "ag_storage_updateSecOutRatio.xml",
+      XML = "ag_storage_updateSecOutRatio_FixedRatio.xml")
 
   if(command == driver.DECLARE_INPUTS) {
     return(MODULE_INPUTS)
@@ -241,7 +242,27 @@ module_aglu_batch_ag_storage_xml <- function(command, ...) {
       add_xml_data(passthrough_techshrwt, "TechShrwt") %>%
       add_xml_data(passthrough_coef, "TechCoef") %>%
       add_xml_data(passthrough_cost, "TechCost") %>%
-      add_precursors("L113.StorageTechAndPassThrough")
+      add_precursors(MODULE_INPUTS)
+
+    # add a scenario with zero storage logit exponent (fixed ratio)
+    ag_storage_updateSecOutRatio_FixedRatio.xml <-
+      create_xml("ag_storage_updateSecOutRatio_FixedRatio.xml") %>%
+      add_logit_tables_xml(supplysec, "Supplysector") %>%
+      add_logit_tables_xml(
+        subsec %>% mutate(logit.exponent = 0),
+        "SubsectorLogit") %>%
+      add_xml_data(subsec_sw, "SubsectorShrwtFllt") %>%
+      add_xml_data(subsec_shwt, "SubsectorShrwt") %>%
+      add_xml_data(fst_interp, "FoodTechInterp") %>%
+      add_xml_data(fst_extra, "FoodTech") %>%
+      #add_xml_data(fst_cost, "FoodTechCost") %>%
+      add_xml_data(fst_coef, "FoodTechCoef") %>%
+      add_xml_data(fst_RESSecOut_updated, "FoodTechRESSecOut") %>%
+      add_xml_data(passthrough_interp, "TechInterp") %>%
+      add_xml_data(passthrough_techshrwt, "TechShrwt") %>%
+      add_xml_data(passthrough_coef, "TechCoef") %>%
+      add_xml_data(passthrough_cost, "TechCost") %>%
+      add_precursors(MODULE_INPUTS)
 
 
 
