@@ -1,0 +1,13 @@
+# title: SCENARIO_DB_MAP,,,,,
+# ds_scenario_name is user-defined,,,,,
+db_name,db_scenario_name,ds_scenario_name,db_path,incl,Main
+database_basexdbS1_AgStorage,S1_AgStorage,S1_Dynamic,../../output,T,T
+database_basexdbS2_AgNoStorage,S2_AgNoStorage,S2_Hidden,../../output,T,T
+database_basexdbS3_AgStorage_HG,S3_AgStorage_HG,S3_Dynamic_HG,../../output,T,T
+database_basexdbS4_AgNoStorage_HG,S4_AgNoStorage_HG,S4_Hidden_HG,../../output,T,T
+database_basexdbS5_AgStorage_FixedRatio,S5_AgStorage_FixedRatio,S5_FixedRatio,../../output,T,T
+database_basexdbS5_AgStorage_FixedRatioo_HG,S5_AgStorage_FixedRatioo_HG,S6_FixedRatio_HG,../../output,T,T
+database_basexdbS1_AgStorage_Sens_NoInterPeriodUpdates,S1_AgStorage_Sens_NoInterPeriodUpdates,S1_Dynamic_StaticInterPeriod,../../output,T,T
+database_basexdbS3_AgStorage_GL,S3_AgStorage_GL,S3_Dynamic_GL,../../output,T,T
+database_basexdbS4_AgNoStorage_GL,S4_AgNoStorage_GL,S4_Hidden_GL,../../output,T,T
+database_basexdbS5_AgStorage_FixedRatioo_GL,S5_AgStorage_FixedRatioo_GL,S6_FixedRatio_GL,../../output,T,T
