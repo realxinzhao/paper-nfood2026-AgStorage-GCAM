@@ -1,23 +1,6 @@
 # AgLU_DashBoard_func
 
 
-# define scenario
-#SCENARIO_DB_MAP
-
-# wrapper of Pull_Query_Title but add branch names
-Batch_Query_Title <- function(aQUERY_TITLE){
-
-  SCENARIO_DB_MAP ->
-    SCENARIO_DB_MAP0
-
-  Pull_Query_Title(.QUERY_TITLE = aQUERY_TITLE,
-                   .SCENARIO_DB_MAP = SCENARIO_DB_MAP0) %>%
-    mutate(branch = "GCAMv9.1")
-
-}
-
-
-
 # define cleaning funcs----
 Reg_Clean <- function(.df){
 

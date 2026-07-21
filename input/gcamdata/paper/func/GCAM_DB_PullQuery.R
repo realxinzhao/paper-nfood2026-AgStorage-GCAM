@@ -80,5 +80,15 @@ Pull_Query_Title <- function(.QUERY_TITLE,
 
 
 
+# wrapper of Pull_Query_Title but add branch names
+Batch_Query_Title <- function(aQUERY_TITLE){
 
+  SCENARIO_DB_MAP ->
+    SCENARIO_DB_MAP0
+
+  Pull_Query_Title(.QUERY_TITLE = aQUERY_TITLE,
+                   .SCENARIO_DB_MAP = SCENARIO_DB_MAP0) %>%
+    mutate(branch = "GCAMv9.1")
+
+}
 

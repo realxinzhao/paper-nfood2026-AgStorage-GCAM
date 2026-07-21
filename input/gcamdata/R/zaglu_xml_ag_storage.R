@@ -248,13 +248,12 @@ module_aglu_batch_ag_storage_xml <- function(command, ...) {
     ag_storage_updateSecOutRatio_FixedRatio.xml <-
       create_xml("ag_storage_updateSecOutRatio_FixedRatio.xml") %>%
       add_logit_tables_xml(supplysec, "Supplysector") %>%
-      add_logit_tables_xml(
-        subsec %>% mutate(logit.exponent = 0),
-        "SubsectorLogit") %>%
+      add_logit_tables_xml(subsec, "SubsectorLogit") %>%
       add_xml_data(subsec_sw, "SubsectorShrwtFllt") %>%
       add_xml_data(subsec_shwt, "SubsectorShrwt") %>%
       add_xml_data(fst_interp, "FoodTechInterp") %>%
-      add_xml_data(fst_extra, "FoodTech") %>%
+      add_xml_data(fst_extra %>%
+                     mutate(logit.exponent = 0), "FoodTech") %>%
       #add_xml_data(fst_cost, "FoodTechCost") %>%
       add_xml_data(fst_coef, "FoodTechCoef") %>%
       add_xml_data(fst_RESSecOut_updated, "FoodTechRESSecOut") %>%
