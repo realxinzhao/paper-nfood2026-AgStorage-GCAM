@@ -10,4 +10,4 @@ database_basexdbS5_AgStorage_FixedRatioo_HG,S5_AgStorage_FixedRatioo_HG,S6_Fixed
 database_basexdbS1_AgStorage_Sens_NoInterPeriodUpdates,S1_AgStorage_Sens_NoInterPeriodUpdates,S1_Dynamic_StaticInterPeriod,../../output,T,T
 database_basexdbS3_AgStorage_GL,S3_AgStorage_GL,S3_Dynamic_GL,../../output,T,T
 database_basexdbS4_AgNoStorage_GL,S4_AgNoStorage_GL,S4_Hidden_GL,../../output,T,T
-database_basexdbS5_AgStorage_FixedRatioo_GL,S5_AgStorage_FixedRatioo_GL,S6_FixedRatio_GL,../../output,T,T
+database_basexdbS5_AgStorage_FixedRatio_GL,S5_AgStorage_FixedRatio_GL,S6_FixedRatio_GL,../../output,T,T
