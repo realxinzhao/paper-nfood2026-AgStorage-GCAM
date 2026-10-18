@@ -58,8 +58,9 @@ AgSector_Clean <- function(.df){
   COMMLab <- c("Energy crops", "Staple crops", "Oil crops", "Fruit & Veg", "Fodder crops",
                "Other crops", "Livestock", "Pasture", "Forest")
 
-  COMMLab <- c("Energy crops", "Grains", "Oil crops", "Sugar crops", "Fruit & Veg", "Fodder crops",
-               "Other crops", "Livestock", "Pasture", "Forest")
+  COMMLab <- c("Grains", "Oil crops", "Sugar crops", "Other crops", "Nonstorable crops",
+               "Energy crops",
+                "Livestock", "Pasture", "Forest")
 
   .df %>%
     mutate(sector = tolower(sector)) %>%
