@@ -1,3 +1,32 @@
+# Overview
+
+This Repo includes the GCAM model and related files for replicating GCAM runs performed for the study. We integrated the processing code in the same repo (`input/gcamdata/paper`) for replicating the key figures used in the paper.
+
+**Agricultural storage is a hidden demand driver and an overlooked temporal buffer in global agrifood system futures** (title at submission)  
+
+Xin Zhao, Pralit L. Patel, Stephanie T. Morris, Ellie N. Lochner, Matthew T. Binsted, Katherine V. Calvin, Thomas B. Wild, James A. Edmonds, Marshall A. Wise
+
+Joint Global Change Research Institute, Pacific Northwest National Laboratory, 5825 University Research Ct, College Park, MD 20740, USA
+Corresponding Author: Xin Zhao | xin.zhao@pnnl.gov 
+
+Research Square Preprint [Link](https://www.researchsquare.com/article/rs-11155420/) 
+
+https://www.researchsquare.com/article/rs-11155420/v1
+
+**The model was built based on [GCAM v9.1](https://jgcri.github.io/gcam-doc/toc.html) and includes data and assumption changes, which are documented in the paper.**
+
+
+
+
+
+# Key Figures
+![Fig. 1 | Global and regional patterns of cereal grain stocks and stock variation](./input/gcamdata/StorageHist/Fig1.svg)
+**Fig. 1 | Global and regional patterns of cereal grain stocks and stock variation**. **Panel A**, Global grain stock–use trajectories. The black arrow shows the cumulative shift from 2010 to 2022. The solid trajectory plots annual global grain stocks against consumption, whereas the dotted trajectory plots stocks against production; colors indicate year. At the global level, net trade sums to zero, so the horizontal separation between the production and consumption trajectories represents annual stock variation. Grey diagonal lines are slope-one guides. **Panel B**, Regional and commodity decomposition of the global grain trajectory. Dashed paths decompose the cumulative 2010–2022 shift by IPCC R10 regions, whereas dotted paths decompose it by GCAM cereal grain commodities (Corn, Wheat, Rice, and OtherGrain). Each path begins at the 2010 global point and sequentially adds regional or commodity contributions to reach the common 2022 endpoint. **Panel C**, Annual grain stock variation by region. Colored bar segments show annual net changes in grain stocks from 2010 to 2022; positive values indicate stock accumulation and negative values indicate stock drawdown. Red points show the cumulative net stock change over 2010–2022. **Panel D**, Grain stocks per capita in 2022 by region. Stacked bars partition closing stocks between primary grain commodities and processed grain products. Stock variation denotes the net change between opening and closing stocks in annual food balance sheets; stock levels are based on closing stocks. All mass quantities are expressed in primary-equivalent units. Commodity and region mappings are provided in Supplementary Tables 3 & 4. Data sources: FAOSTAT and gcamfaostat. 
+
+
+
+
+---
 # Global Change Analysis Model (GCAM)
 
 The Joint Global Change Research Institute (JGCRI) of the Pacific 

@@ -718,7 +718,7 @@ Fig_1 <- row1 / row2 + plot_layout(heights = c(1, 0.95))
 # OUTPUT: Save figures ----
 
 Fig_1 %>%
-  Write_png("Fig1", .svg = F, .DIR_MODULE = DIR_MODULE, w = 11, h = 11, r = 300)
+  Write_png("Fig1", .svg = T, .DIR_MODULE = DIR_MODULE, w = 11, h = 11, r = 300)
 
 
 
@@ -1119,5 +1119,5 @@ Fig_2 <- row1 / row2 + plot_layout(guides = "collect", heights = c(1, 1)) &
 
 
 Fig_2 %>%
-  Write_png("Fig2", .svg = F, .DIR_MODULE = DIR_MODULE, w = 13, h = 11, r = 300)
+  Write_png("Fig2", .svg = T, .DIR_MODULE = DIR_MODULE, w = 13, h = 11, r = 300)
 

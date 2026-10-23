@@ -5,6 +5,8 @@
 # Load gcamdata and related packages
 devtools::load_all()
 
+# Ensure driver_drake() was completed!!!
+
 library(dplyr)
 library(tidyr)
 library(stringr)
