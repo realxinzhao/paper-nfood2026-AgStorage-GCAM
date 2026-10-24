@@ -1,0 +1,313 @@
+"scenario_storage","element","model","sector","beta","se","ci_lo","ci_hi","p_value","beta_p25","beta_p75","beta_min","beta_max","n","n_pairs"
+"Dynamic","Biophysical Yield","fe_pair",,1,0,1,1,0,,,1,1,640,40
+"Dynamic","Biophysical Yield","fe_pair_by_sector","Grains",1,0,1,1,0,,,1,1,160,10
+"Dynamic","Biophysical Yield","fe_pair_by_sector","Oil crops",1,0,1,1,0,,,1,1,160,10
+"Dynamic","Biophysical Yield","fe_pair_by_sector","Other crops",1,0,1,1,0,,,1,1,160,10
+"Dynamic","Biophysical Yield","fe_pair_by_sector","Sugar crops",1,0,1,1,0,,,1,1,160,10
+"Dynamic","Biophysical Yield","fe_region",,1,0,1,1,0,,,1,1,640,40
+"Dynamic","Biophysical Yield","individual",,1,,,,,1,1,1,1,640,40
+"Dynamic","Biophysical Yield","pooled",,1,0,1,1,0,,,1,1,640,40
+"Dynamic","Biophysical Yield","pooled_by_sector","Grains",1,0,1,1,0,,,1,1,160,10
+"Dynamic","Biophysical Yield","pooled_by_sector","Oil crops",1,0,1,1,0,,,1,1,160,10
+"Dynamic","Biophysical Yield","pooled_by_sector","Other crops",1,0,1,1,0,,,1,1,160,10
+"Dynamic","Biophysical Yield","pooled_by_sector","Sugar crops",1,0,1,1,0,,,1,1,160,10
+"Hidden","Biophysical Yield","fe_pair",,1,0,1,1,0,,,1,1,640,40
+"Hidden","Biophysical Yield","fe_pair_by_sector","Grains",1,0,1,1,0,,,1,1,160,10
+"Hidden","Biophysical Yield","fe_pair_by_sector","Oil crops",1,0,1,1,0,,,1,1,160,10
+"Hidden","Biophysical Yield","fe_pair_by_sector","Other crops",1,0,1,1,0,,,1,1,160,10
+"Hidden","Biophysical Yield","fe_pair_by_sector","Sugar crops",1,0,1,1,0,,,1,1,160,10
+"Hidden","Biophysical Yield","fe_region",,1,0,1,1,0,,,1,1,640,40
+"Hidden","Biophysical Yield","individual",,1,,,,,1,1,1,1,640,40
+"Hidden","Biophysical Yield","pooled",,1,0,1,1,0,,,1,1,640,40
+"Hidden","Biophysical Yield","pooled_by_sector","Grains",1,0,1,1,0,,,1,1,160,10
+"Hidden","Biophysical Yield","pooled_by_sector","Oil crops",1,0,1,1,0,,,1,1,160,10
+"Hidden","Biophysical Yield","pooled_by_sector","Other crops",1,0,1,1,0,,,1,1,160,10
+"Hidden","Biophysical Yield","pooled_by_sector","Sugar crops",1,0,1,1,0,,,1,1,160,10
+"Fixed-Ratio","Biophysical Yield","fe_pair",,1,0,1,1,0,,,1,1,640,40
+"Fixed-Ratio","Biophysical Yield","fe_pair_by_sector","Grains",1,0,1,1,0,,,1,1,160,10
+"Fixed-Ratio","Biophysical Yield","fe_pair_by_sector","Oil crops",1,0,1,1,0,,,1,1,160,10
+"Fixed-Ratio","Biophysical Yield","fe_pair_by_sector","Other crops",1,0,1,1,0,,,1,1,160,10
+"Fixed-Ratio","Biophysical Yield","fe_pair_by_sector","Sugar crops",1,0,1,1,0,,,1,1,160,10
+"Fixed-Ratio","Biophysical Yield","fe_region",,1,0,1,1,0,,,1,1,640,40
+"Fixed-Ratio","Biophysical Yield","individual",,1,,,,,1,1,1,1,640,40
+"Fixed-Ratio","Biophysical Yield","pooled",,1,0,1,1,0,,,1,1,640,40
+"Fixed-Ratio","Biophysical Yield","pooled_by_sector","Grains",1,0,1,1,0,,,1,1,160,10
+"Fixed-Ratio","Biophysical Yield","pooled_by_sector","Oil crops",1,0,1,1,0,,,1,1,160,10
+"Fixed-Ratio","Biophysical Yield","pooled_by_sector","Other crops",1,0,1,1,0,,,1,1,160,10
+"Fixed-Ratio","Biophysical Yield","pooled_by_sector","Sugar crops",1,0,1,1,0,,,1,1,160,10
+"Dynamic","Realized Yield","fe_pair",,0.99343,0.01033,0.97319,1.01367,0,,,0.65687,1.21577,640,40
+"Dynamic","Realized Yield","fe_pair_by_sector","Grains",0.95437,0.01857,0.91797,0.99077,1.08e-96,,,0.65687,1.21577,160,10
+"Dynamic","Realized Yield","fe_pair_by_sector","Oil crops",1.02229,0.01652,0.98992,1.05466,3.4e-108,,,0.65687,1.21577,160,10
+"Dynamic","Realized Yield","fe_pair_by_sector","Other crops",0.90499,0.02423,0.8575,0.95247,1.49e-77,,,0.65687,1.21577,160,10
+"Dynamic","Realized Yield","fe_pair_by_sector","Sugar crops",1.02533,0.0248,0.97673,1.07393,1.5e-83,,,0.65687,1.21577,160,10
+"Dynamic","Realized Yield","fe_region",,0.99361,0.01013,0.97377,1.01346,0,,,0.65687,1.21577,640,40
+"Dynamic","Realized Yield","individual",,0.89661,,,,,0.78945,1.04267,0.65687,1.21577,640,40
+"Dynamic","Realized Yield","pooled",,0.99395,0.01005,0.97425,1.01365,0,,,0.65687,1.21577,640,40
+"Dynamic","Realized Yield","pooled_by_sector","Grains",0.95445,0.01813,0.91891,0.98999,4.31e-102,,,0.65687,1.21577,160,10
+"Dynamic","Realized Yield","pooled_by_sector","Oil crops",1.02224,0.01608,0.99071,1.05377,1.96e-114,,,0.65687,1.21577,160,10
+"Dynamic","Realized Yield","pooled_by_sector","Other crops",0.90508,0.02371,0.8586,0.95156,1.19e-81,,,0.65687,1.21577,160,10
+"Dynamic","Realized Yield","pooled_by_sector","Sugar crops",1.02719,0.02408,0.97998,1.07439,1.35e-88,,,0.65687,1.21577,160,10
+"Hidden","Realized Yield","fe_pair",,1.00502,0.01047,0.98449,1.02554,0,,,0.58242,1.46531,640,40
+"Hidden","Realized Yield","fe_pair_by_sector","Grains",0.94276,0.0189,0.90572,0.9798,7.14e-95,,,0.58242,1.46531,160,10
+"Hidden","Realized Yield","fe_pair_by_sector","Oil crops",1.03031,0.01534,1.00024,1.06038,2.72e-113,,,0.58242,1.46531,160,10
+"Hidden","Realized Yield","fe_pair_by_sector","Other crops",0.92578,0.02507,0.87664,0.97493,7.2e-77,,,0.58242,1.46531,160,10
+"Hidden","Realized Yield","fe_pair_by_sector","Sugar crops",1.06754,0.02584,1.0169,1.11819,1.7e-83,,,0.58242,1.46531,160,10
+"Hidden","Realized Yield","fe_region",,1.00524,0.01027,0.98511,1.02536,0,,,0.58242,1.46531,640,40
+"Hidden","Realized Yield","individual",,0.90282,,,,,0.80376,1.05842,0.58242,1.46531,640,40
+"Hidden","Realized Yield","pooled",,1.00562,0.0102,0.98563,1.02561,0,,,0.58242,1.46531,640,40
+"Hidden","Realized Yield","pooled_by_sector","Grains",0.943,0.01846,0.90683,0.97918,3.72e-100,,,0.58242,1.46531,160,10
+"Hidden","Realized Yield","pooled_by_sector","Oil crops",1.03026,0.01495,1.00096,1.05956,8.39e-120,,,0.58242,1.46531,160,10
+"Hidden","Realized Yield","pooled_by_sector","Other crops",0.92582,0.02449,0.87783,0.97381,4.57e-81,,,0.58242,1.46531,160,10
+"Hidden","Realized Yield","pooled_by_sector","Sugar crops",1.06978,0.02513,1.02053,1.11903,1.74e-88,,,0.58242,1.46531,160,10
+"Fixed-Ratio","Realized Yield","fe_pair",,0.99389,0.01035,0.9736,1.01417,0,,,0.6032,1.23687,640,40
+"Fixed-Ratio","Realized Yield","fe_pair_by_sector","Grains",0.94809,0.01918,0.91049,0.98569,2.62e-94,,,0.6032,1.23687,160,10
+"Fixed-Ratio","Realized Yield","fe_pair_by_sector","Oil crops",1.02733,0.01598,0.996,1.05866,1.51e-110,,,0.6032,1.23687,160,10
+"Fixed-Ratio","Realized Yield","fe_pair_by_sector","Other crops",0.91586,0.02403,0.86876,0.96295,9.87e-79,,,0.6032,1.23687,160,10
+"Fixed-Ratio","Realized Yield","fe_pair_by_sector","Sugar crops",1.02298,0.02493,0.97412,1.07185,4.36e-83,,,0.6032,1.23687,160,10
+"Fixed-Ratio","Realized Yield","fe_region",,0.99405,0.01015,0.97416,1.01393,0,,,0.6032,1.23687,640,40
+"Fixed-Ratio","Realized Yield","individual",,0.90996,,,,,0.79173,1.04849,0.6032,1.23687,640,40
+"Fixed-Ratio","Realized Yield","pooled",,0.99439,0.01007,0.97465,1.01413,0,,,0.6032,1.23687,640,40
+"Fixed-Ratio","Realized Yield","pooled_by_sector","Grains",0.94819,0.01872,0.9115,0.98487,1.33e-99,,,0.6032,1.23687,160,10
+"Fixed-Ratio","Realized Yield","pooled_by_sector","Oil crops",1.02723,0.01558,0.99671,1.05776,6.91e-117,,,0.6032,1.23687,160,10
+"Fixed-Ratio","Realized Yield","pooled_by_sector","Other crops",0.91585,0.02351,0.86978,0.96193,6.36e-83,,,0.6032,1.23687,160,10
+"Fixed-Ratio","Realized Yield","pooled_by_sector","Sugar crops",1.02488,0.02422,0.97741,1.07235,4.23e-88,,,0.6032,1.23687,160,10
+"Dynamic","Area harvested","fe_pair",,-0.36413,0.01758,-0.39859,-0.32967,2.89e-72,,,-1.06532,0.471,640,40
+"Dynamic","Area harvested","fe_pair_by_sector","Grains",-0.44013,0.02068,-0.48065,-0.3996,4.94e-47,,,-1.06532,0.471,160,10
+"Dynamic","Area harvested","fe_pair_by_sector","Oil crops",-0.3296,0.0325,-0.39329,-0.2659,1.05e-18,,,-1.06532,0.471,160,10
+"Dynamic","Area harvested","fe_pair_by_sector","Other crops",-0.502,0.03394,-0.56853,-0.43547,4.97e-31,,,-1.06532,0.471,160,10
+"Dynamic","Area harvested","fe_pair_by_sector","Sugar crops",-0.286,0.04661,-0.37736,-0.19464,7.3e-09,,,-1.06532,0.471,160,10
+"Dynamic","Area harvested","fe_region",,-0.36504,0.01722,-0.39879,-0.3313,1.07e-75,,,-1.06532,0.471,640,40
+"Dynamic","Area harvested","individual",,-0.44178,,,,,-0.57658,-0.14964,-1.06532,0.471,640,40
+"Dynamic","Area harvested","pooled",,-0.36479,0.01708,-0.39828,-0.33131,9.72e-77,,,-1.06532,0.471,640,40
+"Dynamic","Area harvested","pooled_by_sector","Grains",-0.44059,0.02021,-0.4802,-0.40097,1.74e-49,,,-1.06532,0.471,160,10
+"Dynamic","Area harvested","pooled_by_sector","Oil crops",-0.32993,0.03159,-0.39184,-0.26802,9.55e-20,,,-1.06532,0.471,160,10
+"Dynamic","Area harvested","pooled_by_sector","Other crops",-0.50197,0.03309,-0.56682,-0.43712,1.19e-32,,,-1.06532,0.471,160,10
+"Dynamic","Area harvested","pooled_by_sector","Sugar crops",-0.28644,0.04525,-0.37513,-0.19775,2.42e-09,,,-1.06532,0.471,160,10
+"Hidden","Area harvested","fe_pair",,-0.46697,0.01555,-0.49745,-0.43649,1.42e-121,,,-1.10329,0.50506,640,40
+"Hidden","Area harvested","fe_pair_by_sector","Grains",-0.51155,0.01977,-0.55031,-0.47279,5.6e-57,,,-1.10329,0.50506,160,10
+"Hidden","Area harvested","fe_pair_by_sector","Oil crops",-0.35093,0.03151,-0.41269,-0.28918,2.43e-21,,,-1.10329,0.50506,160,10
+"Hidden","Area harvested","fe_pair_by_sector","Other crops",-0.61189,0.03053,-0.67173,-0.55205,3.85e-44,,,-1.10329,0.50506,160,10
+"Hidden","Area harvested","fe_pair_by_sector","Sugar crops",-0.5254,0.03679,-0.59751,-0.45329,1.07e-29,,,-1.10329,0.50506,160,10
+"Hidden","Area harvested","fe_region",,-0.46751,0.01521,-0.49732,-0.4377,2.08e-127,,,-1.10329,0.50506,640,40
+"Hidden","Area harvested","individual",,-0.51381,,,,,-0.66668,-0.38933,-1.10329,0.50506,640,40
+"Hidden","Area harvested","pooled",,-0.46757,0.01509,-0.49714,-0.438,2.39e-129,,,-1.10329,0.50506,640,40
+"Hidden","Area harvested","pooled_by_sector","Grains",-0.51186,0.01934,-0.54976,-0.47395,5.91e-60,,,-1.10329,0.50506,160,10
+"Hidden","Area harvested","pooled_by_sector","Oil crops",-0.35129,0.03061,-0.41129,-0.2913,1.47e-22,,,-1.10329,0.50506,160,10
+"Hidden","Area harvested","pooled_by_sector","Other crops",-0.61149,0.02975,-0.66981,-0.55317,1.7e-46,,,-1.10329,0.50506,160,10
+"Hidden","Area harvested","pooled_by_sector","Sugar crops",-0.52565,0.03566,-0.59555,-0.45576,1.73e-31,,,-1.10329,0.50506,160,10
+"Fixed-Ratio","Area harvested","fe_pair",,-0.39824,0.01642,-0.43042,-0.36607,4.49e-91,,,-1.02187,0.49993,640,40
+"Fixed-Ratio","Area harvested","fe_pair_by_sector","Grains",-0.4876,0.01993,-0.52667,-0.44853,4.9e-54,,,-1.02187,0.49993,160,10
+"Fixed-Ratio","Area harvested","fe_pair_by_sector","Oil crops",-0.33333,0.03189,-0.39584,-0.27083,1.59e-19,,,-1.02187,0.49993,160,10
+"Fixed-Ratio","Area harvested","fe_pair_by_sector","Other crops",-0.57604,0.02933,-0.63354,-0.51855,3.52e-43,,,-1.02187,0.49993,160,10
+"Fixed-Ratio","Area harvested","fe_pair_by_sector","Sugar crops",-0.33162,0.04142,-0.41281,-0.25043,3.12e-13,,,-1.02187,0.49993,160,10
+"Fixed-Ratio","Area harvested","fe_region",,-0.39907,0.01608,-0.43059,-0.36754,2.77e-95,,,-1.02187,0.49993,640,40
+"Fixed-Ratio","Area harvested","individual",,-0.46219,,,,,-0.64306,-0.26573,-1.02187,0.49993,640,40
+"Fixed-Ratio","Area harvested","pooled",,-0.39879,0.01596,-0.43007,-0.3675,1.36e-96,,,-1.02187,0.49993,640,40
+"Fixed-Ratio","Area harvested","pooled_by_sector","Grains",-0.48788,0.01949,-0.52608,-0.44969,7.27e-57,,,-1.02187,0.49993,160,10
+"Fixed-Ratio","Area harvested","pooled_by_sector","Oil crops",-0.33382,0.03099,-0.39457,-0.27307,1.25e-20,,,-1.02187,0.49993,160,10
+"Fixed-Ratio","Area harvested","pooled_by_sector","Other crops",-0.5756,0.02863,-0.63172,-0.51948,2.14e-45,,,-1.02187,0.49993,160,10
+"Fixed-Ratio","Area harvested","pooled_by_sector","Sugar crops",-0.33169,0.04026,-0.41059,-0.25279,6.21e-14,,,-1.02187,0.49993,160,10
+"Dynamic","Production","fe_pair",,0.6293,0.01753,0.59495,0.66366,1.94e-151,,,-0.02314,1.21576,640,40
+"Dynamic","Production","fe_pair_by_sector","Grains",0.51425,0.0217,0.47172,0.55677,2.05e-52,,,-0.02314,1.21576,160,10
+"Dynamic","Production","fe_pair_by_sector","Oil crops",0.69269,0.03055,0.63281,0.75258,3.71e-50,,,-0.02314,1.21576,160,10
+"Dynamic","Production","fe_pair_by_sector","Other crops",0.40299,0.02311,0.35769,0.44828,8.26e-38,,,-0.02314,1.21576,160,10
+"Dynamic","Production","fe_pair_by_sector","Sugar crops",0.73933,0.04796,0.64533,0.83332,1.16e-32,,,-0.02314,1.21576,160,10
+"Dynamic","Production","fe_region",,0.62857,0.01716,0.59493,0.66221,4.45e-158,,,-0.02314,1.21576,640,40
+"Dynamic","Production","individual",,0.54628,,,,,0.30141,0.66574,-0.02314,1.21576,640,40
+"Dynamic","Production","pooled",,0.62916,0.01705,0.59574,0.66257,2e-160,,,-0.02314,1.21576,640,40
+"Dynamic","Production","pooled_by_sector","Grains",0.51386,0.02108,0.47255,0.55518,2.05e-55,,,-0.02314,1.21576,160,10
+"Dynamic","Production","pooled_by_sector","Oil crops",0.69231,0.02973,0.63405,0.75058,5.89e-53,,,-0.02314,1.21576,160,10
+"Dynamic","Production","pooled_by_sector","Other crops",0.40311,0.02252,0.35897,0.44725,7.61e-40,,,-0.02314,1.21576,160,10
+"Dynamic","Production","pooled_by_sector","Sugar crops",0.74074,0.04666,0.64928,0.8322,1.55e-34,,,-0.02314,1.21576,160,10
+"Hidden","Production","fe_pair",,0.53805,0.01383,0.51095,0.56515,3.83e-166,,,0.02288,1.20044,640,40
+"Hidden","Production","fe_pair_by_sector","Grains",0.43121,0.01986,0.39228,0.47014,5.27e-48,,,0.02288,1.20044,160,10
+"Hidden","Production","fe_pair_by_sector","Oil crops",0.67938,0.02656,0.62732,0.73144,2.23e-56,,,0.02288,1.20044,160,10
+"Hidden","Production","fe_pair_by_sector","Other crops",0.3139,0.01912,0.27642,0.35137,3.11e-35,,,0.02288,1.20044,160,10
+"Hidden","Production","fe_pair_by_sector","Sugar crops",0.54214,0.03178,0.47985,0.60444,7.42e-37,,,0.02288,1.20044,160,10
+"Hidden","Production","fe_region",,0.53773,0.01352,0.51122,0.56423,8.88e-174,,,0.02288,1.20044,640,40
+"Hidden","Production","individual",,0.38653,,,,,0.27148,0.55537,0.02288,1.20044,640,40
+"Hidden","Production","pooled",,0.53805,0.01343,0.51173,0.56437,2.46e-176,,,0.02288,1.20044,640,40
+"Hidden","Production","pooled_by_sector","Grains",0.43115,0.01931,0.3933,0.46899,9.79e-51,,,0.02288,1.20044,160,10
+"Hidden","Production","pooled_by_sector","Oil crops",0.67897,0.0258,0.62839,0.72954,1.26e-59,,,0.02288,1.20044,160,10
+"Hidden","Production","pooled_by_sector","Other crops",0.31433,0.01865,0.27778,0.35088,3.92e-37,,,0.02288,1.20044,160,10
+"Hidden","Production","pooled_by_sector","Sugar crops",0.54413,0.03098,0.4834,0.60486,5.66e-39,,,0.02288,1.20044,160,10
+"Fixed-Ratio","Production","fe_pair",,0.59564,0.01599,0.5643,0.62699,4.78e-158,,,0.0798,1.20593,640,40
+"Fixed-Ratio","Production","fe_pair_by_sector","Grains",0.46049,0.02049,0.42033,0.50065,1.01e-49,,,0.0798,1.20593,160,10
+"Fixed-Ratio","Production","fe_pair_by_sector","Oil crops",0.694,0.0275,0.6401,0.7479,1.14e-55,,,0.0798,1.20593,160,10
+"Fixed-Ratio","Production","fe_pair_by_sector","Other crops",0.33981,0.01963,0.30133,0.3783,1.75e-37,,,0.0798,1.20593,160,10
+"Fixed-Ratio","Production","fe_pair_by_sector","Sugar crops",0.69136,0.04218,0.60869,0.77404,3.65e-35,,,0.0798,1.20593,160,10
+"Fixed-Ratio","Production","fe_region",,0.59498,0.01568,0.56424,0.62571,9.34e-165,,,0.0798,1.20593,640,40
+"Fixed-Ratio","Production","individual",,0.43251,,,,,0.2877,0.60435,0.0798,1.20593,640,40
+"Fixed-Ratio","Production","pooled",,0.5956,0.01558,0.56507,0.62614,3.53e-167,,,0.0798,1.20593,640,40
+"Fixed-Ratio","Production","pooled_by_sector","Grains",0.4603,0.01991,0.42128,0.49932,1.42e-52,,,0.0798,1.20593,160,10
+"Fixed-Ratio","Production","pooled_by_sector","Oil crops",0.69341,0.02677,0.64094,0.74589,9.7e-59,,,0.0798,1.20593,160,10
+"Fixed-Ratio","Production","pooled_by_sector","Other crops",0.34025,0.01916,0.3027,0.37781,1.75e-39,,,0.0798,1.20593,160,10
+"Fixed-Ratio","Production","pooled_by_sector","Sugar crops",0.69319,0.04115,0.61253,0.77385,4.21e-37,,,0.0798,1.20593,160,10
+"Dynamic","Export","fe_pair",,0.89001,0.03264,0.82603,0.95399,4.74e-107,,,0.00557,3.36998,640,40
+"Dynamic","Export","fe_pair_by_sector","Grains",0.78835,0.05071,0.68895,0.88775,5.38e-33,,,0.00557,3.36998,160,10
+"Dynamic","Export","fe_pair_by_sector","Oil crops",0.99356,0.07256,0.85134,1.13577,3.81e-28,,,0.00557,3.36998,160,10
+"Dynamic","Export","fe_pair_by_sector","Other crops",1.18612,0.08501,1.0195,1.35273,7.84e-29,,,0.00557,3.36998,160,10
+"Dynamic","Export","fe_pair_by_sector","Sugar crops",0.74253,0.05507,0.63459,0.85047,1.37e-27,,,0.00557,3.36998,160,10
+"Dynamic","Export","fe_region",,0.88876,0.03186,0.82631,0.95121,4.55e-112,,,0.00557,3.36998,640,40
+"Dynamic","Export","individual",,0.66685,,,,,0.46579,1.1009,0.00557,3.36998,640,40
+"Dynamic","Export","pooled",,0.89133,0.0317,0.8292,0.95346,8.85e-114,,,0.00557,3.36998,640,40
+"Dynamic","Export","pooled_by_sector","Grains",0.79168,0.04952,0.69462,0.88873,7.7e-35,,,0.00557,3.36998,160,10
+"Dynamic","Export","pooled_by_sector","Oil crops",0.99342,0.07048,0.85529,1.13155,9.75e-30,,,0.00557,3.36998,160,10
+"Dynamic","Export","pooled_by_sector","Other crops",1.19246,0.08301,1.02976,1.35516,1.8e-30,,,0.00557,3.36998,160,10
+"Dynamic","Export","pooled_by_sector","Sugar crops",0.74527,0.05365,0.64011,0.85042,3.53e-29,,,0.00557,3.36998,160,10
+"Hidden","Export","fe_pair",,1.06431,0.04125,0.98346,1.14516,2.77e-99,,,-0.34776,4.37927,640,40
+"Hidden","Export","fe_pair_by_sector","Grains",0.9258,0.06416,0.80006,1.05155,4.33e-30,,,-0.34776,4.37927,160,10
+"Hidden","Export","fe_pair_by_sector","Oil crops",1.08655,0.08731,0.91543,1.25766,7.92e-25,,,-0.34776,4.37927,160,10
+"Hidden","Export","fe_pair_by_sector","Other crops",1.50736,0.11741,1.27723,1.7375,7.12e-26,,,-0.34776,4.37927,160,10
+"Hidden","Export","fe_pair_by_sector","Sugar crops",0.9993,0.07131,0.85952,1.13908,5.46e-29,,,-0.34776,4.37927,160,10
+"Hidden","Export","fe_region",,1.06302,0.04024,0.98415,1.14189,4.86e-104,,,-0.34776,4.37927,640,40
+"Hidden","Export","individual",,0.86477,,,,,0.56714,1.15655,-0.34776,4.37927,640,40
+"Hidden","Export","pooled",,1.06488,0.03996,0.98656,1.14321,9.89e-106,,,-0.34776,4.37927,640,40
+"Hidden","Export","pooled_by_sector","Grains",0.92856,0.06245,0.80615,1.05097,7.84e-32,,,-0.34776,4.37927,160,10
+"Hidden","Export","pooled_by_sector","Oil crops",1.08637,0.08473,0.92029,1.25244,3.01e-26,,,-0.34776,4.37927,160,10
+"Hidden","Export","pooled_by_sector","Other crops",1.51103,0.11407,1.28744,1.73461,2.05e-27,,,-0.34776,4.37927,160,10
+"Hidden","Export","pooled_by_sector","Sugar crops",1.00007,0.06917,0.86448,1.13565,1.01e-30,,,-0.34776,4.37927,160,10
+"Fixed-Ratio","Export","fe_pair",,0.98043,0.03753,0.90687,1.05398,5.25e-101,,,-0.48941,4.04219,640,40
+"Fixed-Ratio","Export","fe_pair_by_sector","Grains",0.86859,0.05906,0.75283,0.98434,8.17e-31,,,-0.48941,4.04219,160,10
+"Fixed-Ratio","Export","fe_pair_by_sector","Oil crops",1.05382,0.07932,0.89836,1.20929,4.58e-27,,,-0.48941,4.04219,160,10
+"Fixed-Ratio","Export","fe_pair_by_sector","Other crops",1.41584,0.10609,1.20791,1.62377,3.17e-27,,,-0.48941,4.04219,160,10
+"Fixed-Ratio","Export","fe_pair_by_sector","Sugar crops",0.83228,0.06429,0.70628,0.95828,3.65e-26,,,-0.48941,4.04219,160,10
+"Fixed-Ratio","Export","fe_region",,0.9788,0.03662,0.90702,1.05057,9.83e-106,,,-0.48941,4.04219,640,40
+"Fixed-Ratio","Export","individual",,0.76151,,,,,0.50877,1.10152,-0.48941,4.04219,640,40
+"Fixed-Ratio","Export","pooled",,0.98083,0.03637,0.90953,1.05212,1.8e-107,,,-0.48941,4.04219,640,40
+"Fixed-Ratio","Export","pooled_by_sector","Grains",0.87138,0.0575,0.75869,0.98408,1.31e-32,,,-0.48941,4.04219,160,10
+"Fixed-Ratio","Export","pooled_by_sector","Oil crops",1.05316,0.07702,0.9022,1.20413,1.39e-28,,,-0.48941,4.04219,160,10
+"Fixed-Ratio","Export","pooled_by_sector","Other crops",1.41988,0.10313,1.21776,1.62201,7.64e-29,,,-0.48941,4.04219,160,10
+"Fixed-Ratio","Export","pooled_by_sector","Sugar crops",0.83382,0.0624,0.71151,0.95612,9.87e-28,,,-0.48941,4.04219,160,10
+"Dynamic","Closing stocks (Mt)","fe_pair",,0.18448,0.01094,0.16304,0.20592,1.66e-52,,,-0.12388,0.99976,640,40
+"Dynamic","Closing stocks (Mt)","fe_pair_by_sector","Grains",0.26806,0.02034,0.2282,0.30793,8.82e-27,,,-0.12388,0.99976,160,10
+"Dynamic","Closing stocks (Mt)","fe_pair_by_sector","Oil crops",0.12154,0.01888,0.08454,0.15855,1.57e-09,,,-0.12388,0.99976,160,10
+"Dynamic","Closing stocks (Mt)","fe_pair_by_sector","Other crops",0.38269,0.03484,0.3144,0.45097,6.21e-21,,,-0.12388,0.99976,160,10
+"Dynamic","Closing stocks (Mt)","fe_pair_by_sector","Sugar crops",0.1145,0.01524,0.08463,0.14438,4.99e-12,,,-0.12388,0.99976,160,10
+"Dynamic","Closing stocks (Mt)","fe_region",,0.18422,0.01067,0.16331,0.20513,5.55e-55,,,-0.12388,0.99976,640,40
+"Dynamic","Closing stocks (Mt)","individual",,0.18485,,,,,0.11156,0.38953,-0.12388,0.99976,640,40
+"Dynamic","Closing stocks (Mt)","pooled",,0.18384,0.01058,0.16309,0.20458,1.24e-55,,,-0.12388,0.99976,640,40
+"Dynamic","Closing stocks (Mt)","pooled_by_sector","Grains",0.26733,0.01977,0.22857,0.30608,3.64e-28,,,-0.12388,0.99976,160,10
+"Dynamic","Closing stocks (Mt)","pooled_by_sector","Oil crops",0.12126,0.01833,0.08533,0.15719,5.47e-10,,,-0.12388,0.99976,160,10
+"Dynamic","Closing stocks (Mt)","pooled_by_sector","Other crops",0.38109,0.0338,0.31483,0.44734,5.29e-22,,,-0.12388,0.99976,160,10
+"Dynamic","Closing stocks (Mt)","pooled_by_sector","Sugar crops",0.11416,0.01475,0.08526,0.14306,1.1e-12,,,-0.12388,0.99976,160,10
+"Fixed-Ratio","Closing stocks (Mt)","fe_pair",,0.03835,0.00354,0.03142,0.04528,3.77e-25,,,-0.04274,0.29689,640,40
+"Fixed-Ratio","Closing stocks (Mt)","fe_pair_by_sector","Grains",0.06812,0.00523,0.05786,0.07838,2.43e-26,,,-0.04274,0.29689,160,10
+"Fixed-Ratio","Closing stocks (Mt)","fe_pair_by_sector","Oil crops",0.02097,0.00788,0.00552,0.03642,0.00868,,,-0.04274,0.29689,160,10
+"Fixed-Ratio","Closing stocks (Mt)","fe_pair_by_sector","Other crops",0.07581,0.00931,0.05757,0.09406,1.42e-13,,,-0.04274,0.29689,160,10
+"Fixed-Ratio","Closing stocks (Mt)","fe_pair_by_sector","Sugar crops",0.01863,0.00538,0.00809,0.02917,0.000694,,,-0.04274,0.29689,160,10
+"Fixed-Ratio","Closing stocks (Mt)","fe_region",,0.03852,0.00346,0.03174,0.0453,2.06e-26,,,-0.04274,0.29689,640,40
+"Fixed-Ratio","Closing stocks (Mt)","individual",,0.0411,,,,,0.01375,0.10343,-0.04274,0.29689,640,40
+"Fixed-Ratio","Closing stocks (Mt)","pooled",,0.03857,0.00343,0.03184,0.0453,7.9e-27,,,-0.04274,0.29689,640,40
+"Fixed-Ratio","Closing stocks (Mt)","pooled_by_sector","Grains",0.06818,0.0051,0.05819,0.07817,9.01e-28,,,-0.04274,0.29689,160,10
+"Fixed-Ratio","Closing stocks (Mt)","pooled_by_sector","Oil crops",0.0209,0.00767,0.00587,0.03593,0.00715,,,-0.04274,0.29689,160,10
+"Fixed-Ratio","Closing stocks (Mt)","pooled_by_sector","Other crops",0.07605,0.00905,0.05832,0.09378,2.32e-14,,,-0.04274,0.29689,160,10
+"Fixed-Ratio","Closing stocks (Mt)","pooled_by_sector","Sugar crops",0.01906,0.00524,0.00879,0.02934,0.000375,,,-0.04274,0.29689,160,10
+"Dynamic","Import","fe_pair",,-0.09592,0.01182,-0.11909,-0.07275,2.77e-15,,,-0.4708,0.42937,640,40
+"Dynamic","Import","fe_pair_by_sector","Grains",-0.06705,0.02741,-0.12078,-0.01332,0.0156,,,-0.4708,0.42937,160,10
+"Dynamic","Import","fe_pair_by_sector","Oil crops",-0.05318,0.01603,-0.0846,-0.02176,0.00114,,,-0.4708,0.42937,160,10
+"Dynamic","Import","fe_pair_by_sector","Other crops",-0.16549,0.03334,-0.23083,-0.10015,1.87e-06,,,-0.4708,0.42937,160,10
+"Dynamic","Import","fe_pair_by_sector","Sugar crops",-0.15475,0.02288,-0.1996,-0.10991,2.87e-10,,,-0.4708,0.42937,160,10
+"Dynamic","Import","fe_region",,-0.09561,0.01155,-0.11825,-0.07298,7.37e-16,,,-0.4708,0.42937,640,40
+"Dynamic","Import","individual",,-0.06005,,,,,-0.18473,0.0342,-0.4708,0.42937,640,40
+"Dynamic","Import","pooled",,-0.09633,0.01147,-0.11881,-0.07385,2.89e-16,,,-0.4708,0.42937,640,40
+"Dynamic","Import","pooled_by_sector","Grains",-0.0678,0.02664,-0.12001,-0.01558,0.0119,,,-0.4708,0.42937,160,10
+"Dynamic","Import","pooled_by_sector","Oil crops",-0.05329,0.01555,-0.08377,-0.0228,0.00078,,,-0.4708,0.42937,160,10
+"Dynamic","Import","pooled_by_sector","Other crops",-0.16775,0.03245,-0.23136,-0.10413,7.04e-07,,,-0.4708,0.42937,160,10
+"Dynamic","Import","pooled_by_sector","Sugar crops",-0.15488,0.02217,-0.19834,-0.11143,7.46e-11,,,-0.4708,0.42937,160,10
+"Hidden","Import","fe_pair",,-0.11834,0.01209,-0.14203,-0.09464,4.34e-21,,,-0.74147,0.23601,640,40
+"Hidden","Import","fe_pair_by_sector","Grains",-0.10162,0.02804,-0.15659,-0.04666,0.000397,,,-0.74147,0.23601,160,10
+"Hidden","Import","fe_pair_by_sector","Oil crops",-0.05316,0.01394,-0.08048,-0.02584,2e-04,,,-0.74147,0.23601,160,10
+"Hidden","Import","fe_pair_by_sector","Other crops",-0.24863,0.03706,-0.32126,-0.176,3.81e-10,,,-0.74147,0.23601,160,10
+"Hidden","Import","fe_pair_by_sector","Sugar crops",-0.17561,0.02245,-0.21961,-0.13162,8.71e-13,,,-0.74147,0.23601,160,10
+"Hidden","Import","fe_region",,-0.11748,0.01184,-0.14068,-0.09428,1.15e-21,,,-0.74147,0.23601,640,40
+"Hidden","Import","individual",,-0.11314,,,,,-0.23371,-0.02358,-0.74147,0.23601,640,40
+"Hidden","Import","pooled",,-0.11786,0.01175,-0.14088,-0.09484,4.23e-22,,,-0.74147,0.23601,640,40
+"Hidden","Import","pooled_by_sector","Grains",-0.10227,0.02725,-0.15567,-0.04887,0.000245,,,-0.74147,0.23601,160,10
+"Hidden","Import","pooled_by_sector","Oil crops",-0.05322,0.01353,-0.07973,-0.0267,0.000125,,,-0.74147,0.23601,160,10
+"Hidden","Import","pooled_by_sector","Other crops",-0.24975,0.03595,-0.32021,-0.17929,9.2e-11,,,-0.74147,0.23601,160,10
+"Hidden","Import","pooled_by_sector","Sugar crops",-0.17345,0.02182,-0.21621,-0.13069,3.33e-13,,,-0.74147,0.23601,160,10
+"Fixed-Ratio","Import","fe_pair",,-0.12857,0.01206,-0.15221,-0.10493,2.05e-24,,,-0.71998,0.24987,640,40
+"Fixed-Ratio","Import","fe_pair_by_sector","Grains",-0.09471,0.02804,-0.14967,-0.03974,0.000935,,,-0.71998,0.24987,160,10
+"Fixed-Ratio","Import","fe_pair_by_sector","Oil crops",-0.05872,0.01483,-0.08778,-0.02965,0.000116,,,-0.71998,0.24987,160,10
+"Fixed-Ratio","Import","fe_pair_by_sector","Other crops",-0.25158,0.03657,-0.32327,-0.1799,1.56e-10,,,-0.71998,0.24987,160,10
+"Fixed-Ratio","Import","fe_pair_by_sector","Sugar crops",-0.20711,0.02148,-0.24921,-0.16501,2.14e-17,,,-0.71998,0.24987,160,10
+"Fixed-Ratio","Import","fe_region",,-0.12814,0.01178,-0.15123,-0.10505,2.3e-25,,,-0.71998,0.24987,640,40
+"Fixed-Ratio","Import","individual",,-0.09413,,,,,-0.24555,-0.01065,-0.71998,0.24987,640,40
+"Fixed-Ratio","Import","pooled",,-0.12874,0.01169,-0.15166,-0.10582,6.26e-26,,,-0.71998,0.24987,640,40
+"Fixed-Ratio","Import","pooled_by_sector","Grains",-0.09532,0.02724,-0.14871,-0.04193,0.000606,,,-0.71998,0.24987,160,10
+"Fixed-Ratio","Import","pooled_by_sector","Oil crops",-0.05878,0.01439,-0.08698,-0.03057,6.99e-05,,,-0.71998,0.24987,160,10
+"Fixed-Ratio","Import","pooled_by_sector","Other crops",-0.25313,0.03552,-0.32275,-0.18352,3.45e-11,,,-0.71998,0.24987,160,10
+"Fixed-Ratio","Import","pooled_by_sector","Sugar crops",-0.20678,0.02081,-0.24756,-0.166,2.22e-18,,,-0.71998,0.24987,160,10
+"Dynamic","Consumption (Total)","fe_pair",,0.0305,0.00391,0.02283,0.03816,2.83e-14,,,-0.15637,0.24338,640,40
+"Dynamic","Consumption (Total)","fe_pair_by_sector","Grains",0.07582,0.00708,0.06195,0.08969,3.24e-20,,,-0.15637,0.24338,160,10
+"Dynamic","Consumption (Total)","fe_pair_by_sector","Oil crops",0.00171,0.00838,-0.01471,0.01814,0.838,,,-0.15637,0.24338,160,10
+"Dynamic","Consumption (Total)","fe_pair_by_sector","Other crops",0.05334,0.00957,0.03457,0.0721,1.15e-07,,,-0.15637,0.24338,160,10
+"Dynamic","Consumption (Total)","fe_pair_by_sector","Sugar crops",0.0165,0.00517,0.00638,0.02663,0.00171,,,-0.15637,0.24338,160,10
+"Dynamic","Consumption (Total)","fe_region",,0.03074,0.00383,0.02324,0.03824,4.72e-15,,,-0.15637,0.24338,640,40
+"Dynamic","Consumption (Total)","individual",,0.0326,,,,,0.00327,0.09858,-0.15637,0.24338,640,40
+"Dynamic","Consumption (Total)","pooled",,0.03083,0.0038,0.02339,0.03828,2.48e-15,,,-0.15637,0.24338,640,40
+"Dynamic","Consumption (Total)","pooled_by_sector","Grains",0.07592,0.00689,0.06242,0.08942,2.63e-21,,,-0.15637,0.24338,160,10
+"Dynamic","Consumption (Total)","pooled_by_sector","Oil crops",0.00167,0.00814,-0.01429,0.01764,0.837,,,-0.15637,0.24338,160,10
+"Dynamic","Consumption (Total)","pooled_by_sector","Other crops",0.05373,0.00931,0.03549,0.07197,4e-08,,,-0.15637,0.24338,160,10
+"Dynamic","Consumption (Total)","pooled_by_sector","Sugar crops",0.01702,0.00505,0.00713,0.02692,0.000934,,,-0.15637,0.24338,160,10
+"Hidden","Consumption (Total)","fe_pair",,0.03412,0.00478,0.02476,0.04349,2.63e-12,,,-0.15957,0.33856,640,40
+"Hidden","Consumption (Total)","fe_pair_by_sector","Grains",0.085,0.00858,0.06818,0.10181,4.32e-18,,,-0.15957,0.33856,160,10
+"Hidden","Consumption (Total)","fe_pair_by_sector","Oil crops",0.00695,0.00944,-0.01156,0.02546,0.463,,,-0.15957,0.33856,160,10
+"Hidden","Consumption (Total)","fe_pair_by_sector","Other crops",0.0716,0.01144,0.04917,0.09402,3.96e-09,,,-0.15957,0.33856,160,10
+"Hidden","Consumption (Total)","fe_pair_by_sector","Sugar crops",0.00339,0.00793,-0.01215,0.01893,0.669,,,-0.15957,0.33856,160,10
+"Hidden","Consumption (Total)","fe_region",,0.03444,0.00467,0.02528,0.04359,5.34e-13,,,-0.15957,0.33856,640,40
+"Hidden","Consumption (Total)","individual",,0.0351,,,,,0.00237,0.1347,-0.15957,0.33856,640,40
+"Hidden","Consumption (Total)","pooled",,0.03444,0.00464,0.02536,0.04353,3.5e-13,,,-0.15957,0.33856,640,40
+"Hidden","Consumption (Total)","pooled_by_sector","Grains",0.08502,0.00834,0.06868,0.10137,4.56e-19,,,-0.15957,0.33856,160,10
+"Hidden","Consumption (Total)","pooled_by_sector","Oil crops",0.00695,0.00917,-0.01103,0.02493,0.45,,,-0.15957,0.33856,160,10
+"Hidden","Consumption (Total)","pooled_by_sector","Other crops",0.07183,0.01111,0.05006,0.0936,1.19e-09,,,-0.15957,0.33856,160,10
+"Hidden","Consumption (Total)","pooled_by_sector","Sugar crops",0.00392,0.00773,-0.01122,0.01906,0.612,,,-0.15957,0.33856,160,10
+"Fixed-Ratio","Consumption (Total)","fe_pair",,0.0374,0.00427,0.02904,0.04577,1.95e-17,,,-0.15253,0.30135,640,40
+"Fixed-Ratio","Consumption (Total)","fe_pair_by_sector","Grains",0.0846,0.00784,0.06923,0.09997,2.03e-20,,,-0.15253,0.30135,160,10
+"Fixed-Ratio","Consumption (Total)","fe_pair_by_sector","Oil crops",0.00696,0.00909,-0.01085,0.02476,0.445,,,-0.15253,0.30135,160,10
+"Fixed-Ratio","Consumption (Total)","fe_pair_by_sector","Other crops",0.06535,0.01067,0.04444,0.08627,7.72e-09,,,-0.15253,0.30135,160,10
+"Fixed-Ratio","Consumption (Total)","fe_pair_by_sector","Sugar crops",0.02144,0.0056,0.01047,0.03242,0.000188,,,-0.15253,0.30135,160,10
+"Fixed-Ratio","Consumption (Total)","fe_region",,0.03763,0.00417,0.02945,0.04581,2.29e-18,,,-0.15253,0.30135,640,40
+"Fixed-Ratio","Consumption (Total)","individual",,0.03787,,,,,0.0068,0.12832,-0.15253,0.30135,640,40
+"Fixed-Ratio","Consumption (Total)","pooled",,0.03769,0.00414,0.02957,0.0458,1.11e-18,,,-0.15253,0.30135,640,40
+"Fixed-Ratio","Consumption (Total)","pooled_by_sector","Grains",0.08464,0.00762,0.0697,0.09959,1.57e-21,,,-0.15253,0.30135,160,10
+"Fixed-Ratio","Consumption (Total)","pooled_by_sector","Oil crops",0.00692,0.00883,-0.01038,0.02422,0.434,,,-0.15253,0.30135,160,10
+"Fixed-Ratio","Consumption (Total)","pooled_by_sector","Other crops",0.06562,0.01036,0.04532,0.08592,2.36e-09,,,-0.15253,0.30135,160,10
+"Fixed-Ratio","Consumption (Total)","pooled_by_sector","Sugar crops",0.02189,0.00545,0.0112,0.03258,9.25e-05,,,-0.15253,0.30135,160,10
+"Dynamic","Price","fe_pair",,-0.21138,0.00604,-0.22322,-0.19955,5.42e-147,,,-0.4935,0.00383,640,40
+"Dynamic","Price","fe_pair_by_sector","Grains",-0.27863,0.01334,-0.30477,-0.25248,4.05e-46,,,-0.4935,0.00383,160,10
+"Dynamic","Price","fe_pair_by_sector","Oil crops",-0.19213,0.00894,-0.20966,-0.1746,1.76e-47,,,-0.4935,0.00383,160,10
+"Dynamic","Price","fe_pair_by_sector","Other crops",-0.23639,0.01659,-0.26891,-0.20387,1.3e-29,,,-0.4935,0.00383,160,10
+"Dynamic","Price","fe_pair_by_sector","Sugar crops",-0.16286,0.01036,-0.18317,-0.14255,1.98e-33,,,-0.4935,0.00383,160,10
+"Dynamic","Price","fe_region",,-0.21115,0.0059,-0.22272,-0.19959,7.64e-154,,,-0.4935,0.00383,640,40
+"Dynamic","Price","individual",,-0.16491,,,,,-0.33213,-0.10621,-0.4935,0.00383,640,40
+"Dynamic","Price","pooled",,-0.21165,0.00587,-0.22315,-0.20015,3.84e-156,,,-0.4935,0.00383,640,40
+"Dynamic","Price","pooled_by_sector","Grains",-0.27939,0.01301,-0.30489,-0.25388,1.06e-48,,,-0.4935,0.00383,160,10
+"Dynamic","Price","pooled_by_sector","Oil crops",-0.19217,0.00871,-0.20924,-0.1751,3.98e-50,,,-0.4935,0.00383,160,10
+"Dynamic","Price","pooled_by_sector","Other crops",-0.23705,0.01612,-0.26865,-0.20545,2.19e-31,,,-0.4935,0.00383,160,10
+"Dynamic","Price","pooled_by_sector","Sugar crops",-0.16308,0.01009,-0.18285,-0.14331,2.54e-35,,,-0.4935,0.00383,160,10
+"Hidden","Price","fe_pair",,-0.2668,0.00786,-0.2822,-0.2514,1.05e-141,,,-0.70935,-0.02276,640,40
+"Hidden","Price","fe_pair_by_sector","Grains",-0.32005,0.01713,-0.35363,-0.28648,6.97e-41,,,-0.70935,-0.02276,160,10
+"Hidden","Price","fe_pair_by_sector","Oil crops",-0.25464,0.01207,-0.2783,-0.23098,1.37e-46,,,-0.70935,-0.02276,160,10
+"Hidden","Price","fe_pair_by_sector","Other crops",-0.30346,0.02386,-0.35023,-0.2567,1.47e-25,,,-0.70935,-0.02276,160,10
+"Hidden","Price","fe_pair_by_sector","Sugar crops",-0.21255,0.01304,-0.2381,-0.187,6.08e-35,,,-0.70935,-0.02276,160,10
+"Hidden","Price","fe_region",,-0.26645,0.00767,-0.28149,-0.25142,2.04e-148,,,-0.70935,-0.02276,640,40
+"Hidden","Price","individual",,-0.19147,,,,,-0.38217,-0.13315,-0.70935,-0.02276,640,40
+"Hidden","Price","pooled",,-0.26673,0.00761,-0.28166,-0.25181,8.84e-151,,,-0.70935,-0.02276,640,40
+"Hidden","Price","pooled_by_sector","Grains",-0.32053,0.01665,-0.35316,-0.2879,2.75e-43,,,-0.70935,-0.02276,160,10
+"Hidden","Price","pooled_by_sector","Oil crops",-0.2546,0.01173,-0.27758,-0.23162,2.78e-49,,,-0.70935,-0.02276,160,10
+"Hidden","Price","pooled_by_sector","Other crops",-0.30362,0.02313,-0.34895,-0.25829,4.33e-27,,,-0.70935,-0.02276,160,10
+"Hidden","Price","pooled_by_sector","Sugar crops",-0.21237,0.01266,-0.23719,-0.18756,6.39e-37,,,-0.70935,-0.02276,160,10
+"Fixed-Ratio","Price","fe_pair",,-0.23479,0.00707,-0.24866,-0.22093,7.06e-138,,,-0.65494,-0.02218,640,40
+"Fixed-Ratio","Price","fe_pair_by_sector","Grains",-0.30652,0.01567,-0.33724,-0.2758,5.43e-43,,,-0.65494,-0.02218,160,10
+"Fixed-Ratio","Price","fe_pair_by_sector","Oil crops",-0.21112,0.01013,-0.23098,-0.19126,5.34e-46,,,-0.65494,-0.02218,160,10
+"Fixed-Ratio","Price","fe_pair_by_sector","Other crops",-0.28437,0.02076,-0.32506,-0.24369,3.64e-28,,,-0.65494,-0.02218,160,10
+"Fixed-Ratio","Price","fe_pair_by_sector","Sugar crops",-0.17844,0.0117,-0.20137,-0.15552,3.03e-32,,,-0.65494,-0.02218,160,10
+"Fixed-Ratio","Price","fe_region",,-0.23448,0.0069,-0.24802,-0.22095,2.19e-144,,,-0.65494,-0.02218,640,40
+"Fixed-Ratio","Price","individual",,-0.17801,,,,,-0.39274,-0.14811,-0.65494,-0.02218,640,40
+"Fixed-Ratio","Price","pooled",,-0.23486,0.00686,-0.2483,-0.22142,1.01e-146,,,-0.65494,-0.02218,640,40
+"Fixed-Ratio","Price","pooled_by_sector","Grains",-0.3071,0.01524,-0.33696,-0.27723,1.6e-45,,,-0.65494,-0.02218,160,10
+"Fixed-Ratio","Price","pooled_by_sector","Oil crops",-0.21108,0.00986,-0.2304,-0.19177,1.38e-48,,,-0.65494,-0.02218,160,10
+"Fixed-Ratio","Price","pooled_by_sector","Other crops",-0.2846,0.02013,-0.32406,-0.24514,7.58e-30,,,-0.65494,-0.02218,160,10
+"Fixed-Ratio","Price","pooled_by_sector","Sugar crops",-0.17849,0.01135,-0.20074,-0.15625,3.89e-34,,,-0.65494,-0.02218,160,10
