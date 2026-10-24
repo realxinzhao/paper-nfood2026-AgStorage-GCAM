@@ -63,7 +63,7 @@ The data processing and visualization repo is integrated in the GCAM repo in [in
 
 To replicate the processing:
 1. Load `gcamdata` (`devtools::load_all()`) and run `driver_drake()`. This is need for generating XMLs needed for running GCAM scenarios. More importantly here, historical data needed are stored in the drake cache once drake is completed. 
-2. Download the queried and saved RDS GCAM scenario outcome data (`GCAM_queries_MainScenarios.rds`) from zenodo and place it in [input/gcamdata/paper/cache](./input/gcamdata/paper/cache). Users can also query and process those data if the scenario Databases were available (see code in `R/Results_1_Database.R`)
+2. Download the queried and saved RDS GCAM scenario outcome data (`GCAM_queries_MainScenarios.rds`) from zenodo (`10.5281/zenodo.23611035`) and place it in [input/gcamdata/paper/cache](./input/gcamdata/paper/cache). Users can also query and process those data if the scenario Databases were available (see code in `R/Results_1_Database.R`)
 3. Run [input/gcamdata/paper/main.R](./input/gcamdata/paper/main.R). The detailed processing scripts are stored in the `R` folder but sourced in `main.R`.
 
 

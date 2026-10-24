@@ -38,6 +38,7 @@ source("./paper/R/Methods_2_HistStorageAnalysis_SuppInfo.R")
 # Results Figs ----
 
 ## Load scenario data ----
+## download from https://zenodo.org/records/23611035
 AgLU_cache <- readRDS("paper/cache/GCAM_queries_MainScenarios.rds")
 list2env(AgLU_cache, .GlobalEnv)
 
