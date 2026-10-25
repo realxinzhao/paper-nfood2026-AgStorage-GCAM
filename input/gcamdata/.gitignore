@@ -38,3 +38,9 @@ GTAPv10_basedata_VKB_SAVE_VDEP.csv.gz
 # Renv
 renv/activate.R
 .Rprofile
+
+# Paper files
+paper/archive
+paper/cache/*rds
+paper/output/archive
+paper/output/diag_yieldshocks/*.png
