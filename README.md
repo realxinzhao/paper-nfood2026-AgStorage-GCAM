@@ -1,6 +1,3 @@
-# Overview
-
-This repository includes the GCAM model and study-specific files for reproducing the simulations performed for the study. The associated data-processing, analysis, and visualization code is included in `input/gcamdata/paper`.
 
 **Agricultural storage is a hidden demand driver and an overlooked temporal buffer in global agrifood system futures** (title at submission)  
 
@@ -66,10 +63,9 @@ All paths are relative to the repository root. Approximate sizes are author-repo
 | Study executable, `gcam.exe` | [Zenodo](https://zenodo.org/records/23611035); place in `exe/` | Windows GCAM v9.1 executable; runtime dependencies are also needed | 3.5 MB |
 | S1 input archive, `Scenario_S1_xml.7z` | [Zenodo](https://zenodo.org/records/23611035/files/Scenario_S1_xml.7z?download=1); extract XMLs into `input/gcamdata/xml/` | Pre-generated reference-scenario inputs for the S1 demonstration | 40.1 MB compressed |
 | Queried results, `GCAM_queries_MainScenarios.rds` | [Zenodo](https://zenodo.org/records/23611035); place in `input/gcamdata/paper/cache/` | Results cache for the paper's R analysis; not a complete BaseX database | 105.7 MB, approximately 106 MB |
-| Biophysical yield-shock XML | `input/gcamdata/paper/output/diag_yieldshocks/xml/` | Additional input used by S3, S4, and S6; distributed with the repository, with no separate Zenodo download | Included in repository total once committed |
+| Biophysical yield-shock XML | `input/gcamdata/paper/output/diag_yieldshocks/xml/` | Additional input used by S3, S4, and S6; distributed with the repository| Included in repository total once committed |
 | Generated model outputs | `output/database_basexdb<scenarioName>` | Scenario-specific BaseX databases | Additional; depends on run and output settings |
 
-[AUTHOR: Confirm that the yield-shock XML is committed on the public branch at the path used by the configurations. The repository read available during preparation of this draft did not resolve that path. Remove this note after checking it.]
 
 ## 1. System requirements
 
@@ -81,11 +77,11 @@ A C++ compiler is **not needed** when using the supplied executable. Recompiling
 
 | Requirement | Study-specific information |
 | --- | --- |
-| Tested operating system and architecture for the executable | [AUTHOR: Record the operating system/build and architecture used to test this executable.] |
-| Java and runtime-library versions | [AUTHOR: List the tested Java version, relevant runtime-library versions, and the exact compatible package/source from which users obtain the libraries.] |
-| CPU and RAM used for testing | [AUTHOR: Record the processor and installed RAM; include measured peak memory if available.] |
-| Non-standard hardware | [AUTHOR: Explicitly state whether any GPU, cluster, accelerator, or other non-standard hardware is required. If none, state that.] |
-| Disk space | Approximately 2.4 GB for the repository before XML generation, plus space for dependencies, extracted XMLs, caches, and output databases; [AUTHOR: add the measured additional footprint of the S1 demonstration]. |
+| Tested operating system and architecture for the executable | Windows 11 was used for compiling gcam.exe and GCAM runs. |
+| Java and runtime-library versions | Java version 1.8.0_491; Java(TM) SE Runtime Environment (build 1.8.0_491-b10) |
+| CPU and RAM used for testing | 13th Gen Intel(R) Core(TM) i7-13800H (2.50 GHz) and 32 GB |
+| Non-standard hardware | No non-standard hardware is required |
+| Disk space | Approximately 2.4 GB for the repository before XML generation, plus space for dependencies, extracted XMLs, caches, and output databases. E.g., the XML for a scenario is about 5 GB and an output database is about 3 GB. |
 
 The supplied Windows executable is not a native macOS/Linux binary. Users of other platforms should follow the upstream build instructions; availability of upstream platform support does not establish that every study-specific script has been tested on those platforms.
 
@@ -93,11 +89,9 @@ The supplied Windows executable is not a native macOS/Linux binary. Users of oth
 
 Use the copy of `gcamdata` included in `input/gcamdata/`. The paper scripts reside inside that package directory but are not a separate installed R package. Both data preparation and paper analysis run with **`input/gcamdata/` as the working directory**.
 
-The existing recorded analysis session lists **R 4.6.0 on Windows 11 x64 (build 26200)**. The complete recorded session, including package versions, is retained at the end of this README. [AUTHOR: Confirm that this session describes the submitted analysis, and replace it with the actual clean-test session if necessary; keep the reporting summary consistent.]
+The existing recorded analysis session lists **R 4.6.0 on Windows 11 x64 (build 26200)**. The complete recorded session, including package versions, is retained at the end of this README. 
 
 The existing `renv` configuration is used for the data system but has not been updated to cover every paper-analysis and visualization dependency. **Do not assume that restoring the data-system environment alone installs the complete paper-analysis environment.**
-
-[AUTHOR: Add a complete, tested installation command or dependency specification for the paper workflow, including dependencies used within sourced helper scripts. Report the R/gcamdata and analysis environments separately if they differ.]
 
 The [GCAM data-system documentation](https://jgcri.github.io/gcam-doc/data-system.html) and [included gcamdata README](./input/gcamdata/README.md) provide upstream installation guidance. Version identifiers in those general resources may differ from this study; the study-specific source, executable, input snapshot, and recorded environment identify the reproduction target.
 
@@ -165,10 +159,10 @@ Report measured times on the reference computer described in Section 1.1. Distin
 
 | Activity | Measured approximate time |
 | --- | --- |
-| Precompiled GCAM/runtime setup and S1 archive extraction, excluding download | [AUTHOR: measured time] |
-| Optional compilation from source, after installing dependencies | [AUTHOR: measured time, or state that this optional route was not timed] |
-| R environment and package installation | [AUTHOR: measured time] |
-| First `driver_drake()` build of the required study inputs/cache | [AUTHOR: measured time; report separately from package installation] |
+| Precompiled GCAM/runtime setup and S1 archive extraction, excluding download | N/A |
+| Optional compilation from source, after installing dependencies | about 30 minutes |
+| R environment and package installation | 1 hour |
+| First `driver_drake()` build of the required study inputs/cache | 1-2 hours |
 
 ## 3. Demo
 
@@ -196,21 +190,7 @@ From the `exe/` working directory, this is `../output/database_basexdbS1_AgStora
 
 Use the [GCAM ModelInterface instructions](https://jgcri.github.io/gcam-doc/user-guide.html) to open the database, select `S1_AgStorage`, and inspect its output. Alternatively, query the database using the study's `Results_1_Database.R` workflow after adapting local paths. Compare matching S1 variables, years, regions, and units with the archived queried results when checking numerical reproduction.
 
-**Expected runtime.** [AUTHOR: Report the measured S1 wall-clock runtime, CPU, RAM, operating system, and any relevant thread settings. State that this excludes initial download, installation, and input generation.]
-
-To time the run and retain its exit status in an already configured PowerShell session:
-
-```powershell
-# Working directory: <repository>/exe
-$timer = [System.Diagnostics.Stopwatch]::StartNew()
-& .\gcam.exe -C configuration_S1_AgStorage.xml
-$exitCode = $LASTEXITCODE
-$timer.Stop()
-Write-Host ("Elapsed: {0}; exit code: {1}" -f $timer.Elapsed, $exitCode)
-if ($exitCode -ne 0) {
-    throw "GCAM reported a non-zero exit code. Inspect logs/main_log.txt."
-}
-```
+**Expected runtime.** About 30 minutes 
 
 
 ### 3.2 R analysis: process the archived scenario results
@@ -236,7 +216,7 @@ paper/output/YieldShockTransmission/Fig5HG.svg
 
 Reference outputs are already included in the repository. Run in a separate working copy or preserve the originals, and verify newly generated files using timestamps and output/log checks; the mere presence of an existing figure does not demonstrate a successful rerun. The full `main.R` workflow is an analysis reproduction example, not a claim that every manually prepared display item or supplementary comparison is automatically regenerated.
 
-**Expected runtime.** [AUTHOR: Record elapsed time for this analysis example with caches/dependencies already prepared, and identify the machine. Report first-time `driver_drake()` preparation separately.]
+**Expected runtime.** About 30 minutes
 
 ## 4. Instructions for use
 
@@ -339,183 +319,6 @@ The repository's root [LICENSE.md](./LICENSE.md) contains the **Educational Comm
 
 The manuscript Methods describes the storage representation, scenario design, and analytical methods, with additional information in the Supplementary Information. Contact Xin Zhao at xin.zhao@pnnl.gov about this study's reproduction files.
 
-## Reference outputs and recorded environment
-
-
-
-
-
-**The study builds on the publicly available GCAM v9.1 model and includes study-specific data and assumption changes documented in the manuscript and Supplementary Information.** General model documentation is available from the [official GCAM documentation](https://jgcri.github.io/gcam-doc/toc.html).
-
-
-
-
-
-# Running GCAM and reproducing the six scenarios
-
-The six main scenarios are **S1–S6 in Fig. 3 of the manuscript**. Their configuration files are in [`exe/`](./exe). Reproduction requires both the selected configuration file and XML inputs generated with the corresponding storage settings. **Selecting a different configuration file alone does not switch between Dynamic, Hidden, and Fixed-Ratio Storage.**
-
-## 1. Obtain GCAM and prepare the data system
-
-Use the model and data-system files in this repository. Either compile the source code using the [official GCAM build instructions](https://jgcri.github.io/gcam-doc/gcam-build.html), or download the GCAM v9.1 executable provided in the [study's Zenodo record](https://zenodo.org/records/23611035).
-
-Configure the executable and its required runtime dependencies following the [GCAM user guide](https://jgcri.github.io/gcam-doc/user-guide.html). Retain the study-specific configuration files and inputs in this repository when installing executable or runtime files. For the R-based data system, follow the [GCAM data-system instructions](https://jgcri.github.io/gcam-doc/data-system.html) and the [included gcamdata README](./input/gcamdata/README.md), using this repository's copy of `gcamdata`.
-
-Use the following working directories, relative to the repository root:
-
-| Task | Working directory |
-| --- | --- |
-| Generate XML inputs and run the R analysis | `input/gcamdata/` |
-| Run GCAM | `exe/` |
-
-The execution examples below use **Windows PowerShell**, with a runnable executable named `gcam.exe` in `exe/`. Adjust the executable name to match the downloaded or compiled file. The examples assume its runtime dependencies have already been configured; a standalone executable does not replace those dependencies. Run the commands from `exe/` so that relative input paths resolve correctly. The `-C` option selects the configuration file.
-
-## 2. Download the biophysical yield-shock data
-
-Download [diag_yieldshocks.zip](https://zenodo.org/records/23611035/files/diag_yieldshocks.zip?download=1) from [Zenodo](https://zenodo.org/records/23611035), and extract its contents to:
-
-```text
-input/gcamdata/paper/output/diag_yieldshocks/
-```
-
-Retain the internal directory structure. If the ZIP already contains a top-level `diag_yieldshocks` folder, place that folder directly under `input/gcamdata/paper/output/`; avoid an extra `diag_yieldshocks/diag_yieldshocks/` level.
-
-The configurations for **S3, S4, and S6** load XML data from this directory. The expected path for the HadGEM2-ES/GEPIC input is:
-
-```text
-input/gcamdata/paper/output/diag_yieldshocks/xml/ag_prodchange_rcp60_SSP2_hadgem2-es_gepic.xml
-```
-
-These downloaded shock inputs are needed **in addition to** the XML inputs generated by `driver_drake()`.
-
-## 3. Scenario index and configuration files
-
-The indices below correspond directly to **Fig. 3**. Use the `HG` files listed here for the main biophysical yield-shock scenarios.
-
-| Scenario | Storage representation | Yield trajectory | Configuration file in `exe/` |
-| --- | --- | --- | --- |
-| **S1** | Dynamic Storage | Smooth yields | [configuration_S1_AgStorage.xml](./exe/configuration_S1_AgStorage.xml) |
-| **S2** | Hidden Storage | Smooth yields | [configuration_S2_AgNoStorage.xml](./exe/configuration_S2_AgNoStorage.xml) |
-| **S3** | Dynamic Storage | Biophysical yield shocks | [configuration_S3_AgStorage_HG.xml](./exe/configuration_S3_AgStorage_HG.xml) |
-| **S4** | Hidden Storage | Biophysical yield shocks | [configuration_S4_AgNoStorage_HG.xml](./exe/configuration_S4_AgNoStorage_HG.xml) |
-| **S5** | Fixed-Ratio Storage | Smooth yields | [configuration_S5_AgStorageFixedRatio.xml](./exe/configuration_S5_AgStorageFixedRatio.xml) |
-| **S6** | Fixed-Ratio Storage | Biophysical yield shocks | [configuration_S6_AgStorageFixedRatio_HG.xml](./exe/configuration_S6_AgStorageFixedRatio_HG.xml) |
-
-## 4. Generate matching XML inputs and run each scenario pair
-
-Storage settings are specified in:
-
-```text
-input/gcamdata/inst/extdata/aglu/A_agStorageSector.csv
-```
-
-The relevant columns are **`storage_model`** and **`logit.exponent`**. Note that the exact CSV column name is `logit.exponent`, with a period rather than an underscore.
-
-Before editing, save a copy of the repository-default CSV outside `inst/extdata/`. Preserve the comment/header lines and other columns. The default `storage_model` column contains both `T` and `F`: storage is enabled only for the modeled storable crops. Do not turn on storage for sectors that are disabled by default.
-
-| Storage representation | Scenarios | `storage_model` | `logit.exponent` |
-| --- | --- | --- | --- |
-| Dynamic Storage | S1, S3 | Repository-default flags | Repository-default values (`1`) |
-| Hidden Storage | S2, S4 | `F` for all sectors | Keep repository-default values |
-| Fixed-Ratio Storage | S5, S6 | Restore repository-default flags | Set to `0` |
-
-Each time the CSV settings change, regenerate the XML inputs in R, with **`input/gcamdata/` as the working directory**:
-
-```r
-# Working directory: <repository>/input/gcamdata
-# Set the CSV parameters for the intended scenario pair before running this code.
-devtools::load_all(".")
-driver_drake()
-```
-
-Wait for the build to complete successfully before starting GCAM. These changes are implemented through the data system and XML inputs; no scenario-specific recompilation of the executable is needed for this workflow.
-
-> **Shared-input warning:** The configurations use shared generated XML files. **Build the inputs for one storage representation, run both associated scenarios, and only then change the CSV and rebuild.** Do not build all three representations first and then run all six configurations: later builds replace shared XML inputs. Do not rebuild shared inputs while a run is in progress. Independent working copies can be used when separate input sets are needed.
-
-### A. Dynamic Storage: S1 and S3
-
-Use the repository-default `A_agStorageSector.csv`, with its original `storage_model` flags and `logit.exponent` values. Run `driver_drake()` as above. No additional storage-parameter changes are needed.
-
-Run the following commands **one at a time from `exe/`**, checking that each run completes successfully before proceeding:
-
-```powershell
-.\gcam.exe -C configuration_S1_AgStorage.xml
-.\gcam.exe -C configuration_S3_AgStorage_HG.xml
-```
-
-S3 also requires the downloaded yield-shock data from Step 2.
-
-### B. Hidden Storage: S2 and S4
-
-Start from the saved repository-default CSV and change **`storage_model` to `F` for every sector**. Leave the other settings unchanged. Re-run `driver_drake()` from `input/gcamdata/` to generate inputs without explicit agricultural storage.
-
-Then run, **one at a time from `exe/`**:
-
-```powershell
-.\gcam.exe -C configuration_S2_AgNoStorage.xml
-.\gcam.exe -C configuration_S4_AgNoStorage_HG.xml
-```
-
-Finish both runs before changing the storage settings again. S4 uses the supplied yield-shock data.
-
-### C. Fixed-Ratio Storage: S5 and S6
-
-**Restore the saved repository-default CSV first**, especially after Hidden Storage runs. Keep its original `storage_model` flags, and change **`logit.exponent` to `0`**. This retains explicit storage for the default storable sectors while disabling price-responsive stock allocation.
-
-Do not leave every storage flag at `F`, and do not change every flag to `T`. Re-run `driver_drake()` from `input/gcamdata/` with the fixed-ratio settings.
-
-Then run, **one at a time from `exe/`**:
-
-```powershell
-.\gcam.exe -C configuration_S5_AgStorageFixedRatio.xml
-.\gcam.exe -C configuration_S6_AgStorageFixedRatio_HG.xml
-```
-
-S6 also requires the supplied yield-shock data.
-
-## 5. Preserve outputs and restore the default settings
-
-Retain each scenario's output database and its identifying scenario name. Check the configured output paths and the logs under `exe/logs/` for successful completion and solver warnings. Save scenario-specific log copies as needed before subsequent runs overwrite shared logs.
-
-After completing all six scenarios, restore the repository-default `A_agStorageSector.csv` and re-run `driver_drake()` before the analysis workflow below. This returns the XML inputs and data-system cache to the default storage configuration.
-
-The build/run sequence is:
-
-```text
-Default settings  -> driver_drake() -> run S1 and S3
-All storage off   -> driver_drake() -> run S2 and S4
-Default flags,
-logit.exponent=0  -> driver_drake() -> run S5 and S6
-Restore defaults -> driver_drake() -> process results and figures
-```
-
-
-# Processing of Display Items
-
-The data-processing and visualization code is included in [input/gcamdata/paper](./input/gcamdata/paper), and generated display items are stored under [input/gcamdata/paper/output](./input/gcamdata/paper/output). Run the R workflow with **`input/gcamdata/` as the working directory**, not the repository root or `paper/`.
-
-To reproduce the processing:
-
-1. Load `gcamdata`, and run `driver_drake()`. In addition to generating model XML inputs, this builds the historical and other data-system cache objects used by the analysis.
-2. Download the archived scenario-results file, `GCAM_queries_MainScenarios.rds`, from [Zenodo](https://zenodo.org/records/23611035) and place it in `input/gcamdata/paper/cache/`. Create the cache directory if necessary. Alternatively, query and process your own scenario databases following [Results_1_Database.R](./input/gcamdata/paper/R/Results_1_Database.R), updating local database paths as needed.
-3. Run [paper/main.R](./input/gcamdata/paper/main.R). It sources the detailed analysis scripts in [paper/R](./input/gcamdata/paper/R).
-
-**Using the archived RDS avoids rerunning the six GCAM scenarios, but does not remove the `driver_drake()` prerequisite.** The R analysis also uses inputs from the data-system cache.
-
-```r
-# Working directory: <repository>/input/gcamdata
-# Use the repository-default storage settings for the analysis cache.
-devtools::load_all(".")
-driver_drake()
-
-dir.create("paper/cache", recursive = TRUE, showWarnings = FALSE)
-
-# Place the downloaded RDS in paper/cache/ before continuing.
-stopifnot(file.exists("paper/cache/GCAM_queries_MainScenarios.rds"))
-source("paper/main.R")
-```
-
-The existing `renv` setup covers the data system but has not been updated for all paper-analysis and visualization dependencies. Install the additional packages required by the scripts; the recorded R session information below documents the analysis environment. Some supplementary sensitivity comparisons require changing the scenario settings and output filenames described in the relevant analysis scripts.
 
 ## R Session Information (renv used for gcamdata but not updated for the visulaization repo)
 ```
